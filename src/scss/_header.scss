@@ -1,0 +1,49 @@
+.header{
+    background-image: url("../img/bgMobile.svg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+    width: auto;
+    height: auto;
+    //margin: 0 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        background-image: url("../img/bgTablet.svg");
+    }
+
+    /*Desktop*/
+    @media screen and (min-width: 1024px){
+        background-image: url("../img/bgDesktop.svg");    
+    }
+}
+
+.slogan{
+    max-width: 70%;
+    margin: 120% auto 10% auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        max-width: 80%;
+        margin: 63% auto 30% auto;
+    }
+
+    /*Desktop*/
+    @media screen and (min-width: 1024px){
+        max-width: 50%;
+        margin: 70% auto 30% auto;
+    }
+}
+
+/*.div-empty{
+    height: 620px;
+    float: none;
+}*/

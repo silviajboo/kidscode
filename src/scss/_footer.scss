@@ -1,0 +1,15 @@
+.footer{
+    float:none;
+    display: flex;
+    justify-content: center;
+	padding: 3rem 2rem 4rem 2rem;
+	//que si no ramble en tablet y mobile no queda apoyado
+	//margin-top: 2rem;
+}
+
+.copyright, .contact{
+    margin: auto;
+    text-align: center;
+    width: 85%;
+    margin: 1rem;
+}

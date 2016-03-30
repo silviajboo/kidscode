@@ -1,0 +1,114 @@
+/*BOTONES*/
+//Botones Adultos////A CONTINUAR
+.btn-cam{
+	box-shadow:#B9B7B7 0px 3px 3px;
+}
+
+.btn{
+	&-act {
+		display:inline-block;
+		margin: 12px;
+		box-shadow:#B9B7B7 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;
+		color:$primaryColorWhite;
+		font-weight: 400;
+		text-decoration: none;
+		background-color: $secondaryColorBgPink2;
+		font-size:16px;
+		border-radius:10px;
+		padding: 24px;
+		transition: all 0.3s ease 0s;
+	}
+	&-act:hover{
+		background-color: #11bbcc;
+		box-shadow:#B9B7B7 0px 1px 1px;
+		cursor: pointer;
+	}
+
+	//le damos sensación de presionar botón
+	&-act:active {
+		box-shadow: #B9B7B7 0px 1px 1px;
+		position: relative;
+		top: 1px;
+	}
+
+	&-inact{
+		display:inline-block;
+		margin: 12px;
+		box-shadow:#B9B7B7 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;
+		color: $primaryColorWhite;
+		font-weight: 400;
+		text-decoration: none;
+		background-color: #999999;
+		font-size:16px;
+		border-radius:10px;
+		padding: 24px;
+	}
+
+	&-dwnld, &-dwnld-center{
+		display: inline-block;
+		margin: 12px;
+		box-shadow: #B9B7B7 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;
+		color: $primaryColorWhite;
+		font-weight: 400;
+		text-decoration: none;
+		background-color: $secondaryColorBgPink2;
+		cursor:pointer;
+		font-size:16px;
+		border-radius:10px;
+		padding: 20px;
+		//transition: all 0.3s ease 0s;
+	}
+
+	&-dwnld-center{
+			margin: 0 25% 0 25%;
+		}
+
+	&-dwnld:hover{
+		background-color: #11bbcc;
+		box-shadow:#B9B7B7 0px 1px 1px;
+		cursor: pointer;
+	}
+
+	//le damos sensación de presionar botón
+	&-dwnld:active {
+		box-shadow: #B9B7B7 0px 1px 1px;
+		position: relative;
+		top: 1px;
+	}
+
+	&-round{
+		display:inline-block;
+		color: $primaryColorWhite;
+		height:80px;
+		width: 70px;
+		font-weight: 700;
+		text-transform: uppercase;
+		border: 3px solid white;
+		border-radius: 50%;
+		background-color: #0097e8;
+		padding: 35px 44px;
+		transition: all 0.3s ease 0s;
+		-webkit-box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
+		-moz-box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
+		box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
+	}
+
+	&-round:hover{
+		background-color: #ed497e;
+		cursor: pointer;
+	}
+
+	&-svg{
+		display:inline-block;
+	}
+
+	&-menu{
+		margin: 0 .35rem;
+		width: 2rem;
+	}
+}
+
+

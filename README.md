@@ -1,2 +1,3 @@
-# kidscode
-Project Kids Code Master BAU Web Design
+# kids-code
+Grupo BAU kids code
+Integrantes del grupo Eva, Paco, Silvia y Juanlu
