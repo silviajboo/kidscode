@@ -301,7 +301,7 @@ h6 {
   max-height: auto;
   width: 100%;
   margin: 0;
-  padding: .5rem 5rem 1rem 5rem; }
+  padding: .5rem 2rem 1rem 2rem; }
 
 /*circulo pasos*/
 #circle {
@@ -344,7 +344,7 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   width: 80%;
-  margin: 0 10% 0 10%;
+  margin: 0 4rem 2rem 4rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -421,7 +421,7 @@ h6 {
 .btn-cam {
   box-shadow: #B9B7B7 0px 3px 3px; }
 
-.btn-act {
+.btn-act, .btn-slogan {
   display: inline-block;
   margin: 12px;
   box-shadow: #B9B7B7 0px 3px 3px;
@@ -430,18 +430,28 @@ h6 {
   font-weight: 400;
   text-decoration: none;
   background-color: #d93560;
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: 10px;
   padding: 24px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
 
-.btn-act:hover {
+.btn-slogan {
+  margin: 3rem 0 3rem 0;
+  font-size: 1.5rem;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media screen and (min-width: 1024px) {
+    .btn-slogan {
+      margin: 6rem 0 1rem 0; } }
+
+.btn-act:hover, .btn-slogan:hover {
   background-color: #11bbcc;
   box-shadow: #B9B7B7 0px 1px 1px;
   cursor: pointer; }
 
-.btn-act:active {
+.btn-act:active, .btn-slogan:active {
   box-shadow: #B9B7B7 0px 1px 1px;
   position: relative;
   top: 1px; }
@@ -522,7 +532,9 @@ h6 {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 3rem 2rem 4rem 2rem; }
+  padding: 2rem 2rem 2rem 2rem;
+  background-image: url("../img/Textura_footer-12.svg");
+  background-size: contain; }
 
 .copyright, .contact {
   margin: auto;

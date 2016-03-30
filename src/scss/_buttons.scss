@@ -5,7 +5,7 @@
 }
 
 .btn{
-	&-act {
+	&-act, &-slogan {
 		display:inline-block;
 		margin: 12px;
 		box-shadow:#B9B7B7 0px 3px 3px;
@@ -14,19 +14,37 @@
 		font-weight: 400;
 		text-decoration: none;
 		background-color: $secondaryColorBgPink2;
-		font-size:16px;
+		font-size: 1rem;
 		border-radius:10px;
 		padding: 24px;
 		transition: all 0.3s ease 0s;
 	}
-	&-act:hover{
+
+	&-slogan{
+		margin: 3rem 0 3rem 0;
+		font-size: 1.5rem;
+
+		/*MEDIA QUERIES*/
+    	/*Tablet*/
+    	@media screen and (min-width: 768px) and (max-width: 1023px) {
+      	  
+    	}
+
+   		/*Desktop*/
+    	@media screen and (min-width: 1024px){
+      	  margin: 6rem 0 1rem 0;
+    	}
+
+	}
+
+	&-act:hover, &-slogan:hover{
 		background-color: #11bbcc;
 		box-shadow:#B9B7B7 0px 1px 1px;
 		cursor: pointer;
 	}
 
 	//le damos sensación de presionar botón
-	&-act:active {
+	&-act:active, &-slogan:active {
 		box-shadow: #B9B7B7 0px 1px 1px;
 		position: relative;
 		top: 1px;
