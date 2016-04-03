@@ -43,19 +43,13 @@ h1 {
   font-weight: 700; }
 
 .t-h1 {
-  font-size: 1.5rem;
-  line-height: 1.7rem;
-  /*MEDIA QUERIES*/
-  /*Tablet*/
+  font-size: 1.75rem;
+  line-height: 2rem;
   /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .t-h1 {
-      font-size: 1.75rem;
-      line-height: 2rem; } }
   @media screen and (min-width: 1024px) {
     .t-h1 {
       font-size: 2.5rem;
-      line-height: 2.7rem; } }
+      line-height: 2.2rem; } }
 
 h2 {
   font-size: 1.75rem;
@@ -111,8 +105,8 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   width: auto;
-  height: auto;
-  background-image: url("../img/bgMobile.svg");
+  height: 100%;
+  background-image: url("../img/bgDesktop.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -129,7 +123,7 @@ h6 {
 
 .slogan {
   max-width: 70%;
-  margin: 90% auto auto auto;
+  margin: 40% auto 0 auto;
   margin-left: auto;
   margin-right: auto;
   /*MEDIA QUERIES*/
@@ -144,37 +138,10 @@ h6 {
       max-width: 39%;
       margin: 38% auto 0 6%; } }
 
-.logo {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 70%;
-  height: auto;
-  margin-top: 10%;
-  /*MEDIA QUERIES*/
-  /*Tablet*/
-  /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .logo {
-      display: none; } }
-  @media screen and (min-width: 1024px) {
-    .logo {
-      display: none; } }
-
+/*.div-empty{
+    height: 620px;
+    float: none;
+}*/
 /*COLORES BACKGROUND*/
 .color-bg-orange {
   background-color: #ff6633; }
@@ -480,14 +447,11 @@ h6 {
   text-transform: uppercase; }
 
 .btn-slogan {
-  margin: 2% 0 10% 0;
+  margin: 2rem 0 3rem 0;
   font-size: 1.5rem;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .btn-slogan {
-      margin: 2rem 0 3rem 0; } }
   @media screen and (min-width: 1024px) {
     .btn-slogan {
       margin: 1.5rem 0 2rem 0; } }
