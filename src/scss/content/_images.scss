@@ -2,14 +2,14 @@
 //en la web
 
 //ilustración monster con isla debajo
-.monster-island{
+.rumble-island{
     max-width: 70%;
     margin: auto;
     margin-top: 5rem;
 
     /*MEDIA QUERIES*/
     /*Tablet*/
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
         min-width: 70%;
     }
 }
@@ -52,7 +52,7 @@
 
 .img-content2{
 	/*Desktop*/
-	@media only screen and (min-width: 1024px){
+	@media only screen and (min-device-width: 1024px){
         width: 100%;
         margin-top: 0;
         margin-bottom: 20%;
@@ -60,7 +60,7 @@
 }
 .img-content3{
 	/*Desktop*/
-	@media only screen and (min-width: 1024px){
+	@media only screen and (min-device-width: 1024px){
         width: 80%;
         margin-top: 20%;
         margin-bottom: 20%;

@@ -15,24 +15,24 @@
 		text-decoration: none;
 		background-color: $secondaryColorBgPink2;
 		font-size: 1rem;
-		border-radius:10px;
+		border-radius: 10px;
 		padding: 24px;
 		transition: all 0.3s ease 0s;
 		text-transform: uppercase;
 	}
 
 	&-slogan{
-		margin: 2% 0 10% 0;
+		margin: 7% 0 12% 0;
 		font-size: 1.5rem;
 
 		/*MEDIA QUERIES*/
     	/*Tablet*/
-    	@media screen and (min-width: 768px) and (max-width: 1023px) {
-      	  margin: 2rem 0 3rem 0;
+    	@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    	  margin: 2rem 0 3rem 0;
     	}
 
    		/*Desktop*/
-    	@media screen and (min-width: 1024px){
+    	@media screen and (min-device-width: 1024px){
       	  margin: 1.5rem 0 2rem 0;
     	}
 
@@ -84,12 +84,12 @@
 
 		/*MEDIA QUERIES*/
     	/*Tablet*/
-    	@media screen and (min-width: 768px) and (max-width: 1023px) {
-      	  
+    	@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+      
     	}
 
    		/*Desktop*/
-    	@media screen and (min-width: 1024px){
+    	@media screen and (min-device-width: 1024px){
       	  margin: 2rem 0 0rem 0;
     	}
 
@@ -100,11 +100,11 @@
 
 		/*MEDIA QUERIES*/
     	/*Tablet*/
-    	@media screen and (min-width: 768px) and (max-width: 1023px) {
-      	  
+    	@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+      
     	}
    		/*Desktop*/
-    	@media screen and (min-width: 1024px){
+    	@media screen and (min-device-width: 1024px){
       	  margin: 0 25% 0 25%;
     	}
 	}

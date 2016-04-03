@@ -1,10 +1,5 @@
 @charset "UTF-8";
 body {
-  /*background-image: url("../img/bgMobile.svg");
-    background-size: contain; 
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: top center;*/
   font-size: 16px;
   line-height: 1.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -13,10 +8,7 @@ body {
   text-rendering: optimizeLegibility;
   max-width: 100%;
   height: auto;
-  min-width: 320px;
-  /*MEDIA QUERIES*/
-  /*Tablet*/
-  /*Desktop*/ }
+  min-width: 320px; }
 
 a {
   text-decoration: none; }
@@ -43,16 +35,12 @@ h1 {
   font-weight: 700; }
 
 .t-h1 {
-  font-size: 1.5rem;
-  line-height: 1.7rem;
+  font-size: 2.5rem;
+  line-height: 2.7rem;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .t-h1 {
-      font-size: 1.75rem;
-      line-height: 2rem; } }
-  @media screen and (min-width: 1024px) {
+  @media only screen and (min-device-width: 1024px) {
     .t-h1 {
       font-size: 2.5rem;
       line-height: 2.7rem; } }
@@ -120,26 +108,26 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .header {
       background-image: url("../img/bgTablet.svg"); } }
-  @media screen and (min-width: 1024px) {
+  @media only screen and (min-device-width: 1024px) {
     .header {
       background-image: url("../img/bgDesktop.svg"); } }
 
 .slogan {
   max-width: 70%;
-  margin: 90% auto auto auto;
+  margin: 80% auto auto auto;
   margin-left: auto;
   margin-right: auto;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .slogan {
       max-width: 40%;
       margin: 40% auto 0 6%; } }
-  @media screen and (min-width: 1024px) {
+  @media only screen and (min-device-width: 1024px) {
     .slogan {
       max-width: 39%;
       margin: 38% auto 0 6%; } }
@@ -164,14 +152,14 @@ h6 {
           justify-content: center;
   max-width: 70%;
   height: auto;
-  margin-top: 10%;
+  margin-top: 25%;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .logo {
       display: none; } }
-  @media screen and (min-width: 1024px) {
+  @media only screen and (min-device-width: 1024px) {
     .logo {
       display: none; } }
 
@@ -480,15 +468,15 @@ h6 {
   text-transform: uppercase; }
 
 .btn-slogan {
-  margin: 2% 0 10% 0;
+  margin: 7% 0 12% 0;
   font-size: 1.5rem;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .btn-slogan {
       margin: 2rem 0 3rem 0; } }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-device-width: 1024px) {
     .btn-slogan {
       margin: 1.5rem 0 2rem 0; } }
 
@@ -535,7 +523,7 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-device-width: 1024px) {
     .btn-dwnld, .btn-dwnld-center {
       margin: 2rem 0 0rem 0; } }
 
@@ -544,7 +532,7 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-device-width: 1024px) {
     .btn-dwnld-center {
       margin: 0 25% 0 25%; } }
 
