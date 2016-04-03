@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
-    <title>1</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Mobile-Portrait-Copy" sketch:type="MSArtboardGroup" transform="translate(-28.000000, -1301.000000)" font-weight="bold" font-family="Montserrat Alternates" line-spacing="30" font-size="20" sketch:alignment="middle" fill="#F2F2F2">
-            <text id="1" sketch:type="MSTextLayer">
-                <tspan x="28.47" y="1313">1</tspan>
-            </text>
-        </g>
-    </g>
-</svg>
+<svg width="7" height="12" viewBox="0 0 7 12" xmlns="http://www.w3.org/2000/svg"><title>1</title><text transform="translate(-28 -1301)" font-weight="bold" font-family="Montserrat Alternates" font-size="20" fill="#F2F2F2" fill-rule="evenodd"><tspan x="28.47" y="1313">1</tspan></text></svg>
