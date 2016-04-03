@@ -35,8 +35,8 @@ h1 {
   font-weight: 700; }
 
 .t-h1 {
-  font-size: 2rem;
-  line-height: 2.2rem;
+  font-size: 2.5rem;
+  line-height: 2.7rem;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
@@ -117,7 +117,7 @@ h6 {
 
 .slogan {
   max-width: 70%;
-  margin: 90% auto auto auto;
+  margin: 80% auto auto auto;
   margin-left: auto;
   margin-right: auto;
   /*MEDIA QUERIES*/
@@ -152,7 +152,7 @@ h6 {
           justify-content: center;
   max-width: 70%;
   height: auto;
-  margin-top: 10%;
+  margin-top: 25%;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
@@ -468,7 +468,7 @@ h6 {
   text-transform: uppercase; }
 
 .btn-slogan {
-  margin: 2% 0 10% 0;
+  margin: 7% 0 12% 0;
   font-size: 1.5rem;
   /*MEDIA QUERIES*/
   /*Tablet*/
