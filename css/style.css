@@ -120,10 +120,10 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-width: 600px) and (max-width: 767px) {
+  @media only screen and (min-device-width: 600px) and (max-device-width: 767px) {
     .header {
       background-image: url("../img/bgTablet.svg"); } }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-device-width: 768px) {
     .header {
       background-image: url("../img/bgDesktop.svg"); } }
 
