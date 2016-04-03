@@ -117,7 +117,7 @@ h6 {
 
 .slogan {
   max-width: 70%;
-  margin: 80% auto auto auto;
+  margin: 85% auto auto auto;
   margin-left: auto;
   margin-right: auto;
   /*MEDIA QUERIES*/
@@ -152,7 +152,7 @@ h6 {
           justify-content: center;
   max-width: 70%;
   height: auto;
-  margin-top: 25%;
+  margin-top: 15%;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
@@ -315,14 +315,14 @@ h6 {
   display: inline-block;
   text-align: center; }
 
-.monster-island {
+.rumble-island {
   max-width: 70%;
   margin: auto;
   margin-top: 5rem;
   /*MEDIA QUERIES*/
   /*Tablet*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .monster-island {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    .rumble-island {
       min-width: 70%; } }
 
 /*decoración puzzles*/
@@ -354,7 +354,7 @@ h6 {
 
 .img-content2 {
   /*Desktop*/ }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-device-width: 1024px) {
     .img-content2 {
       width: 100%;
       margin-top: 0;
@@ -362,7 +362,7 @@ h6 {
 
 .img-content3 {
   /*Desktop*/ }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-device-width: 1024px) {
     .img-content3 {
       width: 80%;
       margin-top: 20%;
