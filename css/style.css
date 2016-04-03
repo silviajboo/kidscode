@@ -1,10 +1,5 @@
 @charset "UTF-8";
 body {
-  /*background-image: url("../img/bgMobile.svg");
-    background-size: contain; 
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: top center;*/
   font-size: 16px;
   line-height: 1.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -13,10 +8,7 @@ body {
   text-rendering: optimizeLegibility;
   max-width: 100%;
   height: auto;
-  min-width: 320px;
-  /*MEDIA QUERIES*/
-  /*Tablet*/
-  /*Desktop*/ }
+  min-width: 320px; }
 
 a {
   text-decoration: none; }
@@ -43,16 +35,12 @@ h1 {
   font-weight: 700; }
 
 .t-h1 {
-  font-size: 1.5rem;
-  line-height: 1.7rem;
+  font-size: 2rem;
+  line-height: 2.2rem;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .t-h1 {
-      font-size: 1.75rem;
-      line-height: 2rem; } }
-  @media screen and (min-width: 1024px) {
+  @media only screen and (min-device-width: 1024px) {
     .t-h1 {
       font-size: 2.5rem;
       line-height: 2.7rem; } }
@@ -485,7 +473,7 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .btn-slogan {
       margin: 2rem 0 3rem 0; } }
   @media screen and (min-device-width: 1024px) {
