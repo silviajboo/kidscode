@@ -120,10 +120,10 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
     .header {
       background-image: url("../img/bgTablet.svg"); } }
-  @media screen and (min-width: 1024px) {
+  @media only screen and (min-width: 768px) {
     .header {
       background-image: url("../img/bgDesktop.svg"); } }
 
@@ -135,11 +135,11 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
     .slogan {
       max-width: 40%;
       margin: 40% auto 0 6%; } }
-  @media screen and (min-width: 1024px) {
+  @media only screen and (min-width: 768px) {
     .slogan {
       max-width: 39%;
       margin: 38% auto 0 6%; } }
@@ -168,10 +168,10 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
     .logo {
       display: none; } }
-  @media screen and (min-width: 1024px) {
+  @media only screen and (min-width: 768px) {
     .logo {
       display: none; } }
 
