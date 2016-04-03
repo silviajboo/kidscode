@@ -155,6 +155,8 @@ h6{
     line-height: 0rem;
     margin: 0rem 1rem 0rem 0rem;
     float: left;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #00D4FA;
     
 }
 .step-title{
@@ -221,8 +223,14 @@ h6{
     background-color: #0097e8;
     color: #ffffff;
     cursor:pointer;
-    box-shadow:#B9B7B7 0px 1px 1px;
 }
+.btn:active {
+    box-shadow:#B9B7B7 0px 1px 1px;
+    position: relative;
+    top: 1px;
+
+}
+
 .btn-slogan{
     margin-bottom: 40%;
 }
