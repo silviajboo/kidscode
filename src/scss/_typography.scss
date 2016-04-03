@@ -10,7 +10,8 @@ body {
     font-weight: 400;
     /*background:url("ritmo.gif");*/
     text-rendering: optimizeLegibility;
-    width:100%;  
+    max-width:100%;  
+    height: auto;
     min-width: 320px;
 
     /*MEDIA QUERIES*/
@@ -31,7 +32,7 @@ a{
 
 /*typography*/
 p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;

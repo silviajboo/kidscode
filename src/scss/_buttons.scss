@@ -1,14 +1,14 @@
 /*BOTONES*/
 //Botones Adultos////A CONTINUAR
 .btn-cam{
-	box-shadow:#B9B7B7 0px 3px 3px;
+	box-shadow:$colorShadowBtn 0px 3px 3px;
 }
 
 .btn{
 	&-act, &-slogan {
 		display:inline-block;
 		margin: 12px;
-		box-shadow:#B9B7B7 0px 3px 3px;
+		box-shadow:$colorShadowBtn 0px 3px 3px;
 		border: 5px solid $primaryColorWhite;
 		color:$primaryColorWhite;
 		font-weight: 400;
@@ -18,10 +18,11 @@
 		border-radius:10px;
 		padding: 24px;
 		transition: all 0.3s ease 0s;
+		text-transform: uppercase;
 	}
 
 	&-slogan{
-		margin: 3rem 0 3rem 0;
+		margin: 2rem 0 3rem 0;
 		font-size: 1.5rem;
 
 		/*MEDIA QUERIES*/
@@ -32,20 +33,20 @@
 
    		/*Desktop*/
     	@media screen and (min-width: 1024px){
-      	  margin: 6rem 0 1rem 0;
+      	  margin: 1.5rem 0 2rem 0;
     	}
 
 	}
 
 	&-act:hover, &-slogan:hover{
-		background-color: #11bbcc;
-		box-shadow:#B9B7B7 0px 1px 1px;
+		background-color: $primaryColorBgBlue;
+		box-shadow:$colorShadowBtn 0px 1px 1px;
 		cursor: pointer;
 	}
 
 	//le damos sensación de presionar botón
 	&-act:active, &-slogan:active {
-		box-shadow: #B9B7B7 0px 1px 1px;
+		box-shadow: $colorShadowBtn 0px 1px 1px;
 		position: relative;
 		top: 1px;
 	}
@@ -53,46 +54,70 @@
 	&-inact{
 		display:inline-block;
 		margin: 12px;
-		box-shadow:#B9B7B7 0px 3px 3px;
+		box-shadow: $colorShadowBtn 0px 3px 3px;
 		border: 5px solid $primaryColorWhite;
 		color: $primaryColorWhite;
 		font-weight: 400;
 		text-decoration: none;
 		background-color: #999999;
-		font-size:16px;
-		border-radius:10px;
+		font-size: 1rem;
+		border-radius: 10px;
 		padding: 24px;
+		text-transform: uppercase;
 	}
 
 	&-dwnld, &-dwnld-center{
 		display: inline-block;
 		margin: 12px;
-		box-shadow: #B9B7B7 0px 3px 3px;
+		box-shadow: $colorShadowBtn 0px 3px 3px;
 		border: 5px solid $primaryColorWhite;
 		color: $primaryColorWhite;
 		font-weight: 400;
 		text-decoration: none;
-		background-color: $secondaryColorBgPink2;
-		cursor:pointer;
-		font-size:16px;
-		border-radius:10px;
+		background-color: $primaryColorBgBlue;
+		cursor: pointer;
+		font-size: 1rem;
+		border-radius: 10px;
 		padding: 20px;
-		//transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s;
+		text-transform: uppercase;
+
+		/*MEDIA QUERIES*/
+    	/*Tablet*/
+    	@media screen and (min-width: 768px) and (max-width: 1023px) {
+      	  
+    	}
+
+   		/*Desktop*/
+    	@media screen and (min-width: 1024px){
+      	  margin: 2rem 0 0rem 0;
+    	}
+
 	}
 
 	&-dwnld-center{
-			margin: 0 25% 0 25%;
-		}
+		margin: 0 10% 0 20%;
 
-	&-dwnld:hover{
-		background-color: #11bbcc;
-		box-shadow:#B9B7B7 0px 1px 1px;
+		/*MEDIA QUERIES*/
+    	/*Tablet*/
+    	@media screen and (min-width: 768px) and (max-width: 1023px) {
+      	  
+    	}
+   		/*Desktop*/
+    	@media screen and (min-width: 1024px){
+      	  margin: 0 25% 0 25%;
+    	}
+	}
+
+	&-dwnld:hover, &-dwnld-center:hover{
+		background-color: $primaryColorBgOrange;
+		box-shadow:$colorShadowBtn 0px 1px 1px;
 		cursor: pointer;
 	}
 
 	//le damos sensación de presionar botón
-	&-dwnld:active {
-		box-shadow: #B9B7B7 0px 1px 1px;
+	&-dwnld:active, &-dwnld-center:active {
+		box-shadow: $colorShadowBtn 0px 1px 1px;
 		position: relative;
 		top: 1px;
 	}
@@ -100,7 +125,7 @@
 	&-round{
 		display:inline-block;
 		color: $primaryColorWhite;
-		height:80px;
+		height: 80px;
 		width: 70px;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -119,8 +144,15 @@
 		cursor: pointer;
 	}
 
+	//le damos sensación de presionar botón
+	&-round:active {
+		box-shadow: $colorShadowBtn 0px 1px 1px;
+		position: relative;
+		top: 1px;
+	}
+
 	&-svg{
-		display:inline-block;
+		display: inline-block;
 	}
 
 	&-menu{

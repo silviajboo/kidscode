@@ -11,7 +11,8 @@ body {
   font-weight: 400;
   /*background:url("ritmo.gif");*/
   text-rendering: optimizeLegibility;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   min-width: 320px;
   /*MEDIA QUERIES*/
   /*Tablet*/
@@ -22,7 +23,7 @@ a {
 
 /*typography*/
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -86,13 +87,6 @@ h6 {
   margin-bottom: 2.6rem; }
 
 .header {
-  background-image: url("../img/bgMobile.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top center;
-  width: auto;
-  height: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -102,6 +96,21 @@ h6 {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  height: 100%;
+  background-image: url("../img/bgDesktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top center;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
@@ -114,7 +123,7 @@ h6 {
 
 .slogan {
   max-width: 70%;
-  margin: 120% auto 10% auto;
+  margin: 40% auto 0 auto;
   margin-left: auto;
   margin-right: auto;
   /*MEDIA QUERIES*/
@@ -122,12 +131,12 @@ h6 {
   /*Desktop*/ }
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     .slogan {
-      max-width: 80%;
-      margin: 63% auto 30% auto; } }
+      max-width: 40%;
+      margin: 40% auto 0 6%; } }
   @media screen and (min-width: 1024px) {
     .slogan {
-      max-width: 50%;
-      margin: 70% auto 30% auto; } }
+      max-width: 39%;
+      margin: 38% auto 0 6%; } }
 
 /*.div-empty{
     height: 620px;
@@ -434,17 +443,18 @@ h6 {
   border-radius: 10px;
   padding: 24px;
   -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase; }
 
 .btn-slogan {
-  margin: 3rem 0 3rem 0;
+  margin: 2rem 0 3rem 0;
   font-size: 1.5rem;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
   @media screen and (min-width: 1024px) {
     .btn-slogan {
-      margin: 6rem 0 1rem 0; } }
+      margin: 1.5rem 0 2rem 0; } }
 
 .btn-act:hover, .btn-slogan:hover {
   background-color: #11bbcc;
@@ -465,9 +475,10 @@ h6 {
   font-weight: 400;
   text-decoration: none;
   background-color: #999999;
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: 10px;
-  padding: 24px; }
+  padding: 24px;
+  text-transform: uppercase; }
 
 .btn-dwnld, .btn-dwnld-center {
   display: inline-block;
@@ -477,21 +488,36 @@ h6 {
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
-  background-color: #d93560;
+  background-color: #11bbcc;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: 10px;
-  padding: 20px; }
+  padding: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media screen and (min-width: 1024px) {
+    .btn-dwnld, .btn-dwnld-center {
+      margin: 2rem 0 0rem 0; } }
 
 .btn-dwnld-center {
-  margin: 0 25% 0 25%; }
+  margin: 0 10% 0 20%;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media screen and (min-width: 1024px) {
+    .btn-dwnld-center {
+      margin: 0 25% 0 25%; } }
 
-.btn-dwnld:hover {
-  background-color: #11bbcc;
+.btn-dwnld:hover, .btn-dwnld-center:hover {
+  background-color: #ff6633;
   box-shadow: #B9B7B7 0px 1px 1px;
   cursor: pointer; }
 
-.btn-dwnld:active {
+.btn-dwnld:active, .btn-dwnld-center:active {
   box-shadow: #B9B7B7 0px 1px 1px;
   position: relative;
   top: 1px; }
@@ -515,6 +541,11 @@ h6 {
   background-color: #ed497e;
   cursor: pointer; }
 
+.btn-round:active {
+  box-shadow: #B9B7B7 0px 1px 1px;
+  position: relative;
+  top: 1px; }
+
 .btn-svg {
   display: inline-block; }
 
@@ -532,8 +563,8 @@ h6 {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 2rem 2rem 2rem 2rem;
-  background-image: url("../img/Textura_footer-12.svg");
+  padding: 3rem 2rem 2rem 2rem;
+  background-image: url("../img/footer.svg");
   background-size: contain; }
 
 .copyright, .contact {
