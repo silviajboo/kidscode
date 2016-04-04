@@ -373,8 +373,8 @@ h6 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
-  margin: 0 4rem 2rem 4rem;
+  width: 90%;
+  margin: 0 auto 2rem auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -383,7 +383,13 @@ h6 {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media screen and (min-width: 1024px) {
+    .steps {
+      width: 80%; } }
 
 .step {
   /*max-width: 80%;
@@ -587,12 +593,11 @@ h6 {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 3rem 2rem 2rem 2rem;
+  padding: 4rem 2rem 2rem 2rem;
   background-image: url("../img/footer.svg");
-  background-size: cover; }
+  background-size: contain; }
 
 .copyright, .contact {
   margin: auto;
   text-align: center;
-  width: 85%;
-  margin: 1rem; }
+  padding: .5rem; }
