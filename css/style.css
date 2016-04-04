@@ -40,7 +40,7 @@ h1 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .t-h1 {
       font-size: 2.5rem;
       line-height: 2.7rem; } }
@@ -108,10 +108,10 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .header {
       background-image: url("../img/bgTablet.svg"); } }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .header {
       background-image: url("../img/bgDesktop.svg"); } }
 
@@ -123,11 +123,11 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .slogan {
       max-width: 40%;
       margin: 40% auto 0 6%; } }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .slogan {
       max-width: 39%;
       margin: 38% auto 0 6%; } }
@@ -156,10 +156,10 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .logo {
       display: none; } }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .logo {
       display: none; } }
 
@@ -321,7 +321,7 @@ h6 {
   margin-top: 5rem;
   /*MEDIA QUERIES*/
   /*Tablet*/ }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .rumble-island {
       min-width: 70%; } }
 
@@ -354,7 +354,7 @@ h6 {
 
 .img-content2 {
   /*Desktop*/ }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .img-content2 {
       width: 100%;
       margin-top: 0;
@@ -362,7 +362,7 @@ h6 {
 
 .img-content3 {
   /*Desktop*/ }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .img-content3 {
       width: 80%;
       margin-top: 20%;
@@ -473,10 +473,10 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .btn-slogan {
       margin: 2rem 0 3rem 0; } }
-  @media screen and (min-device-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .btn-slogan {
       margin: 1.5rem 0 2rem 0; } }
 
@@ -523,7 +523,7 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-device-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .btn-dwnld, .btn-dwnld-center {
       margin: 2rem 0 0rem 0; } }
 
@@ -532,7 +532,7 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-device-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .btn-dwnld-center {
       margin: 0 25% 0 25%; } }
 
