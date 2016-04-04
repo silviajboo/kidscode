@@ -116,7 +116,7 @@ h6 {
       background-image: url("../img/bgDesktop.svg"); } }
 
 .slogan {
-  max-width: 70%;
+  max-width: 60%;
   margin: 85% auto auto auto;
   margin-left: auto;
   margin-right: auto;
@@ -331,7 +331,16 @@ h6 {
   max-height: auto;
   width: 100%;
   margin: 0;
-  padding: .5rem 2rem 1rem 2rem; }
+  padding: .5rem 0 1rem 0;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .puzzle {
+      padding: .5rem 2rem 1rem 2rem; } }
+  @media only screen and (min-width: 1024px) {
+    .puzzle {
+      padding: .5rem 2rem 1rem 2rem; } }
 
 /*circulo pasos*/
 #circle {
