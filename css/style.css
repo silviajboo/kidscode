@@ -593,7 +593,7 @@ h6 {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 3rem 2rem 1rem 2rem;
   background-image: url("../img/footer.svg");
   background-size: contain; }
 
