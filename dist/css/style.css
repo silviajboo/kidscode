@@ -35,12 +35,12 @@ h1 {
   font-weight: 700; }
 
 .t-h1 {
-  font-size: 2.5rem;
-  line-height: 2.7rem;
+  font-size: 1.75rem;
+  line-height: 2rem;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .t-h1 {
       font-size: 2.5rem;
       line-height: 2.7rem; } }
@@ -108,26 +108,26 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .header {
       background-image: url("../img/bgTablet.svg"); } }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .header {
       background-image: url("../img/bgDesktop.svg"); } }
 
 .slogan {
-  max-width: 70%;
+  max-width: 60%;
   margin: 85% auto auto auto;
   margin-left: auto;
   margin-right: auto;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .slogan {
       max-width: 40%;
       margin: 40% auto 0 6%; } }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .slogan {
       max-width: 39%;
       margin: 38% auto 0 6%; } }
@@ -150,18 +150,29 @@ h6 {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
   margin-top: 15%;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .logo {
       display: none; } }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .logo {
       display: none; } }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
 
 /*COLORES BACKGROUND*/
 .color-bg-orange {
@@ -309,7 +320,12 @@ h6 {
     .content2 {
       display: inline-block;
       margin-left: auto;
-      margin-right: auto; } }
+      margin-right: auto;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
 
 .center {
   display: inline-block;
@@ -321,7 +337,7 @@ h6 {
   margin-top: 5rem;
   /*MEDIA QUERIES*/
   /*Tablet*/ }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .rumble-island {
       min-width: 70%; } }
 
@@ -331,7 +347,16 @@ h6 {
   max-height: auto;
   width: 100%;
   margin: 0;
-  padding: .5rem 2rem 1rem 2rem; }
+  padding: .5rem 0 1rem 0;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .puzzle {
+      padding: .5rem 2rem 1rem 2rem; } }
+  @media only screen and (min-width: 1024px) {
+    .puzzle {
+      padding: .5rem 2rem 1rem 2rem; } }
 
 /*circulo pasos*/
 #circle {
@@ -354,15 +379,21 @@ h6 {
 
 .img-content2 {
   /*Desktop*/ }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .img-content2 {
       width: 100%;
+      height: auto;
       margin-top: 0;
-      margin-bottom: 20%; } }
+      margin-bottom: 20%;
+      background-image: url(../img/imgKids2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: inherit;
+      flexbox-direction: row; } }
 
 .img-content3 {
   /*Desktop*/ }
-  @media only screen and (min-device-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     .img-content3 {
       width: 80%;
       margin-top: 20%;
@@ -373,8 +404,8 @@ h6 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
-  margin: 0 4rem 2rem 4rem;
+  width: 90%;
+  margin: 0 auto 2rem auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -383,7 +414,13 @@ h6 {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media screen and (min-width: 1024px) {
+    .steps {
+      width: 80%; } }
 
 .step {
   /*max-width: 80%;
@@ -473,10 +510,10 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .btn-slogan {
       margin: 2rem 0 3rem 0; } }
-  @media screen and (min-device-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .btn-slogan {
       margin: 1.5rem 0 2rem 0; } }
 
@@ -512,7 +549,7 @@ h6 {
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
-  background-color: #11bbcc;
+  background-color: #0097e8;
   cursor: pointer;
   font-size: 1rem;
   border-radius: 10px;
@@ -523,21 +560,21 @@ h6 {
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-device-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .btn-dwnld, .btn-dwnld-center {
       margin: 2rem 0 0rem 0; } }
 
 .btn-dwnld-center {
-  margin: 0 10% 0 20%;
+  margin: 0 5% 0 20%;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
-  @media screen and (min-device-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .btn-dwnld-center {
       margin: 0 25% 0 25%; } }
 
 .btn-dwnld:hover, .btn-dwnld-center:hover {
-  background-color: #ff6633;
+  background-color: #d93560;
   box-shadow: #B9B7B7 0px 1px 1px;
   cursor: pointer; }
 
@@ -587,12 +624,21 @@ h6 {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 3rem 2rem 2rem 2rem;
+  padding: 3rem 2rem 1rem 2rem;
   background-image: url("../img/footer.svg");
-  background-size: contain; }
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+      background-repeat: repeat-x; } }
+  @media only screen and (min-width: 1024px) {
+    .footer {
+      background-repeat: repeat-x; } }
 
 .copyright, .contact {
   margin: auto;
   text-align: center;
-  width: 85%;
-  margin: 1rem; }
+  padding: .5rem; }

@@ -9,7 +9,7 @@
 
     /*MEDIA QUERIES*/
     /*Tablet*/
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
         min-width: 70%;
     }
 }
@@ -20,7 +20,16 @@
 	max-height: auto;
 	width: 100%;
     margin: 0;
-    padding: .5rem 2rem 1rem 2rem;
+    padding: .5rem 0 1rem 0;
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        padding: .5rem 2rem 1rem 2rem;
+    }
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+       padding: .5rem 2rem 1rem 2rem;
+    }
 }
 
 /*circulo pasos*/
@@ -52,15 +61,22 @@
 
 .img-content2{
 	/*Desktop*/
-	@media only screen and (min-device-width: 1024px){
+	@media only screen and (min-width: 1024px){
         width: 100%;
+        height: auto;
         margin-top: 0;
         margin-bottom: 20%;
+        background-image: url(../img/imgKids2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        //position: absolute;
+        background-attachment: inherit;
+        flexbox-direction:row;
     }
 }
 .img-content3{
 	/*Desktop*/
-	@media only screen and (min-device-width: 1024px){
+	@media only screen and (min-width: 1024px){
         width: 80%;
         margin-top: 20%;
         margin-bottom: 20%;

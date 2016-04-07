@@ -37,18 +37,16 @@ h1{
     font-weight: 700;
 }
 .t-h1{
-    //font-size: 1.75rem;
-    //line-height: 2rem;
-    font-size: 2.5rem;
-    line-height: 2.7rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
 
     /*MEDIA QUERIES*/
     /*Tablet*/
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
         
     }
     /*Desktop*/
-    @media only screen and (min-device-width: 1024px){
+    @media only screen and (min-width: 1024px){
         font-size: 2.5rem;
         line-height: 2.7rem;   
     }

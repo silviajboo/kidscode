@@ -2,16 +2,26 @@
     float:none;
     display: flex;
     justify-content: center;
-	padding: 3rem 2rem 2rem 2rem;
+	padding: 3rem 2rem 1rem 2rem;
 	background-image: url("../img/footer.svg");
 	background-size: contain;
-	//que si no ramble en tablet y mobile no queda apoyado
-	//margin-top: 2rem;
+    background-repeat: no-repeat;
+    
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        background-repeat: repeat-x;
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        background-repeat: repeat-x;
+    }
 }
 
 .copyright, .contact{
     margin: auto;
     text-align: center;
-    width: 85%;
-    margin: 1rem;
+    //width: 85%;
+    padding: .5rem;
 }

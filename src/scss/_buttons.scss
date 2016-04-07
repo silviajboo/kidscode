@@ -27,12 +27,12 @@
 
 		/*MEDIA QUERIES*/
     	/*Tablet*/
-    	@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    	@media only screen and (min-width: 768px) and (max-width: 1023px){
     	  margin: 2rem 0 3rem 0;
     	}
 
    		/*Desktop*/
-    	@media screen and (min-device-width: 1024px){
+    	@media screen and (min-width: 1024px){
       	  margin: 1.5rem 0 2rem 0;
     	}
 
@@ -74,7 +74,7 @@
 		color: $primaryColorWhite;
 		font-weight: 400;
 		text-decoration: none;
-		background-color: $primaryColorBgBlue;
+		background-color: $secondaryColorBgBlue3;
 		cursor: pointer;
 		font-size: 1rem;
 		border-radius: 10px;
@@ -84,33 +84,33 @@
 
 		/*MEDIA QUERIES*/
     	/*Tablet*/
-    	@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    	@media only screen and (min-width: 768px) and (max-width: 1023px){
       
     	}
 
    		/*Desktop*/
-    	@media screen and (min-device-width: 1024px){
+    	@media screen and (min-width: 1024px){
       	  margin: 2rem 0 0rem 0;
     	}
 
 	}
 
 	&-dwnld-center{
-		margin: 0 10% 0 20%;
+		margin: 0 5% 0 20%;
 
 		/*MEDIA QUERIES*/
     	/*Tablet*/
-    	@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    	@media only screen and (min-width: 768px) and (max-width: 1023px){
       
     	}
    		/*Desktop*/
-    	@media screen and (min-device-width: 1024px){
+    	@media screen and (min-width: 1024px){
       	  margin: 0 25% 0 25%;
     	}
 	}
 
 	&-dwnld:hover, &-dwnld-center:hover{
-		background-color: $primaryColorBgOrange;
+		background-color: $secondaryColorBgPink2;
 		box-shadow:$colorShadowBtn 0px 1px 1px;
 		cursor: pointer;
 	}
