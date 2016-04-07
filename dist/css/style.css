@@ -566,7 +566,7 @@ h6 {
       margin: 1.5rem 0 2rem 0; } }
 
 .btn-act:hover, .btn-slogan:hover {
-  background-color: #11bbcc;
+  background-color: #0097e8;
   box-shadow: #B9B7B7 0px 1px 1px;
   cursor: pointer; }
 
@@ -613,13 +613,13 @@ h6 {
       margin: 2rem 0 0rem 0; } }
 
 .btn-dwnld-center {
-  margin: 0 5% 0 20%;
+  margin: 0 5% 0 10%;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
   @media screen and (min-width: 1024px) {
     .btn-dwnld-center {
-      margin: 0 25% 0 25%; } }
+      margin: 0 25% 0 20%; } }
 
 .btn-dwnld:hover, .btn-dwnld-center:hover {
   background-color: #d93560;

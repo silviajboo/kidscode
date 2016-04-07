@@ -39,7 +39,7 @@
 	}
 
 	&-act:hover, &-slogan:hover{
-		background-color: $primaryColorBgBlue;
+		background-color: $secondaryColorBgBlue3;
 		box-shadow:$colorShadowBtn 0px 1px 1px;
 		cursor: pointer;
 	}
@@ -96,7 +96,7 @@
 	}
 
 	&-dwnld-center{
-		margin: 0 5% 0 20%;
+		margin: 0 5% 0 10%;
 
 		/*MEDIA QUERIES*/
     	/*Tablet*/
@@ -105,7 +105,7 @@
     	}
    		/*Desktop*/
     	@media screen and (min-width: 1024px){
-      	  margin: 0 25% 0 25%;
+      	  margin: 0 25% 0 20%;
     	}
 	}
 
