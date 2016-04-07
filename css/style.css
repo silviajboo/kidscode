@@ -377,9 +377,11 @@ h6 {
       width: auto;
       height: 100%;
       margin-top: 0;
-      background-image: url(../img/imgKids2.png);
-      background-repeat: no-repeat;
-      background-size: cover; } }
+      /*background-image: url(../img/imgKids2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -10% 0;
+        position: absolute;*/ } }
 
 .img-content3 {
   /*Desktop*/ }
