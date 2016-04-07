@@ -12,15 +12,34 @@
 
     /*Desktop*/
     @media screen and (min-width: 1024px){
-        width: 80%;
+        width: 50%;
+        margin-left: 2rem;
     }
 }
 
+.steps-img{
+    display:none;
+    
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      //flex-direction: row;
+    }
+}
 .step{
     /*max-width: 80%;
     margin-left: auto;
     margin-right: auto;*/
 }
+//rumble-island en tablet y mobile
 .step-img{
     max-width: 100%;
     margin-left: auto;
@@ -37,14 +56,15 @@
     @media screen and (min-width: 1024px){
         display:none;
     }
-
 }
-.step-img2{
+
+
+/*.step-img2{
     visibility:hidden;
     max-width: 70%;
 
     /*MEDIA QUERIES*/
-    /*Tablet*/
+    /*Tablet
     @media screen and (min-width: 768px) and (max-width: 1023px) {
         visibility: visible;
         max-width: 100%;
@@ -53,11 +73,11 @@
         padding-top: 0;
     }
 
-    /*Desktop*/
+    /*Desktop
     @media only screen and (min-width: 1024px){
         
     }
-}
+}*/
 
 .intro-steps{
     font-family: 'Montserrat', sans-serif;
