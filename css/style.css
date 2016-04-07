@@ -150,7 +150,7 @@ h6 {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
   margin-top: 15%;
   /*MEDIA QUERIES*/
@@ -162,6 +162,17 @@ h6 {
   @media only screen and (min-width: 1024px) {
     .logo {
       display: none; } }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
 
 /*COLORES BACKGROUND*/
 .color-bg-orange {
@@ -309,7 +320,12 @@ h6 {
     .content2 {
       display: inline-block;
       margin-left: auto;
-      margin-right: auto; } }
+      margin-right: auto;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
 
 .center {
   display: inline-block;
@@ -366,8 +382,14 @@ h6 {
   @media only screen and (min-width: 1024px) {
     .img-content2 {
       width: 100%;
+      height: auto;
       margin-top: 0;
-      margin-bottom: 20%; } }
+      margin-bottom: 20%;
+      background-image: url(../img/imgKids2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: inherit;
+      flexbox-direction: row; } }
 
 .img-content3 {
   /*Desktop*/ }
@@ -527,7 +549,7 @@ h6 {
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
-  background-color: #11bbcc;
+  background-color: #0097e8;
   cursor: pointer;
   font-size: 1rem;
   border-radius: 10px;
@@ -543,7 +565,7 @@ h6 {
       margin: 2rem 0 0rem 0; } }
 
 .btn-dwnld-center {
-  margin: 0 10% 0 20%;
+  margin: 0 5% 0 20%;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
@@ -552,7 +574,7 @@ h6 {
       margin: 0 25% 0 25%; } }
 
 .btn-dwnld:hover, .btn-dwnld-center:hover {
-  background-color: #ff6633;
+  background-color: #d93560;
   box-shadow: #B9B7B7 0px 1px 1px;
   cursor: pointer; }
 
@@ -604,7 +626,17 @@ h6 {
           justify-content: center;
   padding: 3rem 2rem 1rem 2rem;
   background-image: url("../img/footer.svg");
-  background-size: contain; }
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+      background-repeat: repeat-x; } }
+  @media only screen and (min-width: 1024px) {
+    .footer {
+      background-repeat: repeat-x; } }
 
 .copyright, .contact {
   margin: auto;
