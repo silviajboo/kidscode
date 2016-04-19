@@ -1,0 +1,240 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 25px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#menu-header{
+	position: fixed;
+		top: 0;
+	height: auto;
+	width: 100%;
+	background-color: #ffffff;
+	text-transform: uppercase;
+}
+
+#menu-bar{
+	float: right;
+	padding: 15px;
+}
+
+.menu{
+	float: right;
+	margin-right: 50px;
+	color: grey;
+}
+
+.logo{
+	float: left;
+	margin-left: 50px;
+	color: orange;
+	font-family: 'Peachy Keen', Helvetica, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 52px;	
+	line-height: 60px;
+}
+
+h1{
+	/*font-family: 'Gloria Hallelujah', Helvetica, serif;*/
+	font-family: 'Peachy Keen', Helvetica, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 52px;	
+	line-height: 60px;
+}
+
+h1.title{
+	text-align: center; 
+	color: #ED6A5A;
+}
+
+
+h2{
+	font-family: 'Gloria Hallelujah', Helvetica, serif;
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2.subtitle{
+	text-align: center;
+	color: grey;
+}
+
+h2.subtitle-btn{
+	text-align: center;
+	color: #E6EBE0;
+	padding-top: 200px;
+}
+
+h3{
+	font-family: 'Gloria Hallelujah', Helvetica, serif;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h3.strong{
+	color:#ED6A5A;
+}
+
+h4{
+	font-family: 'Gloria Hallelujah', Helvetica, serif;
+	font-size: 25px;
+	line-height: 26px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h5{
+	font-family: 'Gloria Hallelujah', Helvetica, serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+section{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+ul{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 2;
+}
+
+ol{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 2;
+}
+
+dt{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	font-style: bold;
+	padding: 10px;
+}
+
+dd{
+	font-family: 'Roboto Thin', sans-serif;
+	font-size: 16px;
+	padding:10px;
+} 
+
+a{
+	font-style: oblique;
+	font-variant: small-caps; 
+	 
+}
+
+mark{
+	background-color: #ED6A5A;
+}
+
+p.quote {
+	font-size: 23px;
+	line-height: 28px;
+	font-style: normal;
+	color: #666;
+	margin: 0px;
+	font-weight: 400;
+	background-color: #E6EBE0;
+}
+
+a {
+	color: #4281A4;
+	font-family: helvetica;
+	font-size: small;
+	text-decoration: none;
+}
+a:hover {
+	color: #F25F5C;
+}
+
+input {
+	background-color: #9CAFB7;
+}
+
+/*div home*/
+#home{
+}
+
+#home.img{
+	width: 300px;
+	height: 300px;
+}
+
+/*div about*/
+#about{
+}
+
+/*div login*/
+#login{
+}
+
+/*div signup*/
+#signup{
+	min-height: 450px;
+}
+
+#footer{
+	background-color: #50514F;
+	color:#ffffff;
+	font-family: 'Gloria Hallelujah', Helvetica, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;	
+	line-height: 28px;
+	padding: 72px 50px 100px 50px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+.copyright{
+	float: left;
+	font-size: 14px;
+	line-height: 20px;	
+}
+
+.contact{
+	float: right;
+	text-align: right;
+	width: 65%;
+}
+
+.contact2{
+	float: right;
+	text-align: right;
+	width: 65%;
+}
+
+
+
+
+
+

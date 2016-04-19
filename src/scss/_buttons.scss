@@ -1,0 +1,164 @@
+/*BOTONES*/
+//Botones Adultos////A CONTINUAR
+.btn-cam{
+	box-shadow:$colorShadowBtn 0px 3px 3px;
+}
+
+.btn{
+	&-act, &-slogan {
+		display:inline-block;
+		margin: 12px;
+		box-shadow:$colorShadowBtn 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;
+		color:$primaryColorWhite;
+		font-weight: 400;
+		text-decoration: none;
+		background-color: $secondaryColorBgPink2;
+		font-size: 1rem;
+		border-radius: 10px;
+		padding: 24px;
+		transition: all 0.3s ease 0s;
+		text-transform: uppercase;
+	}
+
+	&-slogan{
+		margin: 7% 0 12% 0;
+		font-size: 1.5rem;
+
+		/*MEDIA QUERIES*/
+    	/*Tablet*/
+    	@media only screen and (min-width: 768px) and (max-width: 1023px){
+    	  margin: 2rem 0 3rem 0;
+    	}
+
+   		/*Desktop*/
+    	@media screen and (min-width: 1024px){
+      	  margin: 1.5rem 0 2rem 0;
+    	}
+
+	}
+
+	&-act:hover, &-slogan:hover{
+		background-color: $secondaryColorBgBlue3;
+		box-shadow:$colorShadowBtn 0px 1px 1px;
+		cursor: pointer;
+	}
+
+	//le damos sensación de presionar botón
+	&-act:active, &-slogan:active {
+		box-shadow: $colorShadowBtn 0px 1px 1px;
+		position: relative;
+		top: 1px;
+	}
+
+	&-inact{
+		display:inline-block;
+		margin: 12px;
+		box-shadow: $colorShadowBtn 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;
+		color: $primaryColorWhite;
+		font-weight: 400;
+		text-decoration: none;
+		background-color: #999999;
+		font-size: 1rem;
+		border-radius: 10px;
+		padding: 24px;
+		text-transform: uppercase;
+	}
+
+	&-dwnld, &-dwnld-center{
+		display: inline-block;
+		margin: 12px;
+		box-shadow: $colorShadowBtn 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;
+		color: $primaryColorWhite;
+		font-weight: 400;
+		text-decoration: none;
+		background-color: $secondaryColorBgBlue3;
+		cursor: pointer;
+		font-size: 1rem;
+		border-radius: 10px;
+		padding: 20px;
+		transition: all 0.3s ease 0s;
+		text-transform: uppercase;
+
+		/*MEDIA QUERIES*/
+    	/*Tablet*/
+    	@media only screen and (min-width: 768px) and (max-width: 1023px){
+      
+    	}
+
+   		/*Desktop*/
+    	@media screen and (min-width: 1024px){
+      	  margin: 2rem 0 0rem 0;
+    	}
+
+	}
+
+	&-dwnld-center{
+		margin: 0 5% 0 10%;
+
+		/*MEDIA QUERIES*/
+    	/*Tablet*/
+    	@media only screen and (min-width: 768px) and (max-width: 1023px){
+      
+    	}
+   		/*Desktop*/
+    	@media screen and (min-width: 1024px){
+      	  margin: 0 25% 0 20%;
+    	}
+	}
+
+	&-dwnld:hover, &-dwnld-center:hover{
+		background-color: $secondaryColorBgPink2;
+		box-shadow:$colorShadowBtn 0px 1px 1px;
+		cursor: pointer;
+	}
+
+	//le damos sensación de presionar botón
+	&-dwnld:active, &-dwnld-center:active {
+		box-shadow: $colorShadowBtn 0px 1px 1px;
+		position: relative;
+		top: 1px;
+	}
+
+	&-round{
+		display:inline-block;
+		color: $primaryColorWhite;
+		height: 80px;
+		width: 70px;
+		font-weight: 700;
+		text-transform: uppercase;
+		border: 3px solid white;
+		border-radius: 50%;
+		background-color: #0097e8;
+		padding: 35px 44px;
+		transition: all 0.3s ease 0s;
+		-webkit-box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
+		-moz-box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
+		box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
+	}
+
+	&-round:hover{
+		background-color: #ed497e;
+		cursor: pointer;
+	}
+
+	//le damos sensación de presionar botón
+	&-round:active {
+		box-shadow: $colorShadowBtn 0px 1px 1px;
+		position: relative;
+		top: 1px;
+	}
+
+	&-svg{
+		display: inline-block;
+	}
+
+	&-menu{
+		margin: 0 .35rem;
+		width: 2rem;
+	}
+}
+
+

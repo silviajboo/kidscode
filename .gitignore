@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/osx
 
 ### OSX ###
@@ -28,6 +29,13 @@ Temporary Items
 .apdisk
 
 # BUILD 
+=======
+# OS generated files ======================================================== #
+.DS_Store
+
+
+# BUILD ===================================================================== #
+>>>>>>> 302632391ac2ba110d66c0c4173e850da5c36093
 node_modules/
 gulpfile.js
 package.json
