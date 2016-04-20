@@ -35,13 +35,17 @@
     justify-content: center;
     width: 100%;
     padding-top:1rem;
-    border:1px solid red;
 }
 
 .content-global-1, .content-global-2{
     flex:1;
     flex-direction: column;
     padding-bottom:2rem;
+
+}
+.flex-align-center{
+        align-self:center;
+
 }
 .f-basis-4{
     flex-basis:400px;
@@ -51,11 +55,9 @@
     flex-basis:200px;
 }
 
-.content-global-1-row, .content-global-2-row{
-    flex:1;
-    flex-direction: row;
-    flex-basis:400px;
-    padding-bottom:2rem;
+.flex-content-center{
+    align-self:center;
+    justify-content: center;
 }
 
 
@@ -88,4 +90,10 @@
 .center{
     display: inline-block;
     text-align: center;
+}
+.container-block{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
 }
