@@ -7,18 +7,17 @@
 .btn{
 	&-act, &-slogan {
 		display:inline-block;
-		margin: 12px;
+		margin-bottom: 12px;
 		box-shadow:$colorShadowBtn 0px 3px 3px;
 		border: 5px solid $primaryColorWhite;
 		color:$primaryColorWhite;
 		font-weight: 400;
 		text-decoration: none;
-		background-color: $secondaryColorBgPink2;
+		background-color: $secondaryColorBgBlue3;
 		font-size: 1rem;
 		border-radius: 10px;
-		padding: 24px;
+		padding: 1rem;
 		transition: all 0.3s ease 0s;
-		text-transform: uppercase;
 	}
 
 	&-slogan{
@@ -131,7 +130,7 @@
 		text-transform: uppercase;
 		border: 3px solid white;
 		border-radius: 50%;
-		background-color: #0097e8;
+		background-color: $secondaryColorBgBlue3;
 		padding: 35px 44px;
 		transition: all 0.3s ease 0s;
 		-webkit-box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);

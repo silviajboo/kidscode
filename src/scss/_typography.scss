@@ -23,8 +23,8 @@ p{
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
@@ -56,16 +56,15 @@ h2{
     font-size: 1.75rem;
     line-height: 2rem;
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     font-weight: 700;
-    padding: 0 2rem 0 2rem;
 }
 
 h3{
     font-size: 1.35rem;
     line-height: 1.8rem;
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     font-weight: 700;
 }
 
@@ -90,5 +89,14 @@ h6{
     line-height: 1rem;
     margin-top: 2.4rem;
     margin-bottom: 2.6rem;
+}
+
+.list{
+    list-style:none;
+}
+
+.ffamily{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 

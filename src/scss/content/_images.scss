@@ -40,7 +40,24 @@
     margin: 0 3rem 0 0;
     float: right;
 }*/
+.placeholder-round-img{
+    margin:auto;
+    padding-top:1rem;
+    height: 225px;
+    width: 225px;
+    background-color:grey;
+    border-radius: 100%;
+    border-color:3px solid #ffffff;
+}
 
+.placeholder-rect-img{
+    margin:auto;
+    padding-top:1rem;
+    height: 250px;
+    width: 150px;
+    background-color:grey;
+    border-color:3px solid #ffffff;
+}
 .mini-circle {
     width: 2rem;
     height: 2rem;
