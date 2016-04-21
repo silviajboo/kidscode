@@ -34,7 +34,8 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    padding-top:1rem;
+    padding-top:5rem;
+    border:1px dotted red;
 }
 
 .content-global-1, .content-global-2{
@@ -43,6 +44,7 @@
     padding-bottom:2rem;
 
 }
+
 .flex-align-center{
         align-self:center;
 
@@ -60,8 +62,8 @@
     justify-content: center;
 }
 
-
-.content-global-3-top{
+//Caja contenedora
+.content-rnd-top{
     margin:auto;
     padding:1rem;
     width:90%;
@@ -70,10 +72,12 @@
     border-top-right-radius:1rem;
     border-bottom-left-radius:0rem;
     border-bottom-right-radius:0rem;
+    border:1px solid $secondaryColorBgPink2;
     text-align:center;
-    padding-bottom:2rem;
+    padding:2rem 0 2rem 0;
+    box-shadow:$colorShadowBtn 0px 1px 1px;
 }
-.content-global-3{
+.content-rnd-bottom{
     margin:auto;
     padding:1rem;
     width:90%;
@@ -83,8 +87,9 @@
     border-bottom-left-radius:1rem;
     border-bottom-right-radius:1rem;
     text-align:center;
+    border:1px solid $secondaryColorBgBlack1;
     padding-bottom:2rem;
-    box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
+    box-shadow:$colorShadowBtn 0px 1px 1px;
 }
 
 .center{
@@ -95,5 +100,41 @@
     width: 100%;
     margin: auto;
     text-align: center;
+}
+.container-center{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
 
+.container-inline{
+    display: inline-block;
+}
+
+.content-float{
+    float:left;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.test-flex{
+    flex-direction: row;
+    border:1px dashed green;
+    display:flex;
+    justify-content: center;
+    align-self:center;
+    padding:2rem;
+}
+.flex-container{
+    flex:1;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+}
+.flex-container-2{
+    width:190px;
+    align-self: center;
+    justify-content: center;
+    padding: 10px;
 }

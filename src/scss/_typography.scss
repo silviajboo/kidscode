@@ -18,7 +18,7 @@ a{
 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1.5rem;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
@@ -30,8 +30,8 @@ p{
 }
 
 h1{
-    font-size: 2.5rem;
-    line-height: 2.2rem;
+    font-size: 3.5rem;
+    line-height: 2.75rem;
     margin-top: 1.36rem;
     margin-bottom: 1.36rem;
     font-weight: 700;
@@ -53,11 +53,26 @@ h1{
 }
 
 h2{
-    font-size: 1.75rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+    font-size: 2rem;
     line-height: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
+    }
+    /*Desktop*/
+    /*@media only screen and (min-width: 1024px){
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    }*/
 }
 
 h3{

@@ -4,8 +4,6 @@
   <meta charset="UTF-8">
   
 <!--VIEWPORT-->
-  
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,6 +13,7 @@
   <link rel="stylesheet" href="css/style.css">
 
 <!--listado de tipografias-->
+
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 <!--Google anlytics implementation -->
@@ -29,27 +28,33 @@
     ga('send', 'pageview');
 
   </script>
-
+<!---->
 </head>
 
 <body>
-<!--el logo ha de ir implementado sobre la imagen, entra en conflicto con el viewport-->
-  <div class="header color-txt-white">
-    <div class="slogan center">
-      <h1 class="t-h1">Una forma divertida de aprender a programar en família</h1>
-      <a href="#"><div class="btn-slogan">Empieza la aventura</div></a>
+
+  <header>
+    <div class="header color-txt-white">
+      <div class="slogan center">
+        <h1 class="t-h1">Una forma divertida de aprender a programar en família</h1>
+        <a href="#"><div class="btn-slogan">Empieza la aventura</div></a>
+      </div>
     </div>
-  </div>
+  </header>
+
 <!--Primer contenedor FLEX-->
- <!--contenido 1 flex--> 
-  <div class="content-global wrap color-bg-yellow">
-    <div class="content-global-1 f-basis-4 center color-txt-white"><div class="placeholder-round-img"></div><h1>¡Hola!</h1><h2> Me llamo Rumble<br> ¿Quieres jugar conmigo?</h2></div>
-  <!---->
 
-  <!--contenido 2 flex-->  
-  <div class="content-global-1 f-basis-4"><div class="content-global-3-top color-txt-white"><h2>Únete a KidsCode</h2></div>
+ <!--contenido izquierdo--> 
+    <div class="content-global wrap color-bg-yellow">
+      <div class="content-global-1 f-basis-4 center color-txt-white"><div class="placeholder-round-img"></div><h1>¡Hola!</h1><h2> Me llamo Rumble<br> ¿Quieres jugar conmigo?</h2>
+      </div>
 
-  <div class="content-global-3">
+  <!--contenido derecha-->  
+    <div class="content-global-1 f-basis-4">
+      <div class="content-rnd-top color-txt-white"><h2>Únete a KidsCode</h2>
+      </div>
+
+  <div class="content-rnd-bottom">
       <h2 class="color-txt-grey">Imprime las fichas</h2><p class="ffamily">No todo queda en la pantalla</p>
       <h2 class="color-txt-grey">Juega online</h2><p class="ffamily">Entra en mi mundo y acompáñame en mis aventuras</p>
       <h2 class="color-txt-grey">Aprende a programar</h2><p class="ffamily">De forma divertida y en família</p>
@@ -59,11 +64,11 @@
 <!--Segundo contenedor FLEX-->
  <!--contenido 1 flex--> 
   <div class="content-global wrap color-bg-blue-bg">
-    <div class="content-global-1 f-basis-2 center color-txt-white"><div class="placeholder-rect-img"></div><h3 class="color-txt-grey-drk">Aprende las bases de la programación</h3></div>
+    <div class="content-global-1 f-basis-2 center color-txt-white"><div class="placeholder-squ-img"></div><h3 class="color-txt-grey-drk">Aprende las bases de la programación</h3></div>
   <!--contenido 2 flex--> 
-    <div class="content-global-1 f-basis-2 center color-txt-white"><div class="placeholder-rect-img"></div><h3 class="color-txt-grey-drk">Úne fichas reales y ayúdame<h3></div>
+    <div class="content-global-1 f-basis-2 center color-txt-white"><div class="placeholder-squ-img"></div><h3 class="color-txt-grey-drk">Úne fichas reales y ayúdame<h3></div>
   <!--contenido 3 flex--> 
-    <div class="content-global-1 f-basis-2 center color-txt-white"><div class="placeholder-rect-img"></div><h3 class="color-txt-grey-drk">Aprende paso a paso con mis aventuras<h3></div></div>
+    <div class="content-global-1 f-basis-2 center color-txt-white"><div class="placeholder-squ-img"></div><h3 class="color-txt-grey-drk">Aprende paso a paso con mis aventuras<h3></div></div>
 
 <div class="content-global wrap color-bg-yellow color-txt-white"><h1>Empieza la aventura</h1></div>
 
@@ -81,19 +86,40 @@
   <!---->
   <!--Cuarto contenedor FLEX-->
  <!--contenido 1 flex--> 
-<div class="content-global wrap color-bg-blue">
+<!--<div class="content-global wrap color-bg-blue">
     <div class="content-global-1 f-basis-4 center color-txt-white flex-align-center"><div class="placeholder-anim-img"></div></div>
   <!---->
 
   <!--contenido 2 flex-->  
-  <div class="content-global-1 f-basis-4 flex-align-center">
+  <!--<div class="content-global-1 f-basis-4 flex-align-center">
     <div class="container-block"><a href="#"><div class="btn-slogan">¡Juega ya!</div>
     </div></a>
   </div>
   <hr>
 </div>
 
+
+
 <!--Quinto contenedor FLEX-->
+
+
+  <div class="test-flex wrap color-bg-blue">
+
+    <div class="flex-container">
+    <div class="placeholder-anim-img">texto1a</div>
+  </div>
+  <div class="flex-container-2">
+  <a href="#"><div class="btn-slogan">¡Juega ya!</div></a>
+  </div>
+
+</div>
+</div>
+
+
+
+
+
+
 <div class="content-global wrap color-bg-yellow">
     <div class="content-global-1 f-basis-2 center color-txt-white"><div class="placeholder-round-img"></div><h3 class="color-txt-grey-drk txt-margin">"Se divierten y además aprender, ¿Qué más puedo pedir para los peques?"</h3><h3>Pepe Luján</h3><p>Padre de Lina y Laura</p></div>
   <!--contenido 2 flex--> 
@@ -112,139 +138,6 @@
       <div class="contact"> proyectokidscode@gmail.com </div>
       <div class="copyright"> Copyright © 2016 Kids Code </div>
     </footer></h4>
-
-
-
-
-
-
-
-
-
-
-
-
-  <!--<<div class="content-global">
-    <div class="content-global-1">
-      
-    </div>
-
-      div class="about-project">
-
-        <div class="puzzle color-bg-white color-txt-blue-drk">
-          <h2 class="center">Estimula el pensamiento
-            creativo de tus hijas 
-            e hijos a través 
-            de la programación
-          </h2>
-          <div class="mini-circle color-bg-white"></div>
-   </div>
- <!--Fin primr bloque-->     
-<!--
-        <div class="puzzle color-bg-blue-drk">
-          <h2 class="center">Anímales a idear
-            sus propios proyectos
-            y hacerlos realidad juntos
-          </h2>
-          <div class="mini-circle color-bg-blue-drk"></div>
-        </div>
-
-        <div class="puzzle color-bg-yellow">
-          <h2 class="center">Prepárales para 
-            afrontar un gran reto 
-            dividiéndolo en 
-            pequeñas partes
-          </h2>
-          <!--<div class="mini-circle color-bg-yellow"></div>
-
-        </div>
-      </div>
-
-      <div class="about-project-img">
-        <img class="img-content2" src="img/imgKids2.png" >
-      </div>
-
-    </div> <!--end div .content-global-1
-
-    <div class="content-global-2">
-      <div class="steps">
-        <div>
-          <h2 class="intro-steps color-txt-green-drk">Me interesa... ¿Y ahora que hago?
-          </h2>
-        </div>
-
-        <!--step 1 registro
-        <div class="step">
-          <div>
-            <div class="step-number color-bg-pink">1</div>
-            <h2 class="step-title">Regístrate</h2>
-          </div>
-          <div>
-            <p class="step-description">En dos sencillos pasos podrás crear una sesión directamente en tu dispositivo (tablet o móvil), de manera accesible
-            </p>
-          </div>
-        </div>
-        
-        <!--step 2 download fichas
-        <div class="step">
-          <div>
-            <div class="step-number color-bg-pink">2</div>
-            <h2 class="step-title">Descarga el kit de fichas</h2>
-          </div>
-          <div>
-            <p class="step-description">Elige entre los diferentes niveles según la edad de tu hijo o hija
-            </p>
-          </div>
-          <a href="pdf/fichas_v1.pdf">
-            <div class="btn-dwnld-center">descarga rumble kit
-            </div>
-          </a>
-        </div>
-
-
-        <!--paso 3 juega con fichas
-        <div class="step">
-          <div>
-            <div class="step-number color-bg-pink">3</div>
-            <h2 class="step-title">Juega y descubre al monstruo "Rumble"</h2>
-          </div>
-
-          <div>
-            <p class="step-description">Imprime las fichas y prueba las diferentes combinaciones
-            </p>
-          </div>
-        </div>
-
-        <!--paso 4 animacion
-        <div class="step">
-          <div>
-            <div class="step-number color-bg-pink">4</div>
-            <h2 class="step-title">¡Alimenta a "Rumble" y te lo agradecerá con una animación!</h2>
-          </div>
-
-          <div>
-            <p class="step-description">Al validar las fichas, si el código es correcto, “Rumble” hará la acción en tu dispositivo:  bailará, cambiará de color,… ¡hay muchas combinaciones!
-            </p>
-          </div>
-        </div>
-
-        <div class="step-img">  
-          <img class="rumble-island" src="img/rumbleIsland.svg" >
-        </div>
-      </div>
-
-      <div class="steps-img">
-        <img class="img-content3" src="img/rumbleIsland.svg" >
-      </div> 
-    </div> <!--end div .content-global-2-->
-  </div> <!--end div .content-global
-
-  <div class="footer color-txt-white">
-
-    <footer>
-      <div class="contact"> proyectokidscode@gmail.com </div>
-      <div class="copyright"> Copyright © 2016 Kids Code </div>
-    </footer>-->
 
   </div>
 

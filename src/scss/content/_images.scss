@@ -43,8 +43,8 @@
 .placeholder-round-img{
     margin:auto;
     padding-top:1rem;
-    height: 225px;
-    width: 225px;
+    height: 300px;
+    width: 300px;
     background-color:grey;
     border-radius: 100%;
     border-color:3px solid #ffffff;
@@ -70,12 +70,23 @@
 .placeholder-anim-img{
     margin:auto;
     padding-top:1rem;
+    width: 450px;
     height: 250px;
-    width: 320px;
     background-color:grey;
     border-color:3px solid #ffffff;
-    align-self: flex-end;
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        width:630px;
+        height: 350px;
+    }
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        width: 720px;
+        height: 400px;
+    }
 }
+
 .mini-circle {
     width: 2rem;
     height: 2rem;
