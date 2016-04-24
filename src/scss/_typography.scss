@@ -16,25 +16,37 @@ a{
 
 /*typography*/
 p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    margin-top: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
     margin-bottom: 0.75rem;
     display: block;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+
+    /*Desktop & tablet*/
+    @media only screen and (min-width: 768px){
+    font-size: 1.25rem;
+    line-height: 1.5rem; 
+    }
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 2.75rem;
     margin-top: 1.36rem;
     margin-bottom: 1.36rem;
     font-weight: 700;
+
+    /*Desktop & tablet*/
+    @media only screen and (min-width: 768px){
+    font-size: 3.5rem;
+    line-height: 3.75rem; 
+    }
 }
 .t-h1{
     font-size: 1.75rem;
@@ -53,33 +65,26 @@ h1{
 }
 
 h2{
-    font-size: 2rem;
-    line-height: 2.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-weight: 700;
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-    font-size: 2rem;
-    line-height: 2rem;
+    
+    @media only screen and (min-width: 768px){
+    font-size: 3rem;
+    line-height: 3.3rem;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
     }
-    /*Desktop*/
-    /*@media only screen and (min-width: 1024px){
-    font-size: 2rem;
-    line-height: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
-    }*/
 }
 
 h3{
-    font-size: 1.35rem;
-    line-height: 1.8rem;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
     font-weight: 700;
 }
 

@@ -42,9 +42,9 @@
 }*/
 .placeholder-round-img{
     margin:auto;
-    padding-top:1rem;
-    height: 300px;
-    width: 300px;
+    padding-top:0rem;
+    height: 280px;
+    width: 280px;
     background-color:grey;
     border-radius: 100%;
     border-color:3px solid #ffffff;
@@ -60,18 +60,18 @@
 }
 
 .placeholder-squ-img{
-    margin:auto;
+    margin:20px;
     padding-top:1rem;
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 300px;
     background-color:grey;
-    border-color:3px solid #ffffff;
+    margin: auto;
 }
 .placeholder-anim-img{
     margin:auto;
     padding-top:1rem;
-    width: 450px;
-    height: 250px;
+    width: 280px;
+    height: 200px;
     background-color:grey;
     border-color:3px solid #ffffff;
     /*MEDIA QUERIES*/
@@ -85,6 +85,11 @@
         width: 720px;
         height: 400px;
     }
+}
+.placeholder-bgd{
+       background-color:#404040;
+       padding:1rem;
+       width: 50%;
 }
 
 .mini-circle {
@@ -138,4 +143,55 @@
       //flex-direction: row;
     }
 }
-
+.number-1{
+    z-index: 10;
+    position:relative;
+    background-image: url("../img/1.svg");
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    padding:2rem;
+    border-radius:80%;
+    background-color: $primaryColorBgGreen;
+    border: 5px solid white;
+    margin-bottom: -40px;
+    margin-left:0px;
+    box-shadow:$colorShadowBtn 0px 3px 3px;
+    visibility: hidden;
+}
+.number-2{
+    z-index: 10;
+    position:relative;
+    background-image: url("../img/2.svg");
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    padding:2rem;
+    border-radius:80%;
+    background-color: $primaryColorBgGreen;
+    border: 5px solid white;
+    margin-bottom: -40px;
+    margin-left:0px;
+    box-shadow:$colorShadowBtn 0px 3px 3px;
+    z-index: 10;
+    visibility: hidden;
+}
+.number-3{
+    z-index: 10;
+    position:relative;
+    background-image: url("../img/3.svg");
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    padding:2rem;
+    border-radius:80%;
+    background-color: $primaryColorBgGreen;
+    border: 5px solid white;
+    margin-bottom: -40px;
+    margin-left:0px;
+    box-shadow:$colorShadowBtn 0px 3px 3px;
+    visibility: hidden;
+}
+.bg-img{
+    background-image: url("../img/bg.svg");  
+}

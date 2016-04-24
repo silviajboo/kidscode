@@ -5,40 +5,70 @@
 }
 
 .btn{
-	&-act, &-slogan {
+	&-act{
 		display:inline-block;
-		margin-left:1rem;
 		margin-bottom: 1rem;
 		box-shadow:$colorShadowBtn 0px 3px 3px;
 		border: 5px solid $primaryColorWhite;
 		color:$primaryColorWhite;
-		font-weight: 400;
+		font-weight: 700;
 		text-decoration: none;
 		background-color: $secondaryColorBgBlue3;
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 		border-radius: 10px;
-		padding: 2.5rem;
+		padding: 1.2rem 2.5rem 1.2rem 2.5rem;
+		transition: all 0.3s ease 0s;
+	}
+	&-dwn{
+		display:inline-block;
+		margin-bottom: 1rem;
+		box-shadow:$colorShadowBtn 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;
+		color:$primaryColorWhite;
+		font-weight: 700;
+		text-decoration: none;
+		background-color: $secondaryColorBgBlue3;
+		font-size: 1.5rem;
+		border-radius: 10px;
+		width:90%;
+		padding: 1.75rem 2.5rem 1.75rem 2.5rem;
 		transition: all 0.3s ease 0s;
 	}
 
-	&-slogan{
-		margin: 7% 0 12% 0;
+	&-slogan {
+		display:inline-block;
+		align-items: flex-start;
+		margin-bottom: 1rem;
+		box-shadow:$colorShadowBtn 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;
+		color:$primaryColorWhite;
+		font-weight: 700;
+		text-decoration: none;
+		background-color: $secondaryColorBgBlue3;
 		font-size: 1.5rem;
+		line-height: 2.25rem;
+		border-radius: 10px;
+		padding: 1rem 1.3rem;
+		transition: all 0.3s ease 0s;
 
 		/*MEDIA QUERIES*/
     	/*Tablet*/
     	@media only screen and (min-width: 768px) and (max-width: 1023px){
     	  margin: 2rem 0 3rem 0;
+    	  font-size: 2rem;
+		  line-height: 2.25rem;
     	}
 
    		/*Desktop*/
     	@media screen and (min-width: 1024px){
       	  margin: 1.5rem 0 2rem 0;
+      	  font-size: 2rem;
+		  line-height: 2.25rem;
     	}
 
 	}
 
-	&-act:hover, &-slogan:hover{
+	&-act:hover, &-slogan:hover, &-dwn:hover{
 		background-color: $primaryColorBgGreen;
 		box-shadow:$colorShadowBtn 0px 1px 1px;
 		cursor: pointer;
@@ -57,7 +87,7 @@
 		box-shadow: $colorShadowBtn 0px 3px 3px;
 		border: 5px solid $primaryColorWhite;
 		color: $primaryColorWhite;
-		font-weight: 400;
+		font-weight: 700;
 		text-decoration: none;
 		background-color: #999999;
 		font-size: 1rem;
@@ -72,7 +102,7 @@
 		box-shadow: $colorShadowBtn 0px 3px 3px;
 		border: 5px solid $primaryColorWhite;
 		color: $primaryColorWhite;
-		font-weight: 400;
+		font-weight: 700;
 		text-decoration: none;
 		background-color: $secondaryColorBgBlue3;
 		cursor: pointer;
@@ -113,6 +143,7 @@
 		background-color: $secondaryColorBgPink2;
 		box-shadow:$colorShadowBtn 0px 1px 1px;
 		cursor: pointer;
+		
 	}
 
 	//le damos sensación de presionar botón

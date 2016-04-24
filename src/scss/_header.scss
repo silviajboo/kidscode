@@ -26,22 +26,26 @@
 
 .slogan{
     max-width: 100%;
-    padding: 0.2rem;
-    margin: 70% auto auto auto;
+    padding: 0rem;
+    margin: 43% auto auto auto;
     margin-left: auto;
     margin-right: auto;
     
     /*MEDIA QUERIES*/
     /*Tablet*/
+    @media only screen and (min-width: 568px) and (max-width: 765px){
+        max-width: 100%;
+        margin: 0%;
+    }
     @media only screen and (min-width: 768px) and (max-width: 1023px){
         max-width: 40%;
-        margin: 30% auto 0 6%;
+        margin: 55% auto 3% 10%;
     }
 
     /*Desktop*/
     @media only screen and (min-width: 1024px){
         max-width: 39%;
-        margin: 32% auto 0 6%;
+        margin: 19% auto 3% 10%;
     }
 }
 
