@@ -15,8 +15,7 @@ a {
 
 /*typography*/
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1rem;
   line-height: 1.25rem;
   margin-top: 1rem;
@@ -33,7 +32,7 @@ p {
       line-height: 1.5rem; } }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   line-height: 2.75rem;
   margin-top: 1.36rem;
   margin-bottom: 1.36rem;
@@ -41,7 +40,7 @@ h1 {
   /*Desktop & tablet*/ }
   @media only screen and (min-width: 768px) {
     h1 {
-      font-size: 3.5rem;
+      font-size: 5rem;
       line-height: 3.75rem; } }
 
 .t-h1 {
@@ -56,8 +55,8 @@ h1 {
       line-height: 2.7rem; } }
 
 h2 {
-  font-size: 1.75rem;
-  line-height: 2.25rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: 700; }
@@ -101,7 +100,7 @@ h6 {
 
 .ffamily {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400; }
+  font-weight: 700; }
 
 .txt-center {
   text-align: center; }
@@ -147,24 +146,26 @@ h6 {
 .slogan {
   max-width: 100%;
   padding: 0rem;
-  margin: 43% auto auto auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20% auto auto auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20%;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 568px) and (max-width: 765px) {
     .slogan {
       max-width: 100%;
-      margin: 0%; } }
+      margin: 9% 3% 0% 0%;
+      margin-bottom: 5%; } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .slogan {
       max-width: 40%;
-      margin: 55% auto 3% 10%; } }
+      margin: 60% auto 3% 10%; } }
   @media only screen and (min-width: 1024px) {
     .slogan {
       max-width: 39%;
-      margin: 19% auto 3% 10%; } }
+      margin: 24% auto 3% 10%; } }
 
 .logo {
   display: -webkit-box;
@@ -341,8 +342,7 @@ h6 {
           flex-wrap: wrap; }
 
 .container {
-  width: 100%;
-  background-image: url("../img/back.svg"); }
+  width: 100%; }
 
 .container-flex {
   display: -webkit-box;
@@ -385,10 +385,6 @@ h6 {
           justify-content: flex-end;
   text-align: center;
   margin: 0.25rem 0.25rem 0rem 0; }
-
-.max-min {
-  min-width: 300px;
-  max-width: 400px; }
 
 .content-flex-3 {
   display: -webkit-box;
@@ -475,21 +471,12 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.content-bottom {
-  -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-
 .he {
   height: 500px; }
 
 .content-rnd-top {
   margin: auto;
-  padding: 0rem;
+  padding: 1.25rem 0rem;
   width: 95%;
   background-color: #ed497e;
   border-top-left-radius: 1rem;
@@ -512,6 +499,18 @@ h6 {
   text-align: center;
   padding: 1rem 1rem 3rem 1rem; }
 
+.content-bottom {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.content-float {
+  float: left; }
+
 .center {
   display: inline-block;
   text-align: center; }
@@ -528,9 +527,6 @@ h6 {
 
 .container-inline {
   display: inline-block; }
-
-.content-float {
-  float: left; }
 
 .justify-center {
   -webkit-box-pack: center;
@@ -600,8 +596,12 @@ h6 {
           justify-content: flex-end;
   box-shadow: #B9B7B7 0px 3px 3px; }
 
+.max-min {
+  min-width: 300px;
+  max-width: 400px; }
+
 hr {
-  border: 1px dotted #d93560;
+  border: 1px dotted #1b6425;
   margin: 1rem; }
 
 .rumble-island {
@@ -953,17 +953,17 @@ hr {
       -ms-flex-align: start;
               -ms-grid-row-align: flex-start;
           align-items: flex-start;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   box-shadow: #B9B7B7 0px 3px 3px;
   border: 5px solid #ffffff;
   color: #ffffff;
   font-weight: 700;
   text-decoration: none;
   background-color: #0097e8;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2.25rem;
   border-radius: 10px;
-  padding: 1rem 1.3rem;
+  padding: 1rem;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   /*MEDIA QUERIES*/

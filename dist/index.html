@@ -2,21 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  
+  <title>KidsCode</title>
 <!--VIEWPORT-->
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>KidsCode</title>
-
+<!--CSS-->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animations.css">
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-
-<!--listado de tipografias-->
+ 
+<!--google fonts-->
 
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+ 
+<!--Jquery--> 
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+<!--function scroll & execute css animation--> 
+<script>
+  $(window).scroll(function() {
+    $('.number-1, .number-2, .number-3').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass("slideUp");
+      }
+    });
+  });
+</script>
 
 <!--Google anlytics implementation -->
    <script>
@@ -30,19 +44,7 @@
     ga('send', 'pageview');
 
   </script>
-  <script>
-  $(window).scroll(function() {
-    $('.number-1, .number-2, .number-3').each(function(){
-    var imagePos = $(this).offset().top;
 
-    var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+400) {
-        $(this).addClass("slideUp");
-      }
-    });
-  });
-</script>
-<!---->
 </head>
 
 <body>
@@ -50,127 +52,115 @@
   <header>
     <div class="header color-txt-white">
       <div class="slogan center">
-        <h2 class="hatch">Una forma divertida de aprender a programar en família</h2>
+        <h2 class="hatch">La forma divertida de aprender a programar en família</h2>
         <a href="#"><div class="btn-slogan tossing">Empieza la Aventura</div></a>
       </div>
     </div>
   </header>
 
-<!--Primer contenedor FLEX PRESENTACION-->
-<div class="container color-bg-yellow bg-img">
- <!--contenido izquierdo--> 
-  
-    <div class="container-flex wrap">
+  <section><!--contenedor FLEX 1-->
+    <div class="container color-bg-yellow bg-img">
+      <div class="container-flex wrap">
 
-      <div class="content-flex-1 f-basis-4 center color-txt-white">
-        <div class="placeholder-round-img"></div>
-        <h1 class="color-txt-green">¡Hola!</h1><h2 class="color-txt-green-drk"> Me llamo Rumble<br> ¿Quieres jugar conmigo?</h2><br>
-      </div>
+    <!--contenido izquierdo--> 
+        <div class="content-flex-1 f-basis-4 center color-txt-white">
+          <div class="placeholder-round-img"></div>
+          <h1 class="color-txt-green-drk">¡Hola!</h1><h2 class="color-txt-green-drk"> Me llamo Rumble<br> ¿Quieres jugar conmigo?</h2><br>
+        </div>
 
-  <!--contenido derecha-->  
-    <div class="content-flex-1 f-basis-4">
-      <div class="content-rnd-top color-txt-white"><h1>Únete a KidsCode</h1>
-      </div>
-
-  <div class="content-rnd-bottom">
-      <h2 class="color-txt-green">Imprime las Fichas<hr></h2><p class="color-txt-grey-drk">No todo queda en la pantalla</p><hr>
-      <h2 class="color-txt-green">Juega Online</h2><hr><p class="color-txt-grey-drk">Entra en mi mundo y acompáñame en mis aventuras</p><hr>
-      <h2 class="color-txt-green">Aprende a Programar</h2><p class="color-txt-grey-drk">De forma divertida y en família</p>
-      </div>
+    <!--contenido derecha-->  
+        <div class="content-flex-1 f-basis-4">
+          <div class="content-rnd-top color-txt-white"><h2>Únete a KidsCode</h2></div>
+          <div class="content-rnd-bottom">
+            <hr><h2 class="color-txt-green">Imprime las Fichas</h2><h3 class="color-txt-green-drk">No todo queda en la pantalla</h3><hr>
+            <h2 class="color-txt-green">Juega Online</h2><h3 class="color-txt-green-drk">Entra en mi mundo y juntos viviremos mil aventuras</h3><hr>
+            <h2 class="color-txt-green">Aprende a Programar</h2><h3 class="color-txt-green-drk">De forma divertida y en família<hr></h3>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
-
-<!--Segundo contenedor FLEX-->
- <div class="container color-bg-blue-bg">
- <!--contenido 1 flex--> 
-  <div class="container-flex wrap">
-    <div class="content-flex-1  max-min placeholder-bgd he f-basis-3 color-txt-white"><h3>Aprende las bases de la programación</h3></div>
-  <!--contenido 2 flex--> 
-    <div class="content-flex-1 max-min placeholder-bgd he f-basis-3 color-txt-white"><h3>Aprende las bases de la programación</h3></div>
-  <!--contenido 3 flex--> 
-    <div class="content-flex-1 max-min placeholder-bgd he f-basis-3 color-txt-white"><h3>Aprende las bases de la programación</h3></div></div></div>
-
-<div class="container color-bg-yellow">
-  <div class="container-flex color-txt-white"><h1>...empieza la aventura</h1></div>
+  <section><!--contenedor FLEX 2-->
+    <div class="container color-bg-blue-bg">
+      <!--contenido 1 flex--> 
+      <div class="container-flex wrap">
+        <div class="content-flex-1  max-min placeholder-bgd he f-basis-3 color-txt-white"><h3>Te enseñaré las bases de la programación</h3></div>
+      <!--contenido 2 flex--> 
+        <div class="content-flex-1 max-min placeholder-bgd he f-basis-3 color-txt-white"><h3>Imprímete el set de fichas de cada nivel</h3></div>
+      <!--contenido 3 flex--> 
+        <div class="content-flex-1 max-min placeholder-bgd he f-basis-3 color-txt-white"><h3>Aprende paso a paso con mis aventuras</h3></div>
+      </div>
     </div>
-</div>
+  </section>
 
-
-<!--Tercer contenedor FLEX-->
-<div class="container color-bg-yellow">
-
-<div class="container-flex wrap">
-    
-  <!--contenido 1 flex--> 
-    <div class="content-flex-3 max-min placeholder-bgd he f-basis-4 color-txt-white"><h3 class="color-txt-grey-drk">
-       <a href="#"><div class="btn-dwn tossing">Imprimir las Fichas</div></a>
-      
-<div class="number-1"></div>
-      <div class="label color-txt-green">Imprime las fichas y recórtalas<h3><p p class="color-txt-grey">Los papis te ayudarán ¿eh?</p></div></div>
-  
-  <!--contenido 2 flex--> 
-    <div class="content-flex-3 max-min placeholder-bgd he f-basis-4 color-txt-white"><h3 class="color-txt-grey-drk">
-      
-      <div class="number-2"></div>
-      <div class="label color-txt-green">Únelas<h3><p p class="color-txt-grey">Abre la aplicación móvil</p><p p class="color-txt-grey">y sigue el paso a paso</p></div></div>
-  <!--contenido 3 flex--> 
-    <div class="content-flex-3  max-min placeholder-bgd he f-basis-4 color-txt-white"><h3 class="color-txt-grey-drk">
-    <div class="number-3"></div>
-    <div class="label color-txt-green">¡Mira lo que hago!<h3><p class="color-txt-grey">Escanea el código QR</p><p p class="color-txt-grey"> para verlo</p></div></div>
+  <section><!--contenedor FLEX 3-->
+    <div class="container color-bg-yellow">
+      <div class="container-flex color-txt-white"><h1>...empieza la aventura</h1></div>
     </div>
-  </div>
-</div>
-</div>
-</div>
-  <!---->
-
-
-<!--Quinto contenedor FLEX-->
-
-<div class="container color-bg-blue">
-  <div class="container-flex wrap">
-    <div class="container-flex-1">
-      <div class="placeholder-anim-img"></div>
+      <div class="container color-bg-yellow">
+        <div class="container-flex wrap">
+          <!--contenido 1 flex--> 
+          <div class="content-flex-3 max-min placeholder-bgd he f-basis-4 color-txt-white"><h3 class="color-txt-grey-drk"><a href="#">
+            <div class="btn-dwn tossing">Imprimir las Fichas</div></a>
+            <div class="number-1"></div>
+            <div class="label color-txt-green">Imprime las fichas y recórtalas<h3><p class="color-txt-green-drk">Los papis te ayudarán ¿eh?</p>
+            </div>
+          </div>
+          <!--contenido 2 flex--> 
+          <div class="content-flex-3 max-min placeholder-bgd he f-basis-4 color-txt-white"><h3 class="color-txt-green-drk">
+            <div class="number-2"></div>
+            <div class="label color-txt-green">Únelas<h3><p class="color-txt-green-drk">Abre la aplicación móvil</p><p p class="color-txt-green-drk">y sigue el paso a paso</p></div>
+         </div>
+          <!--contenido 3 flex--> 
+          <div class="content-flex-3  max-min placeholder-bgd he f-basis-4 color-txt-white"><h3 class="color-txt-green-drk">
+            <div class="number-3"></div>
+            <div class="label color-txt-green">¡Mira lo que hago!<h3><p class="color-txt-green-drk">Escanea el código QR</p><p class="color-txt-green-drk"> para verlo</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <section><!--contenedor FLEX 4-->
+    <div class="container color-bg-blue">
+      <div class="container-flex wrap">
+        <div class="container-flex-1">
+          <div class="placeholder-anim-img"></div>
+        </div>
     <div class="content-flex-btn"><a href="#"><div class="btn-slogan">¡Juega Ya!</div></a> </div>
-  </div>
-</div>
-
-
-
-
-<!--Quinto contenedor FLEX -TESTIMONIALES-->
-
-<div class="container color-bg-yellow">
-<div class="container-flex wrap">
-    <div class="content-flex-1  max-min f-basis-4  center color-txt-white"><div class="placeholder-round-img"></div><h3 class="color-txt-grey-drk txt-margin">"Se divierten y además aprender, ¿Qué más puedo pedir para los peques?"</h3><h3>Pere Luján</h3><p>Padre de Lina y Laura</p></div>
-  <!--contenido 2 flex--> 
-    <div class="content-flex-1 max-min f-basis-4 center color-txt-white"><div class="placeholder-round-img"></div><h3 class="color-txt-grey-drk txt-margin">"Una herramienta muy útil para mostrar las posibilidades de la programación a los niños"<h3><h3>Marina Perea</h3><p>Madre de Bruna</p></div>
-  <!--contenido 3 flex--> 
-    <div class="content-flex-1 max-min f-basis-4 center color-txt-white"><div class="placeholder-round-img"></div><h3 class="color-txt-grey-drk txt-margin">"Cada día las veo aprender algo nuevo, algo que compartimos"<h3><h3>Pedro Cuesta Luján</h3><p>Padre de Neus y Joana</p></div>
-    
-
-<!--Sexto contenedor FLEX - FOOTER-->
-    <div class="container-flex wrap color-bg-yellow color-txt-white"><h2>...Y ahora ¿Jugamos?</h2></div>
+      </div>
     </div>
+  </section>
 
+  <section><!--contenedor FLEX 5-->
+    <div class="container color-bg-yellow">
+      <!--contenido 1 flex--> 
+      <div class="container-flex wrap">
+        <div class="content-flex-1  max-min f-basis-4  center color-txt-white"><div class="placeholder-round-img"></div><h3 class="color-txt-green txt-margin">"Se divierten y además aprender, ¿Qué más puedo pedir para los peques?"</h3><h3 class="color-txt-green-drk">Pere Luján</h3><p class="color-txt-green-drk">Padre de Lina y Laura</p></div>
+      <!--contenido 2 flex--> 
+      <div class="content-flex-1 max-min f-basis-4 center color-txt-white"><div class="placeholder-round-img"></div><h3 class="color-txt-green txt-margin">"Una herramienta básica para mostrar las posibilidades de la programación a los niños"<h3><h3 class="color-txt-green-drk">Marina Perea</h3><p class="color-txt-green-drk">Madre de Bruna</p></div>
+      <!--contenido 3 flex--> 
+      <div class="content-flex-1 max-min f-basis-4 center color-txt-white"><div class="placeholder-round-img"></div><h3 class="color-txt-green txt-margin">"Cada día las veo aprender algo nuevo, algo que compartimos"<h3><h3 class="color-txt-green-drk">Pedro Cuesta Luján</h3><p class="color-txt-green-drk">Padre de Neus y Joana</p></div>
+      <div class="container-flex wrap color-bg-yellow color-txt-white"><h2>...Y ahora ¿Jugamos?</h2></div>
+      </div>
     </div>
+  </section>
+  
+  <footer><!--contenedor 6-->
     <div class="container-block"><a href="#"><div class="btn-slogan tossing ">¡Juega ya!</div></a></div>
-   <div class="container-block"><h4><footer>
-      <div class="contact"> proyectokidscode@gmail.com </div>
-      <div class="copyright"> Copyright © 2016 Kids Code </div>
-    </footer></h4>
-
-  </div>
-</div>
-
-
+    <div class="container-block"><h4><footer>
+      <div class="contact color-txt-green"> proyectokidscode@gmail.com </div>
+      <div class="copyright color-txt-green-drk"> Copyright © 2016 Kids Code </div>
+    </div>
+  </footer></h4>
 </body>
-<script>
+  <!-- execute button animations-->
+  <script>
   $('.btn-slogan').click(function() {
     $(this).addClass("slideUp");
   });
-</script>
+  </script>
 </html>

@@ -29,8 +29,7 @@
 }
 
 .container{
-    width: 100%;
-    background-image: url("../img/back.svg");    
+    width: 100%;  
 }
 .container-flex{
     display: flex;
@@ -43,7 +42,8 @@
     margin:auto;
 }
 
-.content-flex-1, .content-flex-2{
+.content{
+    &-flex-1, &-flex-2{
     display:flex;
     flex:1;
     flex-direction: column;
@@ -51,15 +51,9 @@
     justify-content: flex-end;
     text-align: center;
     margin: 0.25rem 0.25rem 0rem 0;
-}
+    }
 
-.max-min{
-    min-width: 300px;
-    max-width: 400px;
-}
-
-
-.content-flex-3{
+    &-flex-3{
     display:flex;
     flex:1;
     flex-direction: column;
@@ -67,9 +61,9 @@
     justify-content: flex-end;
     text-align: center;
     margin: 0rem 1rem 7rem 1rem;
-}
+    }
 
-.content-flex-4{
+    &-flex-4{
     display:flex;
     flex:1;
     flex-direction: column;
@@ -77,43 +71,44 @@
     justify-content: flex-end;
     text-align: center;
     margin: 0.25rem 0.25rem 0rem 0;
-}
-.content-flex-btn{
+    }
+    
+    &-flex-btn{
     width:auto;
     align-self:center;
     margin: 1rem;
-
+    }
 }
 
 .flex-align-center{
     align-self:center;
 }
-.f-basis-5{
+.f{
+    &-basis-5{
     flex-basis:500px;
-}
-.f-basis-4{
+    }
+    &-basis-4{
     flex-basis:400px;
-}
-.f-basis-3{
+    }
+    &-basis-3{
     flex-basis:300px;
-}
-.f-basis-2{
+    }
+    &-basis-2{
     flex-basis:200px;
+    }
 }
 .flex-content-center{
     align-self:center;
     justify-content: center;
 }
-.content-bottom{
-    align-self:center;
-    justify-content: flex-end;
-}
+
 .he{height:500px;}
 
 //Caja contenedora
-.content-rnd-top{
+.content{
+    &-rnd-top{
     margin:auto;
-    padding:0rem;
+    padding:1.25rem 0rem;
     width:95%;
     background-color:$primaryColorBgPink;
     border-top-left-radius:1rem;
@@ -123,8 +118,9 @@
     border:1px solid $secondaryColorBgPink2;
     text-align:center;
     box-shadow:$colorShadowBtn 0px 1px 1px;
-}
-.content-rnd-bottom{
+    }
+
+    &-rnd-bottom{
     margin:auto;
     padding:1rem 0rem 1rem 0rem;
     width:95%;
@@ -137,29 +133,38 @@
     //border:1px solid $secondaryColorBgBlack1;
     padding: 1rem 1rem 3rem 1rem;
     //box-shadow:$colorShadowBtn 0px 1px 1px;
+    }
+    
+    &-bottom{
+    align-self:center;
+    justify-content: flex-end;
+    }
+
+    &-float{
+    float:left;
+    }
 }
 
 .center{
     display: inline-block;
     text-align: center;
 }
-.container-block{
+.container{
+    &-block{
     width: 100%;
     margin: auto;
     text-align: center;
-}
-.container-center{
+    }
+    
+    &-center{
     display: block;
     width: 100%;
     margin: auto;
-}
+    }
 
-.container-inline{
+    &-inline{
     display: inline-block;
-}
-
-.content-float{
-    float:left;
+    }
 }
 
 .justify-center{
@@ -196,7 +201,11 @@
     justify-content: flex-end;
     box-shadow: $colorShadowBtn 0px 3px 3px;
 }
+.max-min{
+    min-width: 300px;
+    max-width: 400px;
+}
 hr{
-    border:1px dotted $secondaryColorBgPink2;
+    border:1px dotted $secondaryColorBgGreen2;
     margin: 1rem;
 }
