@@ -406,7 +406,7 @@ h6 {
       -ms-flex-pack: end;
           justify-content: flex-end;
   text-align: center;
-  margin: 0rem 1rem 7rem 1rem; }
+  margin: 0rem 0em 7rem 0rem; }
 
 .content-flex-4 {
   display: -webkit-box;
