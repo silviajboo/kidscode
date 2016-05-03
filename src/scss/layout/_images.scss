@@ -8,17 +8,23 @@
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 500px;
+    //height: 500px;
     background-image: url("../img/bg-movil.svg");
     background-size: cover;
-    background-position: top; 
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: top center;
+    height: 100vw;
+    height: 100vh;
+    //background-position: top; 
+    //background-repeat: no-repeat;
+    //background-attachment: scroll;
+    //background-position: top center;
     
     /*MEDIA QUERIES*/
 
     /*Tablet*/
+    @media only screen and (min-width: 568px) and (max-width: 767px){
+        background-image: url("../img/bg-movil-p.svg");
+    }
+
     @media only screen and (min-width: 768px) and (max-width: 1023px){
         background-image: url("../img/bg-tablet.svg");
     }

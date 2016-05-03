@@ -315,16 +315,16 @@ hr {
       -ms-flex-pack: center;
           justify-content: center;
   width: auto;
-  height: 500px;
   background-image: url("../img/bg-movil.svg");
   background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top center;
+  height: 100vw;
+  height: 100vh;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
+  @media only screen and (min-width: 568px) and (max-width: 767px) {
+    .header {
+      background-image: url("../img/bg-movil-p.svg"); } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .header {
       background-image: url("../img/bg-tablet.svg"); } }
