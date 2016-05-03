@@ -184,23 +184,42 @@
     margin:auto;
     padding-top:1rem;
     width: 280px;
-    height: 200px;
-    background-color:grey;
+    height: 223px;
+    background-image: url("../img/Demo-tablet-M.gif");
     border-color:3px solid #ffffff;
+    background-repeat:no-repeat;
     /*MEDIA QUERIES*/
     /*Tablet*/
     @media only screen and (min-width: 768px) and (max-width: 1023px){
-        width:630px;
-        height: 350px;
+        background-image: url("../img/Demo-tablet-T.gif");
+        width:500px;
+        height: 389px;
+        background-repeat:no-repeat;
     }
     /*Desktop*/
     @media only screen and (min-width: 1024px){
-        width: 720px;
-        height: 400px;
+        background-image: url("../img/Demo-tablet2.gif");
+        width: 700px;
+        height: 557px;
+        background-repeat:no-repeat;
     }
 }
-.placeholder-bgd{
-       background-color:#404040;
+
+.step1-bgd{
+       background-image: url("../img/set.svg");
+       background-repeat: no-repeat;
+       padding:1rem;
+       width: 50%;
+}
+.step2-bgd{
+       background-image: url("../img/fichas.svg");
+       background-repeat: no-repeat;
+       padding:1rem;
+       width: 50%;
+}
+.step3-bgd{
+       background-image: url("../img/step3.svg");
+       background-repeat: no-repeat;
        padding:1rem;
        width: 50%;
 }

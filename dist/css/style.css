@@ -98,7 +98,7 @@
   text-align: center;
   margin: 0rem 0em 7rem 0rem;
   border: 1px solid green;
-  min-height: 625px; }
+  min-height: 500px; }
 
 .content-flex-4 {
   display: -webkit-box;
@@ -480,23 +480,41 @@ hr {
   margin: auto;
   padding-top: 1rem;
   width: 280px;
-  height: 200px;
-  background-color: grey;
+  height: 223px;
+  background-image: url("../img/Demo-tablet-M.gif");
   border-color: 3px solid #ffffff;
+  background-repeat: no-repeat;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .placeholder-anim-img {
-      width: 630px;
-      height: 350px; } }
+      background-image: url("../img/Demo-tablet-T.gif");
+      width: 500px;
+      height: 389px;
+      background-repeat: no-repeat; } }
   @media only screen and (min-width: 1024px) {
     .placeholder-anim-img {
-      width: 720px;
-      height: 400px; } }
+      background-image: url("../img/Demo-tablet2.gif");
+      width: 700px;
+      height: 557px;
+      background-repeat: no-repeat; } }
 
-.placeholder-bgd {
-  background-color: #404040;
+.step1-bgd {
+  background-image: url("../img/set.svg");
+  background-repeat: no-repeat;
+  padding: 1rem;
+  width: 50%; }
+
+.step2-bgd {
+  background-image: url("../img/fichas.svg");
+  background-repeat: no-repeat;
+  padding: 1rem;
+  width: 50%; }
+
+.step3-bgd {
+  background-image: url("../img/step3.svg");
+  background-repeat: no-repeat;
   padding: 1rem;
   width: 50%; }
 
@@ -614,17 +632,17 @@ hr {
 
 .btn-dwn {
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   box-shadow: #B9B7B7 0px 3px 3px;
   border: 5px solid #ffffff;
   color: #ffffff;
   font-weight: 700;
   text-decoration: none;
   background-color: #0097e8;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   border-radius: 10px;
   width: 90%;
-  padding: 1.75rem 2.5rem 1.75rem 2.5rem;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
 

@@ -21,17 +21,17 @@
 	}
 	&-dwn{
 		display:inline-block;
-		margin-bottom: 1rem;
+		margin-bottom: 0rem;
 		box-shadow:$colorShadowBtn 0px 3px 3px;
 		border: 5px solid $primaryColorWhite;
 		color:$primaryColorWhite;
 		font-weight: 700;
 		text-decoration: none;
 		background-color: $secondaryColorBgBlue3;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		border-radius: 10px;
 		width:90%;
-		padding: 1.75rem 2.5rem 1.75rem 2.5rem;
+		padding: 1.5rem 2.5rem 1.5rem 2.5rem;
 		transition: all 0.3s ease 0s;
 	}
 
