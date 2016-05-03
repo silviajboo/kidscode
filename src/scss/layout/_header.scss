@@ -1,29 +1,37 @@
-.header{
-    display: flex;
+
+.header-txt{
+    flex:1;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    background-image: url("../img/bgMobile.svg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: top center;
-    
+    color:$primaryColorWhite;
+    text-align: center;
+    margin: 0rem, 1.25rem;
+    align-self:flex-end;
     /*MEDIA QUERIES*/
 
     /*Tablet*/
     @media only screen and (min-width: 768px) and (max-width: 1023px){
-        background-image: url("../img/bgTablet.svg");
+        margin: 0rem, 5rem;
     }
 
     /*Desktop*/
     @media only screen and (min-width: 1024px){
-        background-image: url("../img/bgDesktop.svg");    
+        margin: 0rem, 10rem;
     }
 }
+.header-txt-content{
+    width:80%;
+    margin:auto;
 
+
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        width:60%;
+    }
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        width:40%;
+    }
+}
 .slogan{
     max-width: 100%;
     padding: 0rem;
@@ -34,10 +42,10 @@
     
     /*MEDIA QUERIES*/
     /*Tablet*/
-    @media only screen and (min-width: 568px) and (max-width: 765px){
+    @media only screen and (min-width: 320px) and (max-width: 765px){
         max-width: 100%;
-        margin: 9% 3% 0% 0%;
-        margin-bottom:5%;
+        margin: 40% 3% 0% 0%;
+        margin-bottom:0%;
     }
     @media only screen and (min-width: 768px) and (max-width: 1023px){
         max-width: 40%;
@@ -50,7 +58,6 @@
         margin: 24% auto 3% 10%;
     }
 }
-
 .logo{
     display: flex;
     flex-direction: column;

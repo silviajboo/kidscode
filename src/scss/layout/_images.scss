@@ -2,6 +2,66 @@
 //en la web
 
 //ilustración monster con isla debajo
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 500px;
+    background-image: url("../img/bg-movil.svg");
+    background-size: cover;
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+    
+    /*MEDIA QUERIES*/
+
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        background-image: url("../img/bg-tablet.svg");
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        background-image: url("../img/bg-desktop.svg");  
+    }
+}
+
+.logo-kidscode{
+    margin:auto;
+    padding-top:0rem;
+    height: 150px;
+    width: 250px;
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+}
+
+.arg1-img{
+    background-image: url("../img/arg-1.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:395px;
+}
+.arg2-img{
+    background-image: url("../img/arg-2.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:150px;
+    height:395px;
+    margin-bottom: 2rem;
+}
+.arg3-img{
+    background-image: url("../img/arg-3.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:150px;
+    height:395px;
+}
+
+
 .rumble-island{
     max-width: 70%;
     margin: auto;
@@ -40,14 +100,15 @@
     margin: 0 3rem 0 0;
     float: right;
 }*/
-.placeholder-round-img{
+.rumble-img{
     margin:auto;
     padding-top:0rem;
-    height: 280px;
-    width: 280px;
-    background-color:grey;
-    border-radius: 100%;
-    border-color:3px solid #ffffff;
+    height: 240px;
+    width: 300px;
+    background-image: url("../img/rumble.svg");
+    background-repeat: no-repeat;
+     @media only screen and (min-width: 320px) and (max-width: 1023px){
+    }
 }
 
 .placeholder-rect-img{

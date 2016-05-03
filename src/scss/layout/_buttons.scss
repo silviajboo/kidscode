@@ -35,6 +35,40 @@
 		transition: all 0.3s ease 0s;
 	}
 
+	&-call {
+		display:inline-block;
+		align-items: flex-start;
+		margin-bottom: 2rem;
+		box-shadow:$colorShadowBtn 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;
+		color:$primaryColorWhite;
+		font-weight: 400;
+		text-decoration: none;
+		background-color: $secondaryColorBgBlue3;
+		font-size: 1.5rem;
+		line-height: 2.25rem;
+		border-radius: 10px;
+		padding: 1rem;
+		transition: all 0.3s ease 0s;
+
+		/*MEDIA QUERIES*/
+    	/*Tablet*/
+    	@media only screen and (min-width: 768px) and (max-width: 1023px){
+    	  margin: 2rem 0 3rem 0;
+    	  font-size: 2rem;
+		  line-height: 2.25rem;
+    	}
+
+   		/*Desktop*/
+    	@media screen and (min-width: 1024px){
+      	  margin: 1.5rem 0 2rem 0;
+      	  font-size: 2rem;
+		  line-height: 2.25rem;
+    	}
+
+	}
+
+
 	&-slogan {
 		display:inline-block;
 		align-items: flex-start;
@@ -45,7 +79,7 @@
 		font-weight: 700;
 		text-decoration: none;
 		background-color: $secondaryColorBgBlue3;
-		font-size: 2rem;
+		font-size: 1.75rem;
 		line-height: 2.25rem;
 		border-radius: 10px;
 		padding: 1rem;

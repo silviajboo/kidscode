@@ -3,7 +3,6 @@ body {
     line-height: 1.5rem;
     font-family: 'Montserrat', sans-serif;    
     font-weight: 400;
-    /*background:url("ritmo.gif");*/
     text-rendering: optimizeLegibility;
     max-width:100%;  
     height: auto;
@@ -35,7 +34,7 @@ p{
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 2.75rem;
     margin-top: 1.36rem;
     margin-bottom: 1.36rem;
@@ -43,7 +42,7 @@ h1{
 
     /*Desktop & tablet*/
     @media only screen and (min-width: 768px){
-    font-size: 5rem;
+    font-size: 3.5rem;
     line-height: 3.75rem; 
     }
 }
@@ -64,27 +63,32 @@ h1{
 }
 
 h2{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-weight: 700;
     
     @media only screen and (min-width: 768px){
-    font-size: 3rem;
-    line-height: 3.3rem;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-weight: 700;
     }
 }
 
 h3{
-    font-size: 1.5rem;
-    line-height: 1.9rem;
-    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+@media only screen and (min-width: 768px){
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 0rem;
     margin-bottom: 0rem;
-    font-weight: 700;
+    font-weight: 400;
+    }
 }
 
 h4{
@@ -123,4 +127,10 @@ h6{
 }
 .txt-margin{
     margin: 1rem;
+}
+.capitalLetter{
+   float:left;
+   font-family: 'Open Sans',sans-serif;
+   font-size:5rem;
+   margin-left:-20px;
 }

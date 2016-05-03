@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    border:1px solid orange;
     
     /*MEDIA QUERIES*/
     /*Tablet*/
@@ -29,7 +30,8 @@
 }
 
 .container{
-    width: 100%;  
+    width: 100%;
+    border:1px solid blue;; 
 }
 .container-flex{
     display: flex;
@@ -102,7 +104,9 @@
     justify-content: center;
 }
 
-.he{height:500px;}
+.he{height:700px;
+border:1px solid red;
+}
 
 //Caja contenedora
 .content{
@@ -117,12 +121,13 @@
     border-bottom-right-radius:0rem;
     border:1px solid $secondaryColorBgPink2;
     text-align:center;
-    box-shadow:$colorShadowBtn 0px 1px 1px;
+    box-shadow: 0px 1px 5px $secondaryColorBgBlack2;
+    z-index:10;
     }
 
     &-rnd-bottom{
     margin:auto;
-    padding:1rem 0rem 1rem 0rem;
+    padding:1rem 0.75rem 1rem 0.75rem;
     width:95%;
     background-color:$primaryColorWhite;
     border-top-left-radius:0rem;
@@ -130,10 +135,10 @@
     border-bottom-left-radius:1rem;
     border-bottom-right-radius:1rem;
     text-align:center;
-    //border:1px solid $secondaryColorBgBlack1;
-    padding: 1rem 1rem 3rem 1rem;
-    //box-shadow:$colorShadowBtn 0px 1px 1px;
+    box-shadow: 0px 1px 5px $secondaryColorBgBlack2;
+    @media only screen and (min-width: 768px){
     }
+}
     
     &-bottom{
     align-self:center;
@@ -203,9 +208,12 @@
 }
 .max-min{
     min-width: 300px;
-    max-width: 400px;
+    max-width: 360px;
 }
 hr{
     border:1px dotted $secondaryColorBgGreen2;
     margin: 1rem;
+}
+.testimonial{
+    padding:2rem 1rem 2rem 1rem;
 }

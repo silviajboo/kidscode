@@ -1,13 +1,10 @@
-@import 'settings';
-@import 'typography';
-@import 'header';
-@import 'content/clearfix';
+@import 'variables/color-variables';
+@import 'layout/header';
+@import 'vendor/clearfix';
 @import 'colors/color-background';
 @import 'colors/color-text';
-@import 'content/generic';
-@import 'content/images';
-@import 'content/about';
-@import 'content/steps';
-@import 'buttons';
-@import 'footer';
+@import 'layout/generic';
+@import 'layout/images';
+@import 'layout/buttons';
+@import 'layout/footer';
 
