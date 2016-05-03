@@ -30,8 +30,7 @@
 }
 
 .container{
-    width: 100%;
-    border:1px solid blue;; 
+    width: 100%; 
 }
 .container-flex{
     display: flex;
@@ -102,10 +101,6 @@
 .flex-content-center{
     align-self:center;
     justify-content: center;
-}
-
-.he{height:700px;
-border:1px solid red;
 }
 
 //Caja contenedora

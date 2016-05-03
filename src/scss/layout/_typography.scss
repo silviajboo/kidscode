@@ -47,29 +47,24 @@ h1{
     }
 }
 .t-h1{
-    font-size: 1.75rem;
+    font-size: 3rem;
     line-height: 2rem;
 
-    /*MEDIA QUERIES*/
-    /*Tablet*/
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-        
-    }
-    /*Desktop*/
-    @media only screen and (min-width: 1024px){
-        font-size: 2.5rem;
-        line-height: 2.7rem;   
+/*Desktop & tablet*/
+    @media only screen and (min-width: 768px){
+    font-size: 3.5rem;
+    line-height: 3.75rem; 
     }
 }
 
 h2{
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-weight: 700;
     
-    @media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
     font-size: 2rem;
     line-height: 2.5rem;
     margin-top: 1rem;
