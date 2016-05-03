@@ -4,60 +4,44 @@
     flex-direction: column;
     color:$primaryColorWhite;
     text-align: center;
-    margin: 0rem, 1.25rem;
+    margin-bottom: 10%;
     align-self:flex-end;
     /*MEDIA QUERIES*/
 
-    /*Tablet*/
+    //Mobile Portrait
+    @media only screen and (min-width: 550px) and (max-width: 767px){
+          margin-bottom: -3%;
+    }
+    //Tablet Landscape
     @media only screen and (min-width: 768px) and (max-width: 1023px){
-        margin: 0rem, 5rem;
+        margin-bottom: 10%;
+    }
+
+    //Tablet Portrait
+    @media only screen and (min-width: 980px){
+        margin-bottom: 15%;
     }
 
     /*Desktop*/
     @media only screen and (min-width: 1024px){
-        margin: 0rem, 10rem;
+        margin-bottom: 5%;
     }
 }
-.header-txt-content{
+/*.header-txt-content{
     width:80%;
     margin:auto;
 
 
-    /*Tablet*/
+    //Tablet
     @media only screen and (min-width: 768px) and (max-width: 1023px){
         width:60%;
     }
-    /*Desktop*/
+    //Desktop
     @media only screen and (min-width: 1024px){
         width:40%;
     }
 }
-.slogan{
-    max-width: 100%;
-    padding: 0rem;
-    margin: 20% auto auto auto;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom:20%;
-    
-    /*MEDIA QUERIES*/
-    /*Tablet*/
-    @media only screen and (min-width: 320px) and (max-width: 765px){
-        max-width: 100%;
-        margin: 40% 3% 0% 0%;
-        margin-bottom:0%;
-    }
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-        max-width: 40%;
-        margin: 60% auto 3% 10%;
-    }
-
-    /*Desktop*/
-    @media only screen and (min-width: 1024px){
-        max-width: 39%;
-        margin: 24% auto 3% 10%;
-    }
-}
+*/
 .logo{
     display: flex;
     flex-direction: column;
@@ -72,7 +56,6 @@
     @media only screen and (min-width: 768px) and (max-width: 1023px){
         display: none;
     }
-
     /*Desktop*/
     @media only screen and (min-width: 1024px){
         display: none;

@@ -20,11 +20,11 @@
     
     /*MEDIA QUERIES*/
 
-    /*Tablet*/
+    //Mobile landscape
     @media only screen and (min-width: 568px) and (max-width: 767px){
         background-image: url("../img/bg-movil-p.svg");
     }
-
+    //Tablet
     @media only screen and (min-width: 768px) and (max-width: 1023px){
         background-image: url("../img/bg-tablet.svg");
     }
@@ -34,7 +34,16 @@
         background-image: url("../img/bg-desktop.svg");  
     }
 }
-
+.rumble-img{
+    margin:auto;
+    padding-top:0rem;
+    height: 250px;
+    width: 295px;
+    background-image: url("../img/rumble.svg");
+    background-repeat: no-repeat;
+     @media only screen and (min-width: 320px) and (max-width: 1023px){
+    }
+}
 .logo-kidscode{
     margin:auto;
     padding-top:0rem;
@@ -48,33 +57,56 @@
     background-image: url("../img/arg-1.svg");
     background-repeat: no-repeat;
     background-size:cover;
-    flex-basis:400px;
-    height:400px;
-    min-width:350px;
+    flex-basis:300px;
+    width:280px;
+    height:445px;
+    max-width:300px;
     margin:auto;
+
 }
 .arg2-img{
     background-image: url("../img/arg-2.svg");
     background-repeat: no-repeat;
     background-size:cover;
-    flex-basis:400px;
-    width:150px;
-    height:400px;
-    min-width:250px;
+    flex-basis:300px;
+    width:280px;
+    height:440px;
+    max-width:300px;
     margin:auto;
 }
 .arg3-img{
     background-image: url("../img/arg-3.svg");
     background-repeat: no-repeat;
     background-size:cover;
-    flex-basis:400px;
-    width:150px;
-    height:400px;
-    min-width:250px;
+    flex-basis:300px;
+    width:280px;
+    height:430px;
+    max-width:300px;
     margin:auto;
 }
 
+.bg-clouds{
+    background-image: url("../img/bg-clouds.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+    background-image: url("../img/bg-clouds-sm.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+}
+.bg-molino{
+    background-image: url("../img/bg-molino.svg");
+    background-repeat: repeat-x;
+    height: 320px;
+    }
 
+.bg-tierra{
+    background-image: url("../img/tierra-sm.svg");
+    background-repeat: repeat-x;
+    height:175px;
+}
+    
 .rumble-island{
     max-width: 70%;
     margin: auto;
@@ -85,6 +117,22 @@
     @media only screen and (min-width: 768px) and (max-width: 1023px){
         min-width: 70%;
     }
+}
+.step1{
+    background-image: url("../img/set.svg");
+    background-repeat: no-repeat;
+    flex-basis:300px;
+    width:300px;
+    height: 215px;
+    margin:auto;
+}
+.step2{
+    background-image: url("../img/fichas.svg");
+    background-repeat: no-repeat;
+    flex-basis:300px;
+    width:300px;
+    height: 200px;
+    margin:auto;
 }
 
 /*decoración puzzles*/
@@ -113,16 +161,7 @@
     margin: 0 3rem 0 0;
     float: right;
 }*/
-.rumble-img{
-    margin:auto;
-    padding-top:0rem;
-    height: 240px;
-    width: 300px;
-    background-image: url("../img/rumble.svg");
-    background-repeat: no-repeat;
-     @media only screen and (min-width: 320px) and (max-width: 1023px){
-    }
-}
+
 
 .placeholder-rect-img{
     margin:auto;
