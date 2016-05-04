@@ -702,40 +702,6 @@ hr {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
 
-.btn-call {
-  display: inline-block;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-              -ms-grid-row-align: flex-start;
-          align-items: flex-start;
-  margin-bottom: 2rem;
-  box-shadow: #B9B7B7 0px 3px 3px;
-  border: 5px solid #ffffff;
-  color: #ffffff;
-  font-weight: 400;
-  text-decoration: none;
-  background-color: #0097e8;
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-  border-radius: 10px;
-  padding: 1rem;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  /*MEDIA QUERIES*/
-  /*Tablet*/
-  /*Desktop*/ }
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .btn-call {
-      margin: 2rem 0 3rem 0;
-      font-size: 2rem;
-      line-height: 2.25rem; } }
-  @media screen and (min-width: 1024px) {
-    .btn-call {
-      margin: 1.5rem 0 2rem 0;
-      font-size: 2rem;
-      line-height: 2.25rem; } }
-
 .btn-slogan {
   display: inline-block;
   -webkit-box-align: start;
@@ -914,7 +880,8 @@ a {
 
 /*typography*/
 p {
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem;
   margin-top: 1rem;
@@ -966,17 +933,17 @@ h2 {
       font-weight: 700; } }
 
 h3 {
-  font-family: 'Source Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
-  font-weight: 400; }
+  font-weight: 700; }
   @media only screen and (min-width: 768px) {
     h3 {
       font-size: 1.3rem;
       line-height: 2rem;
       margin-top: 0rem;
       margin-bottom: 0rem;
-      font-weight: 400; } }
+      font-weight: 700; } }
 
 h4 {
   font-size: 1rem;
