@@ -58,12 +58,12 @@
     display:flex;
     flex:1;
     flex-direction: column;
-    padding:0rem 0rem 2rem 0rem;
+    padding:0rem 0rem 0rem 0rem;
     justify-content: flex-end;
     text-align: center;
-    margin: 0rem 0em 7rem 0rem;
-    border: 1px solid green;
+    margin: 0rem 0em 0rem 0rem;
     min-height:500px;
+    border: 1px solid red;
     }
 
     &-flex-4{
@@ -206,7 +206,6 @@
     margin-left: 3%;
     justify-content: flex-end;
     box-shadow: $colorShadowBtn 0px 3px 3px;
-    border:1px solid red;
 }
 .max-min{
     min-width: 300px;

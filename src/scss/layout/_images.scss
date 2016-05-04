@@ -118,7 +118,7 @@
         min-width: 70%;
     }
 }
-.step1{
+/*.step1{
     background-image: url("../img/set.svg");
     background-repeat: no-repeat;
     flex-basis:300px;
@@ -134,6 +134,7 @@
     height: 200px;
     margin:auto;
 }
+*/
 
 /*decoración puzzles*/
 .puzzle{
@@ -289,7 +290,7 @@
     margin-bottom: -40px;
     margin-left:0px;
     box-shadow:$colorShadowBtn 0px 3px 3px;
-    visibility: hidden;
+    visibility: visible;
 }
 .number-2{
     z-index: 10;
@@ -306,7 +307,7 @@
     margin-left:0px;
     box-shadow:$colorShadowBtn 0px 3px 3px;
     z-index: 10;
-    visibility: hidden;
+    visibility: visible;
 }
 .number-3{
     z-index: 10;
@@ -322,8 +323,33 @@
     margin-bottom: -40px;
     margin-left:0px;
     box-shadow:$colorShadowBtn 0px 3px 3px;
-    visibility: hidden;
+    visibility: visible;
 }
 .bg-img{
     background-image: url("../img/bg.svg");  
+}
+.bird1{
+    display:float;
+    float: right;
+    background-image: url("../img/bird1.svg");
+    background-size:cover;
+    width:75px;
+    height: 75px;
+    margin:0rem 10rem 0 2rem;
+}
+.bird2{
+    display:float;
+    float: right;
+    background-image: url("../img/bird2.svg");
+    background-size:cover;
+    width:75px;
+    height: 60px;
+    margin:7rem 0 0 1.5rem;
+}
+.butterfly{
+    position: absolute;
+    background-image: url("../img/butterfly.svg");
+    background-size:cover;
+    width:75px;
+    height: 75px;
 }

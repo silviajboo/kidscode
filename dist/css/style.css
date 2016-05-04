@@ -90,15 +90,15 @@
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0rem 0rem 2rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
   text-align: center;
-  margin: 0rem 0em 7rem 0rem;
-  border: 1px solid green;
-  min-height: 500px; }
+  margin: 0rem 0em 0rem 0rem;
+  min-height: 500px;
+  border: 1px solid red; }
 
 .content-flex-4 {
   display: -webkit-box;
@@ -284,8 +284,7 @@
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  box-shadow: #B9B7B7 0px 3px 3px;
-  border: 1px solid red; }
+  box-shadow: #B9B7B7 0px 3px 3px; }
 
 .max-min {
   min-width: 300px;
@@ -415,26 +414,23 @@ hr {
     .rumble-island {
       min-width: 70%; } }
 
-.step1 {
-  background-image: url("../img/set.svg");
-  background-repeat: no-repeat;
-  -webkit-flex-basis: 300px;
-      -ms-flex-preferred-size: 300px;
-          flex-basis: 300px;
-  width: 300px;
-  height: 215px;
-  margin: auto; }
-
-.step2 {
-  background-image: url("../img/fichas.svg");
-  background-repeat: no-repeat;
-  -webkit-flex-basis: 300px;
-      -ms-flex-preferred-size: 300px;
-          flex-basis: 300px;
-  width: 300px;
-  height: 200px;
-  margin: auto; }
-
+/*.step1{
+    background-image: url("../img/set.svg");
+    background-repeat: no-repeat;
+    flex-basis:300px;
+    width:300px;
+    height: 215px;
+    margin:auto;
+}
+.step2{
+    background-image: url("../img/fichas.svg");
+    background-repeat: no-repeat;
+    flex-basis:300px;
+    width:300px;
+    height: 200px;
+    margin:auto;
+}
+*/
 /*decoración puzzles*/
 .puzzle {
   min-height: 5rem;
@@ -573,7 +569,7 @@ hr {
   margin-bottom: -40px;
   margin-left: 0px;
   box-shadow: #B9B7B7 0px 3px 3px;
-  visibility: hidden; }
+  visibility: visible; }
 
 .number-2 {
   z-index: 10;
@@ -590,7 +586,7 @@ hr {
   margin-left: 0px;
   box-shadow: #B9B7B7 0px 3px 3px;
   z-index: 10;
-  visibility: hidden; }
+  visibility: visible; }
 
 .number-3 {
   z-index: 10;
@@ -606,10 +602,35 @@ hr {
   margin-bottom: -40px;
   margin-left: 0px;
   box-shadow: #B9B7B7 0px 3px 3px;
-  visibility: hidden; }
+  visibility: visible; }
 
 .bg-img {
   background-image: url("../img/bg.svg"); }
+
+.bird1 {
+  display: float;
+  float: right;
+  background-image: url("../img/bird1.svg");
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  margin: 0rem 10rem 0 2rem; }
+
+.bird2 {
+  display: float;
+  float: right;
+  background-image: url("../img/bird2.svg");
+  background-size: cover;
+  width: 75px;
+  height: 60px;
+  margin: 7rem 0 0 1.5rem; }
+
+.butterfly {
+  position: absolute;
+  background-image: url("../img/butterfly.svg");
+  background-size: cover;
+  width: 75px;
+  height: 75px; }
 
 /*BOTONES*/
 .btn-cam {
@@ -953,7 +974,7 @@ h6 {
   text-align: center; }
 
 .txt-margin {
-  margin: 1rem; }
+  margin: 4rem 1rem 1rem 1rem; }
 
 .capitalLetter {
   float: left;
