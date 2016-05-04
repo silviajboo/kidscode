@@ -41,6 +41,7 @@
     padding-bottom:1rem;
     text-align: center;
     margin:auto;
+    max-width: 1024px;
 }
 
 .content{
@@ -51,18 +52,20 @@
     padding:0rem 0 2rem 0rem;
     justify-content: flex-end;
     text-align: center;
+    max-width: 350px;
 
     }
 
     &-flex-3{
     display:flex;
-    flex:1;
+    flex:4;
     flex-direction: column;
     padding:0rem 0rem 0rem 0rem;
     justify-content: flex-end;
     text-align: center;
     margin: 0rem 0em 0rem 0rem;
     min-height:500px;
+    max-width: 600px;
     }
 
     &-flex-4{
@@ -73,6 +76,7 @@
     justify-content: flex-end;
     text-align: center;
     margin: 0.25rem 0.25rem 0rem 0;
+
     }
     
     &-flex-btn{
@@ -110,6 +114,7 @@
     margin:auto;
     padding:1.25rem 0rem;
     width:100%;
+    max-width: 600px;
     background-color:$primaryColorBgPink;
     border-top-left-radius:1rem;
     border-top-right-radius:1rem;
@@ -120,7 +125,6 @@
     box-shadow: 0px 1px 5px $secondaryColorBgBlack2;
     z-index:10;
     @media only screen and (min-width: 768px){
-
     }
 }
  
@@ -129,6 +133,7 @@
     margin:auto;
     padding:1rem 0.75rem 1rem 0.75rem;
     width:100%;
+    max-width: 600px;
     background-color:$primaryColorWhite;
     border-top-left-radius:0rem;
     border-top-right-radius:0rem;

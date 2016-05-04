@@ -28,7 +28,7 @@
 		font-weight: 700;
 		text-decoration: none;
 		background-color: $secondaryColorBgBlue3;
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		border-radius: 10px;
 		width:90%;
 		padding: 1.5rem 2.5rem 1.5rem 2.5rem;
@@ -39,22 +39,27 @@
 
 	&-slogan {
 		display:inline-block;
-		align-items: flex-start;
 		margin-top: 1rem;
+		margin-bottom: 3.5rem;
 		box-shadow:$colorShadowBtn 0px 3px 3px;
 		border: 5px solid $primaryColorWhite;
 		color:$primaryColorWhite;
 		font-weight: 700;
 		text-decoration: none;
 		background-color: $secondaryColorBgBlue3;
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 		line-height: 2.25rem;
 		border-radius: 10px;
-		padding: 1rem;
+		padding: 1.5rem 0.75rem;
 		transition: all 0.3s ease 0s;
 
 		/*MEDIA QUERIES*/
     	/*Tablet*/
+    	//Mobile Portrait
+    	@media only screen and (min-width: 550px) and (max-width: 767px){
+    		margin-bottom: 2.5rem;
+    	}
+
     	@media only screen and (min-width: 768px) and (max-width: 1023px){
     	  margin: 2rem 0 3rem 0;
     	  font-size: 2rem;
