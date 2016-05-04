@@ -98,7 +98,7 @@
 .bg-molino{
     background-image: url("../img/bg-molino.svg");
     background-repeat: repeat-x;
-    height: 320px;
+    height: 220px;
     }
 
 .bg-tierra{
@@ -352,4 +352,25 @@
     background-size:cover;
     width:75px;
     height: 75px;
+}
+.rs-fb{
+    background-image: url("../img/rs_fb.svg");
+    background-size:cover;
+    width:75px;
+    height: 75px;
+    margin: 10px;
+}
+.rs-go{
+    background-image: url("../img/rs_go.svg");
+    background-size:cover;
+    width:75px;
+    height: 75px;
+    margin: 10px;
+}
+.rs-tw{
+    background-image: url("../img/rs_tw.svg");
+    background-size:cover;
+    width:75px;
+    height: 75px;
+    margin: 10px;
 }
