@@ -1662,7 +1662,8 @@ hr {
   margin: 1rem; }
 
 .testimonial {
-  padding: 2rem 1rem 2rem 1rem; }
+  padding: 2rem 1rem 2rem 1rem;
+  color: black; }
 
 .container-icons {
   display: -webkit-box;
@@ -1677,7 +1678,8 @@ hr {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: auto; }
+  margin: auto;
+  visibility: hidden; }
 
 .header {
   display: -webkit-box;
@@ -1963,9 +1965,9 @@ hr {
   background-color: #7eac63;
   border: 5px solid white;
   margin-bottom: -40px;
-  margin-left: 0px;
+  margin-left: -20px;
   box-shadow: #B9B7B7 0px 3px 3px;
-  visibility: visible; }
+  visibility: hidden; }
 
 .number-2 {
   z-index: 10;
@@ -1979,10 +1981,10 @@ hr {
   background-color: #7eac63;
   border: 5px solid white;
   margin-bottom: -40px;
-  margin-left: 0px;
+  margin-left: -20px;
   box-shadow: #B9B7B7 0px 3px 3px;
   z-index: 10;
-  visibility: visible; }
+  visibility: hidden; }
 
 .number-3 {
   z-index: 10;
@@ -1996,9 +1998,9 @@ hr {
   background-color: #7eac63;
   border: 5px solid white;
   margin-bottom: -40px;
-  margin-left: 0px;
+  margin-left: -20px;
   box-shadow: #B9B7B7 0px 3px 3px;
-  visibility: visible; }
+  visibility: hidden; }
 
 .bg-img {
   background-image: url("../img/bg.svg"); }
@@ -2032,22 +2034,22 @@ hr {
 .rs-fb {
   background-image: url("../img/rs_fb.svg");
   background-size: cover;
-  width: 75px;
-  height: 75px;
+  width: 25px;
+  height: 25px;
   margin: 10px; }
 
 .rs-go {
   background-image: url("../img/rs_go.svg");
   background-size: cover;
-  width: 75px;
-  height: 75px;
+  width: 25px;
+  height: 25px;
   margin: 10px; }
 
 .rs-tw {
   background-image: url("../img/rs_tw.svg");
   background-size: cover;
-  width: 75px;
-  height: 75px;
+  width: 25px;
+  height: 25px;
   margin: 10px; }
 
 .suelo {
@@ -2283,7 +2285,8 @@ p {
   @media only screen and (min-width: 768px) {
     p {
       font-size: 1.25rem;
-      line-height: 1.5rem; } }
+      line-height: 1.5rem;
+      margin-top: 1rem; } }
 
 h1 {
   font-size: 1.85rem;

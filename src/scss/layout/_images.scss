@@ -302,9 +302,9 @@
     background-color: $primaryColorBgGreen;
     border: 5px solid white;
     margin-bottom: -40px;
-    margin-left:0px;
+    margin-left:-20px;
     box-shadow:$colorShadowBtn 0px 3px 3px;
-    visibility: visible;
+    visibility: hidden;
 }
 .number-2{
     z-index: 10;
@@ -318,10 +318,10 @@
     background-color: $primaryColorBgGreen;
     border: 5px solid white;
     margin-bottom: -40px;
-    margin-left:0px;
+    margin-left:-20px;
     box-shadow:$colorShadowBtn 0px 3px 3px;
     z-index: 10;
-    visibility: visible;
+    visibility: hidden;
 }
 .number-3{
     z-index: 10;
@@ -335,9 +335,9 @@
     background-color: $primaryColorBgGreen;
     border: 5px solid white;
     margin-bottom: -40px;
-    margin-left:0px;
+    margin-left:-20px;
     box-shadow:$colorShadowBtn 0px 3px 3px;
-    visibility: visible;
+    visibility: hidden;
 }
 .bg-img{
     background-image: url("../img/bg.svg");  
@@ -371,22 +371,22 @@
 .rs-fb{
     background-image: url("../img/rs_fb.svg");
     background-size:cover;
-    width:75px;
-    height: 75px;
+    width:25px;
+    height: 25px;
     margin: 10px;
 }
 .rs-go{
     background-image: url("../img/rs_go.svg");
     background-size:cover;
-    width:75px;
-    height: 75px;
+    width:25px;
+    height: 25px;
     margin: 10px;
 }
 .rs-tw{
     background-image: url("../img/rs_tw.svg");
     background-size:cover;
-    width:75px;
-    height: 75px;
+    width:25px;
+    height: 25px;
     margin: 10px;
 }
 .suelo{

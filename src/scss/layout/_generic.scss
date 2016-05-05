@@ -221,10 +221,12 @@ hr{
 }
 .testimonial{
     padding:2rem 1rem 2rem 1rem;
+    color:black;
 }
 .container-icons{
     display:flex;
     align-items: center;
     justify-content: center;
     margin:auto;
+    visibility: hidden;
 }
