@@ -1693,11 +1693,24 @@ hr {
   background-repeat: no-repeat; }
 
 .logo-kidscode-header {
-  width: 400px;
-  height: 200px;
+  width: 200px;
+  height: 100px;
   margin: auto;
   background-image: url("../img/logo.svg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo-kidscode-header {
+      display: block;
+      width: 400px;
+      height: 200px; } }
+  @media screen and (min-width: 1024px) {
+    .logo-kidscode-header {
+      display: block;
+      width: 400px;
+      height: 200px; } }
 
 .logo-kidscode {
   margin: auto;
@@ -2079,7 +2092,7 @@ hr {
   text-decoration: none;
   background-color: #0097e8;
   font-size: 1.5rem;
-  line-height: 2.25rem;
+  line-height: 1.75rem;
   border-radius: 10px;
   padding: 1.5rem 0.75rem;
   -webkit-transition: all 0.3s ease 0s;
@@ -2089,7 +2102,7 @@ hr {
   /*Desktop*/ }
   @media only screen and (min-width: 550px) and (max-width: 767px) {
     .btn-slogan {
-      margin-bottom: 2.5rem; } }
+      margin-bottom: 1.5rem; } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .btn-slogan {
       margin: 2rem 0 3rem 0;
@@ -2281,8 +2294,8 @@ h1 {
       line-height: 4.25rem; } }
 
 .t-h1 {
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
   /*Desktop & tablet*/ }
   @media only screen and (min-width: 768px) {
     .t-h1 {
@@ -2419,21 +2432,33 @@ h6 {
   -webkit-align-content: center;
       -ms-flex-line-pack: center;
           align-content: center;
-  width: 60%;
+  width: 100%;
   position: absolute;
-  top: 10%;
+  top: 5%;
+  margin-bottom: 30%;
   /*MEDIA QUERIES*/
   /*Desktop and tablet lands*/ }
+  @media only screen and (min-width: 550px) and (max-width: 767px) {
+    .header-txt {
+      top: 2%;
+      width: 60%; } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .header-txt {
       top: 2%;
       width: 90%; } }
   @media only screen and (min-width: 1024px) {
     .header-txt {
+      width: 60%;
       top: 7%; } }
 
 .header-txt-content {
-  margin: auto 5% auto 2%; }
+  margin: auto 5% auto 2%;
+  padding-top: 30%; }
+  @media only screen and (min-width: 550px) and (max-width: 767px) {
+    .header-txt-content {
+      margin: auto;
+      padding-top: 5%;
+      padding-left: 10%; } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .header-txt-content {
       margin: auto;
@@ -2441,7 +2466,8 @@ h6 {
       padding-left: 10%; } }
   @media only screen and (min-width: 1024px) {
     .header-txt-content {
-      margin: auto 5% auto 5%; } }
+      margin: auto 5% auto 5%;
+      padding-top: 0; } }
 
 .logo {
   display: -webkit-box;
