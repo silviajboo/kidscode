@@ -99,16 +99,26 @@
     background-size:cover;
     }
 }
-.bg-molino{
-    background-image: url("../img/bg-molino.svg");
+.bg-tierra-sup{
+    background-image: url("../img/bg-tierra-sup.svg");
     background-repeat: repeat-x;
+    position:relative;
     height: 220px;
+    z-index: 100;
     }
 
 .bg-tierra{
     background-image: url("../img/tierra-sm.svg");
     background-repeat: repeat-x;
     height:175px;
+}
+.molino{
+    background-image: url("../img/molino.svg");
+    background-repeat: no-repeat;
+    height:220px;
+    width:150px;
+    position:absolute;
+    margin-left:20%;
 }
     
 .rumble-island{
@@ -335,20 +345,21 @@
 .bird1{
     display:float;
     float: right;
+    margin-right:10%;
     background-image: url("../img/bird1.svg");
     background-size:cover;
     width:75px;
     height: 75px;
-    margin:0rem 10rem 0 2rem;
 }
 .bird2{
     display:float;
-    float: right;
+    float: left;
+    margin-top:7%;
+    margin-left:7%;
     background-image: url("../img/bird2.svg");
     background-size:cover;
     width:75px;
     height: 60px;
-    margin:7rem 0 0 1.5rem;
 }
 .butterfly{
     position: absolute;
@@ -379,6 +390,7 @@
     margin: 10px;
 }
 .suelo{
-    border-bottom-image:url("../img/m-suelo.svg");
-    repeat: repeat-x;
+    border-bottom: 25px solid transparent;
+    border-top:0px solid transparent;
+    border-image:url("../img/m-suelo.svg") 143 30 repeat;
 }
