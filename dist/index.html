@@ -33,15 +33,14 @@
   });
 </script>
 <!--Google anlytics implementation -->
-   <script>
-
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-75956014-1', 'auto');
-    ga('send', 'pageview');
+  ga('create', 'UA-75956014-1', 'auto');
+  ga('send', 'pageview');
 
   </script>
 
@@ -55,6 +54,7 @@
         <div class="header-txt-content">
           <h1 class="slideUp">La forma divertida de aprender a programar en família</h2>
         </div>
+
         <a href="#empieza"><div class="btn-slogan">Empieza la Aventura</div></a>
       </div>
     </div>
@@ -200,8 +200,8 @@
   <footer>
   <!--FOOTER de la página-->
     <div class="container-block ">
-      <a href="#"><div class="btn-slogan tossing">¡Juega ya!</div></a>
-    </div>
+      <a onClick="ga('send', 'event', 'juegaYa', 'click', 'juego1');" href="http://pacogarciapoza.github.io/kidscode_webapp/">
+      <div class="btn-slogan tossing">¡Juega ya!</div>
     <div class="container-block color-bg-brown bg-tierra"><h4>
       <div class="container-icons">
         <a href="#"><div class="rs-fb"></div></a>
