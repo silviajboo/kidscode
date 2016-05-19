@@ -48,7 +48,7 @@
 		text-decoration: none;
 		background-color: $secondaryColorBgBlue3;
 		font-size: 1.5rem;
-		line-height: 2.25rem;
+		line-height: 1.75rem;
 		border-radius: 10px;
 		padding: 1.5rem 0.75rem;
 		transition: all 0.3s ease 0s;
@@ -57,7 +57,7 @@
     	/*Tablet*/
     	//Mobile Portrait
     	@media only screen and (min-width: 550px) and (max-width: 767px){
-    		margin-bottom: 2.5rem;
+    		margin-bottom: 1.5rem;
     	}
 
     	@media only screen and (min-width: 768px) and (max-width: 1023px){

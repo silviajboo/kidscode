@@ -40,30 +40,32 @@ h1{
     line-height: 2rem;
     margin-top: 1.36rem;
     margin-bottom: 1.36rem;
-    margin-left:4%;
-    margin-right: 4%;
+    // margin-left:4%;
+    // margin-right: 4%;
     font-weight: 700;
     text-shadow: 0px 1px 5px $secondaryColorBgBlack2;
 
     //Mobile Portrait
     @media only screen and (min-width: 550px) and (max-width: 767px){
     margin-bottom: 0rem;
-    margin-left:6%;
-    margin-right: 6%;
+    // margin-left:6%;
+    // margin-right: 6%;
     font-size: 1.85rem;
     line-height: 2rem;
     }
     //Desktop & tablet
     @media only screen and (min-width: 768px){
-    margin-left:12%;
-    margin-right: 12%;
+    // margin-left:12%;
+    // margin-right: 12%;
     font-size: 4rem;
     line-height: 4.25rem;
     }
 }
 .t-h1{
-    font-size: 3rem;
-    line-height: 2rem;
+    // font-size: 2rem;
+    // line-height: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
 
 /*Desktop & tablet*/
     @media only screen and (min-width: 768px){

@@ -1,49 +1,89 @@
+//ilustración monster con isla debajo
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/bg-movil.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+    /*MEDIA QUERIES*/
+    //Mobile landscape
+    @media only screen and (min-width: 568px) and (max-width: 767px){
+        background-image: url("../img/bg-movil-p.svg");
+    }
+    //Tablet
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        background-image: url("../img/bg-tablet.svg");
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        background-image: url("../img/bg-desktop.svg");  
+    }
+}
 
 .header-txt{
     flex:1;
     flex-direction: column;
-    color:$primaryColorWhite;
+    color: $primaryColorWhite;
     text-align: center;
-    margin-bottom: 10%;
-    align-self:flex-end;
-    
+    align-content: center;
+    //margin-bottom: 1%;
+    //align-self:flex-end;
+    width: 100%;
+    //margin-left: 3%;
+    position: absolute;
+    top: 5%;
+    margin-bottom: 30%;
     
     /*MEDIA QUERIES*/
 
     //Mobile Portrait
     @media only screen and (min-width: 550px) and (max-width: 767px){
-          margin-bottom: -3%;
+          top: 2%;
+        width: 60%;
     }
-    //Tablet Landscape
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-        margin-bottom: 10%;
-    }
-
     //Tablet Portrait
-    @media only screen and (min-width: 980px){
-        margin-bottom: 15%;
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        top: 2%;
+        width: 90%;
     }
 
-    /*Desktop*/
+    /*Desktop and tablet lands*/
     @media only screen and (min-width: 1024px){
-        margin-bottom: 5%;
+        width: 60%;
+        top: 7%;
     }
 }
-/*.header-txt-content{
-    width:80%;
-    margin:auto;
 
+.header-txt-content{
+ margin: auto 5% auto 2%;
+ padding-top: 30%;
 
-    //Tablet
+//Mobile landscape
+    @media only screen and (min-width: 550px) and (max-width: 767px){
+        margin:auto;
+        padding-top: 5%;
+        padding-left: 10%;
+    }
+    //Tablet portrait
     @media only screen and (min-width: 768px) and (max-width: 1023px){
-        width:60%;
+        //margin: 50% 3% auto 3%;
+        margin:auto;
+        padding-top: 40%;
+        padding-left: 10%;
     }
     //Desktop
     @media only screen and (min-width: 1024px){
-        width:40%;
+        margin: auto 5% auto 5%;
+        padding-top: 0;
     }
 }
-*/
+
 .logo{
     display: flex;
     flex-direction: column;

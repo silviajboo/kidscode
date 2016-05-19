@@ -1253,13 +1253,16 @@ stretchRight
   background-color: #ff9f80; }
 
 .color-bg-green {
-  background-color: #7eac63; }
+  background-color: #33bb44; }
 
 .color-bg-green-drk {
   background-color: #1b6425; }
 
 .color-bg-green-lgt {
   background-color: #73d980; }
+
+.color-bg-green-mountain {
+  background-color: #7eac63; }
 
 .color-bg-blue {
   background-color: #11bbcc; }
@@ -1319,7 +1322,7 @@ stretchRight
   color: #ffffff; }
 
 .color-txt-green {
-  color: #7eac63; }
+  color: #33bb44; }
 
 .color-txt-green-drk {
   color: #1b6425; }
@@ -1681,41 +1684,6 @@ hr {
   margin: auto;
   visibility: hidden; }
 
-.header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: auto;
-  background-image: url("../img/bg-movil.svg");
-  background-size: cover;
-  height: 100vw;
-  height: 100vh;
-  /*MEDIA QUERIES*/
-  /*Desktop*/ }
-  @media only screen and (min-width: 568px) and (max-width: 767px) {
-    .header {
-      background-image: url("../img/bg-movil-p.svg"); } }
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .header {
-      background-image: url("../img/bg-tablet.svg"); } }
-  @media only screen and (min-width: 1024px) {
-    .header {
-      background-image: url("../img/bg-desktop.svg"); } }
-
 .rumble-img {
   margin: auto;
   padding-top: 0rem;
@@ -1723,6 +1691,26 @@ hr {
   width: 295px;
   background-image: url("../img/rumble.svg");
   background-repeat: no-repeat; }
+
+.logo-kidscode-header {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  background-image: url("../img/logo.svg");
+  background-repeat: no-repeat;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo-kidscode-header {
+      display: block;
+      width: 400px;
+      height: 200px; } }
+  @media screen and (min-width: 1024px) {
+    .logo-kidscode-header {
+      display: block;
+      width: 400px;
+      height: 200px; } }
 
 .logo-kidscode {
   margin: auto;
@@ -1962,7 +1950,7 @@ hr {
   width: 70px;
   padding: 2rem;
   border-radius: 80%;
-  background-color: #7eac63;
+  background-color: #33bb44;
   border: 5px solid white;
   margin-bottom: -40px;
   margin-left: -20px;
@@ -1978,7 +1966,7 @@ hr {
   width: 70px;
   padding: 2rem;
   border-radius: 80%;
-  background-color: #7eac63;
+  background-color: #33bb44;
   border: 5px solid white;
   margin-bottom: -40px;
   margin-left: -20px;
@@ -1995,7 +1983,7 @@ hr {
   width: 70px;
   padding: 2rem;
   border-radius: 80%;
-  background-color: #7eac63;
+  background-color: #33bb44;
   border: 5px solid white;
   margin-bottom: -40px;
   margin-left: -20px;
@@ -2104,7 +2092,7 @@ hr {
   text-decoration: none;
   background-color: #0097e8;
   font-size: 1.5rem;
-  line-height: 2.25rem;
+  line-height: 1.75rem;
   border-radius: 10px;
   padding: 1.5rem 0.75rem;
   -webkit-transition: all 0.3s ease 0s;
@@ -2114,7 +2102,7 @@ hr {
   /*Desktop*/ }
   @media only screen and (min-width: 550px) and (max-width: 767px) {
     .btn-slogan {
-      margin-bottom: 2.5rem; } }
+      margin-bottom: 1.5rem; } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .btn-slogan {
       margin: 2rem 0 3rem 0;
@@ -2127,7 +2115,7 @@ hr {
       line-height: 2.25rem; } }
 
 .btn-act:hover, .btn-slogan:hover, .btn-dwn:hover {
-  background-color: #7eac63;
+  background-color: #33bb44;
   box-shadow: #B9B7B7 0px 1px 1px;
   cursor: pointer; }
 
@@ -2293,27 +2281,21 @@ h1 {
   line-height: 2rem;
   margin-top: 1.36rem;
   margin-bottom: 1.36rem;
-  margin-left: 4%;
-  margin-right: 4%;
   font-weight: 700;
   text-shadow: 0px 1px 5px #222222; }
   @media only screen and (min-width: 550px) and (max-width: 767px) {
     h1 {
       margin-bottom: 0rem;
-      margin-left: 6%;
-      margin-right: 6%;
       font-size: 1.85rem;
       line-height: 2rem; } }
   @media only screen and (min-width: 768px) {
     h1 {
-      margin-left: 12%;
-      margin-right: 12%;
       font-size: 4rem;
       line-height: 4.25rem; } }
 
 .t-h1 {
-  font-size: 3rem;
-  line-height: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
   /*Desktop & tablet*/ }
   @media only screen and (min-width: 768px) {
     .t-h1 {
@@ -2400,6 +2382,41 @@ h6 {
 .txt-shadow {
   text-shadow: 0px 1px 5px #222222; }
 
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../img/bg-movil.svg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  /*MEDIA QUERIES*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 568px) and (max-width: 767px) {
+    .header {
+      background-image: url("../img/bg-movil-p.svg"); } }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+      background-image: url("../img/bg-tablet.svg"); } }
+  @media only screen and (min-width: 1024px) {
+    .header {
+      background-image: url("../img/bg-desktop.svg"); } }
+
 .header-txt {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -2412,40 +2429,46 @@ h6 {
           flex-direction: column;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 10%;
-  -webkit-align-self: flex-end;
-      -ms-flex-item-align: end;
-          align-self: flex-end;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  margin-bottom: 30%;
   /*MEDIA QUERIES*/
-  /*Desktop*/ }
+  /*Desktop and tablet lands*/ }
   @media only screen and (min-width: 550px) and (max-width: 767px) {
     .header-txt {
-      margin-bottom: -3%; } }
+      top: 2%;
+      width: 60%; } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .header-txt {
-      margin-bottom: 10%; } }
-  @media only screen and (min-width: 980px) {
-    .header-txt {
-      margin-bottom: 15%; } }
+      top: 2%;
+      width: 90%; } }
   @media only screen and (min-width: 1024px) {
     .header-txt {
-      margin-bottom: 5%; } }
+      width: 60%;
+      top: 7%; } }
 
-/*.header-txt-content{
-    width:80%;
-    margin:auto;
+.header-txt-content {
+  margin: auto 5% auto 2%;
+  padding-top: 30%; }
+  @media only screen and (min-width: 550px) and (max-width: 767px) {
+    .header-txt-content {
+      margin: auto;
+      padding-top: 5%;
+      padding-left: 10%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .header-txt-content {
+      margin: auto;
+      padding-top: 40%;
+      padding-left: 10%; } }
+  @media only screen and (min-width: 1024px) {
+    .header-txt-content {
+      margin: auto 5% auto 5%;
+      padding-top: 0; } }
 
-
-    //Tablet
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-        width:60%;
-    }
-    //Desktop
-    @media only screen and (min-width: 1024px){
-        width:40%;
-    }
-}
-*/
 .logo {
   display: -webkit-box;
   display: -webkit-flex;
