@@ -1,0 +1,107 @@
+//ilustración monster con isla debajo
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/bg-movil.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+    /*MEDIA QUERIES*/
+    //Mobile landscape
+    @media only screen and (min-width: 568px) and (max-width: 767px){
+        background-image: url("../img/bg-movil-p.svg");
+    }
+    //Tablet
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        background-image: url("../img/bg-tablet.svg");
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        background-image: url("../img/bg-desktop.svg");  
+    }
+}
+
+.header-txt{
+    flex:1;
+    flex-direction: column;
+    color: $primaryColorWhite;
+    text-align: center;
+    align-content: center;
+    //margin-bottom: 1%;
+    //align-self:flex-end;
+    width: 100%;
+    //margin-left: 3%;
+    position: absolute;
+    top: 5%;
+    margin-bottom: 30%;
+    
+    /*MEDIA QUERIES*/
+
+    //Mobile Portrait
+    @media only screen and (min-width: 550px) and (max-width: 767px){
+          top: 2%;
+        width: 60%;
+    }
+    //Tablet Portrait
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        top: 2%;
+        width: 90%;
+    }
+
+    /*Desktop and tablet lands*/
+    @media only screen and (min-width: 1024px){
+        width: 60%;
+        top: 7%;
+    }
+}
+
+.header-txt-content{
+ margin: auto 5% auto 2%;
+ padding-top: 30%;
+
+//Mobile landscape
+    @media only screen and (min-width: 550px) and (max-width: 767px){
+        margin:auto;
+        padding-top: 5%;
+        padding-left: 10%;
+    }
+    //Tablet portrait
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        //margin: 50% 3% auto 3%;
+        margin:auto;
+        padding-top: 40%;
+        padding-left: 10%;
+    }
+    //Desktop
+    @media only screen and (min-width: 1024px){
+        margin: auto 5% auto 5%;
+        padding-top: 0;
+    }
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: 15%;
+
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        display: none;
+    }
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        display: none;
+    }
+}
+
+
