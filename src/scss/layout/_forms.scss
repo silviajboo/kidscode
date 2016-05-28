@@ -1,0 +1,51 @@
+fieldset {
+    border: 0;
+}
+
+.lighbox-fieldset {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    
+    @media only screen and (min-width: 768px){
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-top: 1rem; 
+    }
+}
+
+/*Estilando estados del input*/
+input {
+    border-radius: 5px;
+    border: 1px solid $secondaryColorTxtGrey1;
+    padding: 5px;
+    width: 90%;
+    min-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input:focus {
+    border-color: $primaryColorBgBlue;
+    border-radius: 5px;    
+}
+input:hover {
+    border-color: $primaryColorBgBlue;
+    color: $primaryColorBgBlue;
+}
+/*Estilando estados del placeholder*/
+input:hover::-webkit-input-placeholder {
+  color: $primaryColorBgBlue;
+}
+input:hover:-moz-placeholder {
+  color: $primaryColorBgBlue; 
+}
+input:hover:-ms-input-placeholder { 
+  color: $primaryColorBgBlue; 
+}

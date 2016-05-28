@@ -1,0 +1,20 @@
+body {background: $primaryColorBgBlue;} //borrar esto
+
+.lightbox {
+    padding: 20px;
+    border: 10px $secondaryColorBgBlack1 solid;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: $shadow;
+    text-align: center;
+    background-color: white;
+}
+
+.h1-lightbox {
+    color: $secondaryColorTxtPink;
+    font-size: 1.85rem;
+    line-height: 2rem;
+}

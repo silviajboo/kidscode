@@ -1689,10 +1689,9 @@ hr {
 /* line 109, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .bg-tierra {
   background-image: url("../img/tierra-sm.svg");
-  background-repeat: repeat-x;
-  height: 175px; }
+  background-repeat: repeat-x; }
 
-/* line 114, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 113, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .molino {
   background-image: url("../img/molino.svg");
   background-repeat: no-repeat;
@@ -1701,7 +1700,7 @@ hr {
   position: absolute;
   margin-left: 20%; }
 
-/* line 123, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 122, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .rumble-island {
   max-width: 70%;
   margin: auto;
@@ -1709,7 +1708,7 @@ hr {
   /*MEDIA QUERIES*/
   /*Tablet*/ }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 123, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+    /* line 122, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .rumble-island {
       min-width: 70%; } }
 
@@ -1731,7 +1730,7 @@ hr {
 }
 */
 /*decoración puzzles*/
-/* line 153, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 152, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .puzzle {
   min-height: 5rem;
   max-height: auto;
@@ -1742,11 +1741,11 @@ hr {
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 153, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+    /* line 152, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .puzzle {
       padding: 0.5rem 2rem 1rem 2rem; } }
   @media only screen and (min-width: 1024px) {
-    /* line 153, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+    /* line 152, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .puzzle {
       padding: 0.5rem 2rem 1rem 2rem; } }
 
@@ -1758,7 +1757,7 @@ hr {
     margin: 0 3rem 0 0;
     float: right;
 }*/
-/* line 180, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 179, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .placeholder-rect-img {
   margin: auto;
   padding-top: 1rem;
@@ -1767,7 +1766,7 @@ hr {
   background-color: grey;
   border-color: 3px solid #ffffff; }
 
-/* line 189, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 188, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .placeholder-squ-img {
   margin: 20px;
   padding-top: 1rem;
@@ -1776,7 +1775,7 @@ hr {
   background-color: grey;
   margin: auto; }
 
-/* line 197, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 196, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .placeholder-anim-img {
   margin: auto;
   padding-top: 1rem;
@@ -1789,42 +1788,42 @@ hr {
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 197, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+    /* line 196, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .placeholder-anim-img {
       background-image: url("../img/Demo-tablet-T.gif");
       width: 500px;
       height: 389px;
       background-repeat: no-repeat; } }
   @media only screen and (min-width: 1024px) {
-    /* line 197, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+    /* line 196, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .placeholder-anim-img {
       background-image: url("../img/Demo-tablet2.gif");
       width: 700px;
       height: 557px;
       background-repeat: no-repeat; } }
 
-/* line 222, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 221, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .step1-bgd {
   background-image: url("../img/set.svg");
   background-repeat: no-repeat;
   padding: 1rem;
   width: 50%; }
 
-/* line 228, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 227, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .step2-bgd {
   background-image: url("../img/fichas.svg");
   background-repeat: no-repeat;
   padding: 1rem;
   width: 50%; }
 
-/* line 234, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 233, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .step3-bgd {
   background-image: url("../img/step3.svg");
   background-repeat: no-repeat;
   padding: 1rem;
   width: 50%; }
 
-/* line 241, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 240, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .mini-circle {
   width: 2rem;
   height: 2rem;
@@ -1834,11 +1833,11 @@ hr {
   float: right;
   position: absolute; }
 
-/* line 251, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 250, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .img-content2 {
   /*Desktop*/ }
   @media only screen and (min-width: 1024px) {
-    /* line 251, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+    /* line 250, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .img-content2 {
       width: auto;
       height: 100%;
@@ -1849,30 +1848,30 @@ hr {
         background-position: -10% 0;
         position: absolute;*/ } }
 
-/* line 267, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 266, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .img-content3 {
   /*Desktop*/ }
   @media only screen and (min-width: 1024px) {
-    /* line 267, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+    /* line 266, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .img-content3 {
       width: 80%;
       margin-top: 20%;
       margin-bottom: 20%; } }
 
-/* line 276, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 275, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .steps-img {
   display: none;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 1024px) {
-    /* line 276, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+    /* line 275, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .steps-img {
       display: inline-block;
       margin-left: auto;
       margin-right: auto; } }
 
-/* line 292, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 291, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .number-1 {
   z-index: 10;
   position: relative;
@@ -1889,7 +1888,7 @@ hr {
   box-shadow: #B9B7B7 0px 3px 3px;
   visibility: hidden; }
 
-/* line 308, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 307, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .number-2 {
   z-index: 10;
   position: relative;
@@ -1907,7 +1906,7 @@ hr {
   z-index: 10;
   visibility: hidden; }
 
-/* line 325, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 324, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .number-3 {
   z-index: 10;
   position: relative;
@@ -1924,11 +1923,11 @@ hr {
   box-shadow: #B9B7B7 0px 3px 3px;
   visibility: hidden; }
 
-/* line 341, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 340, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .bg-img {
   background-image: url("../img/bg.svg"); }
 
-/* line 344, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 343, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .bird1 {
   display: float;
   float: right;
@@ -1938,7 +1937,7 @@ hr {
   width: 75px;
   height: 75px; }
 
-/* line 353, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 352, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .bird2 {
   display: float;
   float: left;
@@ -1949,7 +1948,7 @@ hr {
   width: 75px;
   height: 60px; }
 
-/* line 363, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 362, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .butterfly {
   position: absolute;
   background-image: url("../img/butterfly.svg");
@@ -1957,7 +1956,7 @@ hr {
   width: 78px;
   height: 75px; }
 
-/* line 370, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 369, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .rs-fb {
   background-image: url("../img/rs_fb.svg");
   background-size: cover;
@@ -1965,7 +1964,7 @@ hr {
   height: 25px;
   margin: 10px; }
 
-/* line 377, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 376, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .rs-go {
   background-image: url("../img/rs_go.svg");
   background-size: cover;
@@ -1973,7 +1972,7 @@ hr {
   height: 25px;
   margin: 10px; }
 
-/* line 384, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 383, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .rs-tw {
   background-image: url("../img/rs_tw.svg");
   background-size: cover;
@@ -1981,7 +1980,7 @@ hr {
   height: 25px;
   margin: 10px; }
 
-/* line 391, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
+/* line 390, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .suelo {
   border-bottom: 25px solid transparent;
   border-top: 0px solid transparent;
@@ -2196,10 +2195,12 @@ hr {
       background-repeat: repeat-x; } }
 
 /* line 22, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_footer.scss */
-.copyright, .contact {
+.contact {
   margin: auto;
   text-align: center;
-  padding: .5rem; }
+  padding: 45px 0px;
+  color: white;
+  line-height: 38px; }
 
 /* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 body {
@@ -2853,10 +2854,25 @@ li, ul {
   padding: 0; }
 
 /* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
+.page-header {
+  padding: 30px;
+  text-align: center;
+  background-color: #11bbcc;
+  margin-top: 0px;
+  color: white;
+  margin-bottom: 80px; }
+
+/* line 10, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .terms-sections {
   width: 80%;
-  max-width: 400px;
+  max-width: 700px;
   margin: 0 auto;
-  background: green; }
+  margin-bottom: 80px; }
+
+/* line 17, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
+.ol {
+  border-left: 3px #E6E6E6 solid;
+  padding-left: 20px;
+  font-family: open sans, sans-serif; }
 
 /*# sourceMappingURL=terms-style.css.map */
