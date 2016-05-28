@@ -1732,8 +1732,7 @@ hr {
 
 .bg-tierra {
   background-image: url("../img/tierra-sm.svg");
-  background-repeat: repeat-x;
-  height: 175px; }
+  background-repeat: repeat-x; }
 
 .molino {
   background-image: url("../img/molino.svg");
@@ -2189,10 +2188,12 @@ hr {
     .footer {
       background-repeat: repeat-x; } }
 
-.copyright, .contact {
+.contact {
   margin: auto;
   text-align: center;
-  padding: .5rem; }
+  padding: 45px 0px;
+  color: white;
+  line-height: 38px; }
 
 body {
   font-size: 16px;

@@ -9,7 +9,6 @@ package.json
 src/img
 src/js
 src/pdf
-dist/img
 dist/js
 dist/pdf
 
