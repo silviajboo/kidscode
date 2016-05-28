@@ -1,5 +1,17 @@
+
 ### Folders ###
 
+node_modules
+gulpfile.js
+package.json
+.sass-cache
+.publish
+src/img
+src/js
+src/pdf
+dist/img
+dist/js
+dist/pdf
 
 ### Windows ###
 # Windows image file caches
