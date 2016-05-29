@@ -1,20 +1,38 @@
-body {background: $primaryColorBgBlue;} //borrar esto
-
 .lightbox {
     padding: 20px;
     border: 10px $secondaryColorBgBlack1 solid;
-    margin: 0 auto;
     border-radius: 5px;
-    width: 90%;
-    max-width: 500px;
+    width: 300px;
     text-align: center;
     box-shadow: $shadow;
     text-align: center;
     background-color: white;
+    position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+    }
+}
+
+.lightbox-header {
+    float: left;
+    margin-top: -60px;
 }
 
 .h1-lightbox {
     color: $secondaryColorTxtPink;
     font-size: 1.85rem;
     line-height: 2rem;
+}
+
+.close-position {
+    position: relative;
+    left: 97%;
+    top: -58px;
+    float: left;
+    background-image: url(../img/btn-cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55% 55%;
+    
 }

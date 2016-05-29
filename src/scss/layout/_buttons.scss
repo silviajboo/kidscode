@@ -163,14 +163,12 @@
 	&-round{
 		display:inline-block;
 		color: $primaryColorWhite;
-		height: 80px;
-		width: 70px;
 		font-weight: 700;
 		text-transform: uppercase;
-		border: 3px solid white;
+		border: 5px solid white;
 		border-radius: 50%;
-		background-color: $secondaryColorBgBlue3;
-		padding: 35px 44px;
+		background-color: #ed497e;
+		padding: 24px;
 		transition: all 0.3s ease 0s;
 		-webkit-box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
 		-moz-box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
@@ -178,7 +176,7 @@
 	}
 
 	&-round:hover{
-		background-color: #ed497e;
+		background-color: $primaryColorBgGreen;
 		cursor: pointer;
 	}
 

@@ -2135,20 +2135,18 @@ hr {
 .btn-round {
   display: inline-block;
   color: #ffffff;
-  height: 80px;
-  width: 70px;
   font-weight: 700;
   text-transform: uppercase;
-  border: 3px solid white;
+  border: 5px solid white;
   border-radius: 50%;
-  background-color: #0097e8;
-  padding: 35px 44px;
+  background-color: #ed497e;
+  padding: 24px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   box-shadow: 0px 2px 2px 0px #d1cfd1; }
 
 .btn-round:hover {
-  background-color: #ed497e;
+  background-color: #33bb44;
   cursor: pointer; }
 
 .btn-round:active {
@@ -2210,7 +2208,7 @@ a {
 
 /*typography*/
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem;
@@ -2808,7 +2806,7 @@ li, ul {
 .ol {
   border-left: 3px #E6E6E6 solid;
   padding-left: 20px;
-  font-family: open sans, sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 fieldset {
   border: 0; }
@@ -2819,7 +2817,7 @@ fieldset {
   padding: 20px 0px; }
 
 label {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem; }
@@ -2857,22 +2855,40 @@ input:hover:-moz-placeholder {
 input:hover:-ms-input-placeholder {
   color: #11bbcc; }
 
-body {
-  background: #11bbcc; }
-
 .lightbox {
   padding: 20px;
   border: 10px #999999 solid;
-  margin: 0 auto;
   border-radius: 5px;
-  width: 90%;
-  max-width: 500px;
+  width: 300px;
   text-align: center;
   box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
   text-align: center;
-  background-color: white; }
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+  top: 15vh; }
+  @media only screen and (min-width: 323px) {
+    .lightbox {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto; } }
+
+.lightbox-header {
+  float: left;
+  margin-top: -60px; }
 
 .h1-lightbox {
   color: #ed497e;
   font-size: 1.85rem;
   line-height: 2rem; }
+
+.close-position {
+  position: relative;
+  left: 97%;
+  top: -58px;
+  float: left;
+  background-image: url(../img/btn-cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55% 55%; }

@@ -2136,40 +2136,38 @@ hr {
 .btn-round {
   display: inline-block;
   color: #ffffff;
-  height: 80px;
-  width: 70px;
   font-weight: 700;
   text-transform: uppercase;
-  border: 3px solid white;
+  border: 5px solid white;
   border-radius: 50%;
-  background-color: #0097e8;
-  padding: 35px 44px;
+  background-color: #ed497e;
+  padding: 24px;
   transition: all 0.3s ease 0s;
   -webkit-box-shadow: 0px 2px 2px 0px #d1cfd1;
   -moz-box-shadow: 0px 2px 2px 0px #d1cfd1;
   box-shadow: 0px 2px 2px 0px #d1cfd1; }
 
-/* line 180, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
+/* line 178, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-round:hover {
-  background-color: #ed497e;
+  background-color: #33bb44;
   cursor: pointer; }
 
-/* line 186, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
+/* line 184, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-round:active {
   box-shadow: #B9B7B7 0px 1px 1px;
   position: relative;
   top: 1px; }
 
-/* line 192, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
+/* line 190, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-svg {
   display: inline-block; }
 
-/* line 196, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
+/* line 194, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-menu {
   margin: 0 0.35rem;
   width: 2rem; }
 
-/* line 201, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
+/* line 199, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-center {
   margin: auto; }
 
@@ -2220,7 +2218,7 @@ a {
 /*typography*/
 /* line 17, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem;
@@ -2245,8 +2243,7 @@ h1 {
   line-height: 2rem;
   margin-top: 1.36rem;
   margin-bottom: 1.36rem;
-  font-weight: 700;
-  text-shadow: 0px 1px 5px #222222; }
+  font-weight: 700; }
   @media only screen and (min-width: 550px) and (max-width: 767px) {
     /* line 38, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     h1 {
@@ -2259,18 +2256,18 @@ h1 {
       font-size: 4rem;
       line-height: 4.25rem; } }
 
-/* line 64, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 63, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .t-h1 {
   font-size: 1.5rem;
   line-height: 1.75rem;
   /*Desktop & tablet*/ }
   @media only screen and (min-width: 768px) {
-    /* line 64, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+    /* line 63, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     .t-h1 {
       font-size: 3.5rem;
       line-height: 3.75rem; } }
 
-/* line 77, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 76, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h2 {
   font-size: 1.85rem;
   line-height: 2.5rem;
@@ -2278,7 +2275,7 @@ h2 {
   margin-bottom: 1rem;
   font-weight: 700; }
   @media only screen and (min-width: 768px) {
-    /* line 77, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+    /* line 76, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     h2 {
       font-size: 2rem;
       line-height: 2.5rem;
@@ -2286,19 +2283,19 @@ h2 {
       margin-bottom: 1rem;
       font-weight: 700; } }
 
-/* line 94, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 93, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
   font-weight: 700; }
   @media only screen and (min-width: 768px) {
-    /* line 94, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+    /* line 93, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     h3 {
       font-size: 1.3rem;
       line-height: 2rem; } }
 
-/* line 105, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 104, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h4 {
   font-size: 1rem;
   font-weight: 400;
@@ -2306,7 +2303,7 @@ h4 {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
-/* line 113, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 112, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h5 {
   font-size: 0.75rem;
   font-weight: 400;
@@ -2314,34 +2311,34 @@ h5 {
   margin-top: 2rem;
   margin-bottom: 2.1rem; }
 
-/* line 121, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 120, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h6 {
   font-size: 0.625rem;
   line-height: 1rem;
   margin-top: 2.4rem;
   margin-bottom: 2.6rem; }
 
-/* line 128, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 127, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .ffamily {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700; }
 
-/* line 132, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 131, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .txt-center {
   text-align: center; }
 
-/* line 135, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 134, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .txt-margin {
   margin: 4rem 1rem 1rem 1rem; }
 
-/* line 138, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 137, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .capitalLetter {
   float: left;
   font-family: 'Open Sans',sans-serif;
   font-size: 5rem;
   margin-left: -20px; }
 
-/* line 144, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 143, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .citas {
   font-size: 2rem;
   line-height: 2.5rem;
@@ -2349,7 +2346,7 @@ h6 {
   margin-bottom: 1rem;
   font-weight: 700; }
   @media only screen and (min-width: 768px) {
-    /* line 144, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+    /* line 143, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     .citas {
       font-size: 2rem;
       line-height: 2.5rem;
@@ -2357,7 +2354,7 @@ h6 {
       margin-bottom: 1rem;
       font-weight: 700; } }
 
-/* line 160, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
+/* line 159, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .txt-shadow {
   text-shadow: 0px 1px 5px #222222; }
 
@@ -2873,6 +2870,106 @@ li, ul {
 .ol {
   border-left: 3px #E6E6E6 solid;
   padding-left: 20px;
-  font-family: open sans, sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
+fieldset {
+  border: 0; }
+
+/* line 5, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
+.lighbox-fieldset {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0px; }
+
+/* line 11, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem; }
+  @media only screen and (min-width: 768px) {
+    /* line 11, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
+    label {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      margin-top: 1rem; } }
+
+/*Estilando estados del input*/
+/* line 25, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
+input {
+  border-radius: 5px;
+  border: 1px solid #b3b3b3;
+  padding: 5px;
+  width: 90%;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/* line 34, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
+input:focus {
+  border-color: #11bbcc;
+  border-radius: 5px; }
+
+/* line 38, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
+input:hover {
+  border-color: #11bbcc;
+  color: #11bbcc; }
+
+/*Estilando estados del placeholder*/
+/* line 43, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
+input:hover::-webkit-input-placeholder {
+  color: #11bbcc; }
+
+/* line 46, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
+input:hover:-moz-placeholder {
+  color: #11bbcc; }
+
+/* line 49, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
+input:hover:-ms-input-placeholder {
+  color: #11bbcc; }
+
+/* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_lightbox.scss */
+.lightbox {
+  padding: 20px;
+  border: 10px #999999 solid;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
+  text-align: center;
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+  top: 15vh; }
+  @media only screen and (min-width: 323px) {
+    /* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_lightbox.scss */
+    .lightbox {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto; } }
+
+/* line 22, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_lightbox.scss */
+.lightbox-header {
+  float: left;
+  margin-top: -60px; }
+
+/* line 27, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_lightbox.scss */
+.h1-lightbox {
+  color: #ed497e;
+  font-size: 1.85rem;
+  line-height: 2rem; }
+
+/* line 33, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_lightbox.scss */
+.close-position {
+  position: relative;
+  left: 97%;
+  top: -58px;
+  float: left;
+  background-image: url(../img/btn-cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55% 55%; }
 
 /*# sourceMappingURL=terms-style.css.map */
