@@ -1,0 +1,114 @@
+.steps{
+    display: flex;
+    width: 90%;
+    margin: 0 auto 2rem auto;
+    flex-direction: column;
+    justify-content: center;
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        
+    }
+
+    /*Desktop*/
+    @media screen and (min-width: 1024px){
+        width: 50%;
+        margin-left: 2rem;
+    }
+}
+
+.steps-img{
+    display:none;
+    
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      //flex-direction: row;
+    }
+}
+.step{
+    /*max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+//rumble-island en tablet y mobile
+.step-img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        min-width: 70%;
+    }
+
+    /*Desktop*/
+    @media screen and (min-width: 1024px){
+        display:none;
+    }
+}
+
+
+/*.step-img2{
+    visibility:hidden;
+    max-width: 70%;
+
+    /*MEDIA QUERIES*/
+    /*Tablet
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        visibility: visible;
+        max-width: 100%;
+        margin:auto;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    /*Desktop
+    @media only screen and (min-width: 1024px){
+        
+    }
+}*/
+
+.intro-steps{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    /*max-width: 80%;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.step-number{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    //margin: 0rem .5rem 0rem 0rem;
+    //padding: 0rem 12px 0rem 12px;
+    float: left;
+    min-width: 2rem;
+    text-align: center;
+    //bordes redondeados hasta circulo
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid ;
+    
+}
+.step-title{
+    margin: 2rem 0 0 1rem; 
+}
+.step-description{
+    padding: 0 0 0 3rem;
+}
