@@ -1,0 +1,158 @@
+.container-profile{
+	margin-top: 120px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	width: 100%;
+
+	/*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+       	padding-left: 1.5rem;
+		padding-right: 1.5rem;
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+       	padding-left: 2rem;
+		padding-right: 2rem;
+    } 
+}
+
+.container-account-edit{
+	width: 100%;
+	height: auto;
+  //border-top: .5px solid $primaryColorBgBlack;
+}
+
+.account-name{
+	float:left;
+	width: 80%;
+	line-height: 0rem;
+	
+	/*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+       line-height: 1.5rem;
+       width: 50%;
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+       	line-height: 1.5rem;
+       	width: 50%;
+    } 
+}
+
+.account-edit{
+	float: right;
+	width: 20%;
+	line-height: 2rem;
+	/*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+       width: 50%;
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+       	width: 50%;
+    } 
+}
+
+.account-edit--img{
+	float: right;
+}
+.account-edit:after{
+	content: none;
+	float: right;
+	padding-right: 10px;
+	/*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+       content: "Editar cuenta familiar";
+   }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+       	content: "Editar cuenta familiar";
+    } 
+	
+}
+
+// .account-edit:after{
+// 	background-image: "../img/ic-settings.png";
+// }
+
+.account-edit--img{
+	margin-left: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+.profile-title{
+	width: 100%;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.profile-info-flex{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+       flex-direction: row;
+       padding: 0 10% 0 10%;
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        flex-direction: row;
+        padding: 0 10% 0 10%;
+    } 
+
+}
+
+.profile-info-create{
+    order: -1;
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+       order: 1;
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        order: 1;
+    } 
+}
+
+.profile-photo-create{
+    width: 100%;
+
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+       width: 50%;
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        width: 50%;
+    } 
+}
+.profile-photo-create > img{
+  border-radius: 500px 500px 500px 500px;
+  border: 3px solid $primaryColorBgBlack;
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
+
+
+
+
+
+

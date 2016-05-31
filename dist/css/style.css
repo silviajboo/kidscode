@@ -2302,6 +2302,9 @@ h1 {
       font-size: 3.5rem;
       line-height: 3.75rem; } }
 
+.t-h1--withoutshadow {
+  text-shadow: 0px 0px 0px; }
+
 h2 {
   font-size: 2rem;
   line-height: 2.5rem;
@@ -2381,6 +2384,12 @@ h6 {
 
 .txt-shadow {
   text-shadow: 0px 1px 5px #222222; }
+
+.txt-uppercase {
+  text-transform: uppercase; }
+
+.txt-center {
+  text-align: center; }
 
 .header {
   display: -webkit-box;
@@ -2499,3 +2508,337 @@ h6 {
   @media only screen and (min-width: 1024px) {
     .logo {
       display: none; } }
+
+.container-menu {
+  width: 100%;
+  height: 100px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  z-index: 999; }
+
+.container-menu-logo {
+  float: left;
+  height: auto;
+  width: 200px;
+  margin: auto; }
+
+.container-menu-options {
+  float: right;
+  padding-right: 2rem; }
+
+.menu-mobile {
+  display: block;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .menu-mobile {
+      display: block; } }
+  @media only screen and (min-width: 1024px) {
+    .menu-mobile {
+      display: none; } }
+
+.menu-desktop {
+  display: none;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .menu-desktop {
+      display: none; } }
+  @media only screen and (min-width: 1024px) {
+    .menu-desktop {
+      display: block; } }
+
+.menu-logo-burguer-scrolled-inactive {
+  padding-top: 1rem; }
+
+.menu-logo-burguer-scrolled-active {
+  padding-top: 0; }
+
+.scrolled-inactive {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  -webkit-transition: all ease-in 300ms;
+  transition: all ease-in 300ms; }
+
+.scrolled-active {
+  padding-top: 0;
+  padding-bottom: 0;
+  -webkit-transition: all ease-in 300ms;
+  transition: all ease-in 300ms; }
+
+.nav-desktop li {
+  display: inline-block;
+  padding: 1.5rem 1rem .5rem 1rem; }
+
+/* NAV-MOBILE */
+.nav-mobile {
+  position: fixed;
+  height: auto;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  color: #000;
+  z-index: 1; }
+
+.nav-mobile.closed {
+  right: -105%; }
+
+.nav-mobile .btn-anim-three {
+  position: fixed;
+  top: .5rem;
+  right: .5rem; }
+
+.nav-mobile .nav {
+  padding: 0;
+  margin-top: 7rem; }
+
+.nav-mobile .nav > li {
+  list-style: none;
+  margin: auto;
+  text-align: center;
+  padding: 1rem; }
+
+.nav-mobile .nav > li > a {
+  color: inherit; }
+
+/* animated icons for nav-mobile */
+.btn-anim-three {
+  background-color: #0097e8;
+  display: inline-block;
+  width: 45px;
+  height: 40px;
+  position: relative;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .btn-anim-three {
+      margin: 12px 12px; } }
+  @media only screen and (min-width: 1024px) {
+    .btn-anim-three {
+      margin: 12px 12px; } }
+
+.btn-anim-three-scrolled-inactive {
+  margin: 17px 10px;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .btn-anim-three-scrolled-inactive {
+      margin: 2px 12px; } }
+  @media only screen and (min-width: 1024px) {
+    .btn-anim-three-scrolled-inactive {
+      margin: 25px 12px; } }
+
+.btn-anim-three-scrolled-active {
+  margin: 2px 10px;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .btn-anim-three-scrolled-active {
+      margin: 12px 12px; } }
+  @media only screen and (min-width: 1024px) {
+    .btn-anim-three-scrolled-active {
+      margin: 12px 12px; } }
+
+.btn-anim-three span {
+  position: absolute;
+  height: 3px;
+  border-radius: 2px;
+  background: #fff;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease; }
+
+.btn-anim-three span.one {
+  width: 25px;
+  top: 10px;
+  left: 9.5px; }
+
+.btn-anim-three span.two {
+  width: 25px;
+  top: 19px;
+  left: 9.5px; }
+
+.btn-anim-three span.three {
+  width: 25px;
+  top: 28px;
+  left: 9.5px; }
+
+.btn-anim-three.closed span.one {
+  width: 25px;
+  top: 19px;
+  left: 9.5px;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg); }
+
+.btn-anim-three.closed span.two {
+  width: 0px;
+  left: 20px; }
+
+.btn-anim-three.closed span.three {
+  width: 25px;
+  top: 19px;
+  left: 9.5px;
+  -webkit-transform: rotate(-225deg);
+          transform: rotate(-225deg); }
+
+.container-profile {
+  margin-top: 120px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container-profile {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
+  @media only screen and (min-width: 1024px) {
+    .container-profile {
+      padding-left: 2rem;
+      padding-right: 2rem; } }
+
+.container-account-edit {
+  width: 100%;
+  height: auto; }
+
+.account-name {
+  float: left;
+  width: 80%;
+  line-height: 0rem;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .account-name {
+      line-height: 1.5rem;
+      width: 50%; } }
+  @media only screen and (min-width: 1024px) {
+    .account-name {
+      line-height: 1.5rem;
+      width: 50%; } }
+
+.account-edit {
+  float: right;
+  width: 20%;
+  line-height: 2rem;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .account-edit {
+      width: 50%; } }
+  @media only screen and (min-width: 1024px) {
+    .account-edit {
+      width: 50%; } }
+
+.account-edit--img {
+  float: right; }
+
+.account-edit:after {
+  content: none;
+  float: right;
+  padding-right: 10px;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .account-edit:after {
+      content: "Editar cuenta familiar"; } }
+  @media only screen and (min-width: 1024px) {
+    .account-edit:after {
+      content: "Editar cuenta familiar"; } }
+
+.account-edit--img {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px; }
+
+.profile-title {
+  width: 100%;
+  text-align: center;
+  padding-top: 5%; }
+
+.profile-info-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .profile-info-flex {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      padding: 0 10% 0 10%; } }
+  @media only screen and (min-width: 1024px) {
+    .profile-info-flex {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      padding: 0 10% 0 10%; } }
+
+.profile-info-create {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .profile-info-create {
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1; } }
+  @media only screen and (min-width: 1024px) {
+    .profile-info-create {
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1; } }
+
+.profile-photo-create {
+  width: 100%;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .profile-photo-create {
+      width: 50%; } }
+  @media only screen and (min-width: 1024px) {
+    .profile-photo-create {
+      width: 50%; } }
+
+.profile-photo-create > img {
+  border-radius: 500px 500px 500px 500px;
+  border: 3px solid #404040;
+  width: 60%;
+  height: 60%;
+  margin: auto; }
