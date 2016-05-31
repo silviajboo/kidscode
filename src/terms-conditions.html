@@ -13,14 +13,29 @@
 <body>
     
     <!-- Introducción -->
-    <header>
+    <header id="top">
         <h1 class="page-header">Política de privacidad</h1>
+        
+        <!-- Menú auxiliar -->
+    <ul class="accordion">
+        <ul class="inner" id="container">
+            <a href="#p1"><li class="accordion-li">1. ¿Qué información pedimos para registrar una cuenta?</li></a>
+            <a href="#p2"><li class="accordion-li">2. ¿Qué información se recoge al utilizar el sitio web?</li></a>
+            <a href="#p3"><li class="accordion-li">3. ¿El equipo de Kids Code vende o arrienda información sobre sus usuarios?</li></a>
+            <a href="#p4"><li class="accordion-li">4. ¿Durante cuánto tiempo mantiene la empresa su información de personal?</li></a>
+            <a href="#p5"><li class="accordion-li">5. ¿Cómo puede hacer preguntas o enviarnos comentarios sobre esta Política de privacidad?</li></a>
+        </ul>
+        
+    <button class="port-btn-seemore toggle"id="seemore" href="#" ></button>
+    </ul>
+        
+        <!-- Texto -->
         <p class="terms-sections">Tu privacidad, y la de tus hijos, es muy importante para nosotros. Diseñamos nuestra Política de datos para ayudarte a comprender cómo recopilamos y usamos vuestro contenido e información.<br>
         Te recomendamos que leas nuestra Política de datos y que la utilices para poder tomar decisiones fundamentadas. Kids Code ha desarrollado sus Servicios con el objetivo de crear una experiencia agradable para todos los usuarios. Esta Política de privacidad infantil está diseñada para responder las preguntas que puedan surgir en relación con nuestras políticas y principios de privacidad con respecto a los niños menores de 13 años.</p>
     </header>
     
     <!-- Sección 1 -->
-    <section class="terms-sections">
+    <section class="terms-sections" id="p1">
         <header>
             <h2>1. ¿Qué información pedimos para registrar una cuenta?</h2>
         </header>
@@ -39,7 +54,7 @@
     </section>
     
     <!-- Sección 2 -->
-    <section class="terms-sections">
+    <section class="terms-sections" id="p2">
         <header><h2>2. ¿Qué información se recoge al utilizar el sitio web?</h2></header>
         <article>
             <p>Cuando un usuario ingresa, el sitio web de Kids Code pide a su navegador que cree una cookie http en su computador para recordar que ha ingresado mientras navega por las distintas páginas. Recogemos algunos datos respecto a dónde los usuarios hacen clic, y qué partes del sitio visitan, usando Google Analytics. Esta "información de clics" nos ayuda a pensar en formas de mejorar el sitio web.<br><br>
@@ -48,19 +63,19 @@
     </section>
     
     <!-- Sección 3 -->
-    <section class="terms-sections">
+    <section class="terms-sections" id="p3">
         <header><h2>3. ¿El equipo de Kids Code vende o arrienda información sobre sus usuarios?</h2></header>
         <p>No compartimos, vendemos ni alquilamos su información personal a terceros sin su consentimiento. Además de la información técnica descrita anteriormente, no solicitamos información personal para brindar acceso a nuestros Servicios.</p>
     </section>
     
     <!-- Sección 4 -->
-    <section class="terms-sections">
+    <section class="terms-sections" id="p4">
         <header><h2>4. ¿Durante cuánto tiempo mantiene la empresa su información de personal?</h2></header>
         <p>Kids Code conservará su información personal mientras usted tenga una cuenta en Kids Code, en la medida, sin embargo, que Kids Code haga los esfuerzos comerciales razonables para eliminar la información personal recopilada por esta que ya no sea relevante para su uso de los Servicios.</p>
     </section>
     
     <!-- Sección 5 -->
-    <section class="terms-sections">
+    <section class="terms-sections" id="p5">
         <header><h2>5.¿Cómo puede hacer preguntas o enviarnos comentarios sobre esta Política de privacidad?</h2></header>
         <article><p>Si tiene preguntas o desea enviarnos comentarios sobre alguna Política de privacidad publicada en uno de nuestros Sitios, puede comunicarse con nosotros a la siguiente dirección:</p>
         <ol class="ol">   
@@ -76,6 +91,10 @@
         </article>
     </section>
     
+    <div class="arrow-container">
+        <a href="#top" class="arrow-up"></a>
+    </div>
+    
     <footer>
     <!--FOOTER de la página-->
 
@@ -85,5 +104,12 @@
     </div>
     </footer>
 
+    <!--JS de Acordeon-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/accordeon.js"></script>
+    <script src="js/Smooth.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    
+    
 </body>
 </html>

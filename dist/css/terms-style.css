@@ -2204,7 +2204,8 @@ body {
   min-width: 320px; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 /*typography*/
 p {
@@ -2808,6 +2809,28 @@ li, ul {
   padding-left: 20px;
   font-family: 'Montserrat', sans-serif; }
 
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid white;
+  border-radius: 5px;
+  position: relative;
+  top: -10px; }
+
+.arrow-container {
+  width: 50px;
+  height: 50px;
+  background-color: #11bbcc;
+  text-align: center;
+  border-radius: 100%;
+  position: absolute;
+  border: 5px solid white;
+  box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
+  right: 30px;
+  margin-top: -25px; }
+
 fieldset {
   border: 0; }
 
@@ -2864,15 +2887,10 @@ input:hover:-ms-input-placeholder {
   box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
   text-align: center;
   background-color: white;
-  z-index: 2;
   position: absolute;
-  top: 15vh; }
-  @media only screen and (min-width: 323px) {
-    .lightbox {
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: auto; } }
+  left: 0;
+  right: 0;
+  margin: auto; }
 
 .lightbox-header {
   float: left;
@@ -2892,3 +2910,54 @@ input:hover:-ms-input-placeholder {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 55% 55%; }
+
+/*Opciones*/
+.accordion {
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+  margin: auto;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  border-top: 1px solid #0097e8;
+  border-bottom: 1px solid #0097e8; }
+
+.accordion:hover {
+  border-top: 1px solid #33bb44;
+  border-bottom: 1px solid #33bb44; }
+
+.inner {
+  overflow: hidden;
+  display: none; }
+
+.inner.show {
+  display: block; }
+
+.toggle {
+  display: block;
+  -webkit-transition: background .3s ease;
+  transition: background .3s ease; }
+
+.accordion-li {
+  padding: 20px;
+  text-align: left; }
+
+/*Botón*/
+.port-btn-seemore {
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #0097e8;
+  background-color: white;
+  border: 0;
+  font-size: 1.5rem;
+  padding: 10px; }
+
+.port-btn-seemore:hover {
+  color: #33bb44; }
+
+.port-btn-seemore:before {
+  content: "Menú"; }
+
+.port-btn-seeless:before {
+  content: "Cerrar"; }
