@@ -5,7 +5,6 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-/* line 9, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -17,7 +16,6 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 body {
   margin: 0; }
 
@@ -29,7 +27,6 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 45, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 article,
 aside,
 details,
@@ -49,7 +46,6 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 57, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -63,7 +59,6 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 67, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -72,7 +67,6 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
-/* line 78, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 [hidden],
 template {
   display: none; }
@@ -82,7 +76,6 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 89, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 a {
   background-color: transparent; }
 
@@ -90,7 +83,6 @@ a {
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-/* line 99, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -100,14 +92,12 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 110, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 119, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
@@ -115,7 +105,6 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 127, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 dfn {
   font-style: italic; }
 
@@ -123,7 +112,6 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 136, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -131,7 +119,6 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 145, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -139,14 +126,12 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 154, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 163, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -154,11 +139,9 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 170, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 174, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
@@ -167,14 +150,12 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 185, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 193, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -183,14 +164,12 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 204, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 212, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 hr {
   box-sizing: content-box;
   height: 0; }
@@ -198,14 +177,12 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 232, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 code,
 kbd,
 pre,
@@ -225,7 +202,6 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 256, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 button,
 input,
 optgroup,
@@ -241,7 +217,6 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 button {
   overflow: visible; }
 
@@ -251,7 +226,6 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 278, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 button,
 select {
   text-transform: none; }
@@ -263,9 +237,9 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 293, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -275,7 +249,6 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 303, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -283,7 +256,6 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 312, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -293,7 +265,6 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 input {
   line-height: normal; }
 
@@ -304,7 +275,6 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 335, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -317,7 +287,6 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 347, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -326,7 +295,6 @@ input[type="number"]::-webkit-outer-spin-button {
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
-/* line 356, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -338,7 +306,6 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 368, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -346,7 +313,6 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 376, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -356,7 +322,6 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 387, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -366,7 +331,6 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 396, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -374,7 +338,6 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 405, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 optgroup {
   font-weight: bold; }
 
@@ -383,12 +346,10 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 416, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 422, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_normalize.scss */
 td,
 th {
   padding: 0; }
@@ -411,7 +372,6 @@ justin@justinaguilar.com
 slideDown
 ==============================================
 */
-/* line 22, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -454,7 +414,6 @@ slideDown
 slideUp
 ==============================================
 */
-/* line 84, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -497,7 +456,6 @@ slideUp
 slideLeft
 ==============================================
 */
-/* line 146, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -540,7 +498,6 @@ slideLeft
 slideRight
 ==============================================
 */
-/* line 208, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
@@ -583,7 +540,6 @@ slideRight
 slideExpandUp
 ==============================================
 */
-/* line 270, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .slideExpandUp {
   animation-name: slideExpandUp;
   -webkit-animation-name: slideExpandUp;
@@ -638,7 +594,6 @@ slideExpandUp
 expandUp
 ==============================================
 */
-/* line 350, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .expandUp {
   animation-name: expandUp;
   -webkit-animation-name: expandUp;
@@ -673,7 +628,6 @@ expandUp
 fadeIn
 ==============================================
 */
-/* line 399, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .fadeIn {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
@@ -714,7 +668,6 @@ fadeIn
 expandOpen
 ==============================================
 */
-/* line 455, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .expandOpen {
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
@@ -753,7 +706,6 @@ expandOpen
 bigEntrance
 ==============================================
 */
-/* line 511, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .bigEntrance {
   animation-name: bigEntrance;
   -webkit-animation-name: bigEntrance;
@@ -814,7 +766,6 @@ bigEntrance
 hatch
 ==============================================
 */
-/* line 592, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .hatch {
   animation-name: hatch;
   -webkit-animation-name: hatch;
@@ -864,7 +815,6 @@ hatch
 bounce
 ==============================================
 */
-/* line 665, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .bounce {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -909,7 +859,6 @@ bounce
 pulse
 ==============================================
 */
-/* line 729, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .pulse {
   animation-name: pulse;
   -webkit-animation-name: pulse;
@@ -945,7 +894,6 @@ pulse
 floating
 ==============================================
 */
-/* line 776, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
@@ -975,7 +923,6 @@ floating
 tossing
 ==============================================
 */
-/* line 817, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .tossing {
   animation-name: tossing;
   -webkit-animation-name: tossing;
@@ -1005,7 +952,6 @@ tossing
 pullUp
 ==============================================
 */
-/* line 858, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .pullUp {
   animation-name: pullUp;
   -webkit-animation-name: pullUp;
@@ -1054,7 +1000,6 @@ pullUp
 pullDown
 ==============================================
 */
-/* line 927, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .pullDown {
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
@@ -1103,7 +1048,6 @@ pullDown
 stretchLeft
 ==============================================
 */
-/* line 996, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .stretchLeft {
   animation-name: stretchLeft;
   -webkit-animation-name: stretchLeft;
@@ -1152,7 +1096,6 @@ stretchLeft
 stretchRight
 ==============================================
 */
-/* line 1065, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_animations.scss */
 .stretchRight {
   animation-name: stretchRight;
   -webkit-animation-name: stretchRight;
@@ -1197,169 +1140,128 @@ stretchRight
     -webkit-transform: scaleX(1); } }
 
 /*COLORES BACKGROUND*/
-/* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-orange {
   background-color: #ff6633; }
 
-/* line 6, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-orange-drk {
   background-color: #e63900; }
 
-/* line 10, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-orange-lgt {
   background-color: #ff9f80; }
 
-/* line 14, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-green {
   background-color: #33bb44; }
 
-/* line 18, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-green-drk {
   background-color: #1b6425; }
 
-/* line 22, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-green-lgt {
   background-color: #73d980; }
 
-/* line 26, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-green-mountain {
   background-color: #7eac63; }
 
-/* line 30, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-blue {
   background-color: #11bbcc; }
 
-/* line 34, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-blue-drk {
   background-color: #0a6d76; }
 
-/* line 38, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-blue-lgt {
   background-color: #89ecf5; }
 
-/* line 41, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-blue-bg {
   background-color: #85c2ff; }
 
-/* line 44, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-pink {
   background-color: #ed497e; }
 
-/* line 48, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-pink-drk {
   background-color: #d93560; }
 
-/* line 52, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-pink-lgt {
   background-color: #ff67a7; }
 
-/* line 56, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-yellow {
   background-color: #ffcc00; }
 
-/* line 60, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-yellow-drk {
   background-color: #806600; }
 
-/* line 64, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-yellow-lgt {
   background-color: #ffdb4d; }
 
-/* line 68, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-black {
   background-color: #404040; }
 
-/* line 72, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-black-drk {
   background-color: #222222; }
 
-/* line 76, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-black-lgt {
   background-color: #999999; }
 
-/* line 80, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-white {
   background-color: #ffffff; }
 
-/* line 83, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-background.scss */
 .color-bg-brown {
   background-color: #996633; }
 
-/* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-txt-grey {
   color: #808080; }
 
-/* line 5, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-txt-grey-lgt {
   color: #b3b3b3; }
 
-/* line 8, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-txt-grey-drk {
   color: #404040; }
 
-/* line 11, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-txt-white {
   color: #ffffff; }
 
-/* line 14, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-txt-green {
   color: #33bb44; }
 
-/* line 17, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-txt-green-drk {
   color: #1b6425; }
 
-/* line 20, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-txt-green-lgt {
   color: #73d980; }
 
-/* line 23, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-txt-pink {
   color: #ed497e; }
 
-/* line 26, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-nav {
   color: #ffe580; }
 
-/* line 29, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-nav-lgt {
   color: #ffefb3; }
 
-/* line 32, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-nav-drk {
   color: #ffcc00; }
 
-/* line 35, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-lnk {
   color: #1794cf; }
 
-/* line 38, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-lnk-lgt {
   color: #aadef5; }
 
-/* line 41, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-lnk-drk {
   color: #106389; }
 
-/* line 44, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/colors/_color-text.scss */
 .color-txt-pink {
   color: #ed497e; }
 
-/* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_clearfix.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table; }
 
-/* line 6, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_clearfix.scss */
 .clearfix:after {
   clear: both; }
 
-/* line 9, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/vendor/_clearfix.scss */
 .clearfix {
   *zoom: 1; }
 
-/* line 4, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 *,
 *:before,
 *:after {
@@ -1367,7 +1269,6 @@ stretchRight
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 10, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .content {
   display: flex;
   flex-direction: column;
@@ -1378,19 +1279,15 @@ stretchRight
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 1024px) {
-    /* line 10, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
     .content {
       max-width: 50%; } }
 
-/* line 28, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .wrap {
   flex-wrap: wrap; }
 
-/* line 32, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .container {
   width: 100%; }
 
-/* line 35, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .container-flex {
   display: flex;
   flex-direction: row;
@@ -1402,7 +1299,6 @@ stretchRight
   margin: auto;
   max-width: 1024px; }
 
-/* line 48, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .content-flex-1, .content-flex-2 {
   display: flex;
   flex: 1;
@@ -1412,7 +1308,6 @@ stretchRight
   text-align: center;
   max-width: 350px; }
 
-/* line 59, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .content-flex-3 {
   display: flex;
   flex: 4;
@@ -1424,7 +1319,6 @@ stretchRight
   min-height: 500px;
   max-width: 600px; }
 
-/* line 71, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .content-flex-4 {
   display: flex;
   flex: 1;
@@ -1434,38 +1328,30 @@ stretchRight
   text-align: center;
   margin: 0.25rem 0.25rem 0rem 0; }
 
-/* line 82, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .content-flex-btn {
   width: auto;
   align-self: center;
   margin: 1rem; }
 
-/* line 89, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .flex-align-center {
   align-self: center; }
 
-/* line 93, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .f-basis-5 {
   flex-basis: 500px; }
 
-/* line 96, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .f-basis-4 {
   flex-basis: 400px; }
 
-/* line 99, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .f-basis-3 {
   flex-basis: 300px; }
 
-/* line 102, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .f-basis-2 {
   flex-basis: 200px; }
 
-/* line 106, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .flex-content-center {
   align-self: center;
   justify-content: center; }
 
-/* line 113, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .content-rnd-top {
   margin: auto;
   padding: 1.25rem 0rem;
@@ -1481,7 +1367,6 @@ stretchRight
   box-shadow: 0px 1px 5px #222222;
   z-index: 10; }
 
-/* line 132, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .content-rnd-bottom {
   margin: auto;
   padding: 1rem 0.75rem 1rem 0.75rem;
@@ -1495,41 +1380,33 @@ stretchRight
   text-align: center;
   box-shadow: 0px 1px 5px #222222; }
 
-/* line 148, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .content-bottom {
   align-self: center;
   justify-content: flex-end; }
 
-/* line 153, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .content-float {
   float: left; }
 
-/* line 158, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .center {
   display: inline-block;
   text-align: center; }
 
-/* line 163, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .container-block {
   width: 100%;
   margin: auto;
   text-align: center; }
 
-/* line 169, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .container-center {
   display: block;
   width: 100%;
   margin: auto; }
 
-/* line 175, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .container-inline {
   display: inline-block; }
 
-/* line 180, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .justify-center {
   justify-content: center; }
 
-/* line 183, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .test-flex {
   flex-direction: row;
   display: flex;
@@ -1537,21 +1414,18 @@ stretchRight
   align-self: center;
   padding: 2rem; }
 
-/* line 190, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .flex-container {
   flex: 1;
   align-self: center;
   justify-content: center;
   margin: auto; }
 
-/* line 196, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .flex-container-2 {
   width: 190px;
   align-self: center;
   justify-content: center;
   padding: 10px; }
 
-/* line 202, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .label {
   flex: 1;
   width: 95%;
@@ -1564,22 +1438,18 @@ stretchRight
   justify-content: flex-end;
   box-shadow: #B9B7B7 0px 3px 3px; }
 
-/* line 214, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .max-min {
   min-width: 300px;
   max-width: 360px; }
 
-/* line 218, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 hr {
   border: 1px dotted #1b6425;
   margin: 1rem; }
 
-/* line 222, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .testimonial {
   padding: 2rem 1rem 2rem 1rem;
   color: black; }
 
-/* line 226, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_generic.scss */
 .container-icons {
   display: flex;
   align-items: center;
@@ -1587,7 +1457,6 @@ hr {
   margin: auto;
   visibility: hidden; }
 
-/* line 5, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .rumble-img {
   margin: auto;
   padding-top: 0rem;
@@ -1596,7 +1465,6 @@ hr {
   background-image: url("../img/rumble.svg");
   background-repeat: no-repeat; }
 
-/* line 15, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .logo-kidscode-header {
   width: 200px;
   height: 100px;
@@ -1607,19 +1475,16 @@ hr {
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 15, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .logo-kidscode-header {
       display: block;
       width: 400px;
       height: 200px; } }
   @media screen and (min-width: 1024px) {
-    /* line 15, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .logo-kidscode-header {
       display: block;
       width: 400px;
       height: 200px; } }
 
-/* line 45, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .logo-kidscode {
   margin: auto;
   padding-top: 0rem;
@@ -1628,12 +1493,10 @@ hr {
   background-image: url("../img/logo.svg");
   background-repeat: no-repeat; }
   @media only screen and (min-width: 320px) and (max-width: 1023px) {
-    /* line 45, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .logo-kidscode {
       height: 120px;
       width: 280px; } }
 
-/* line 59, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .arg1-img {
   background-image: url("../img/arg-1.svg");
   background-repeat: no-repeat;
@@ -1644,7 +1507,6 @@ hr {
   max-width: 300px;
   margin: auto; }
 
-/* line 70, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .arg2-img {
   background-image: url("../img/arg-2.svg");
   background-repeat: no-repeat;
@@ -1655,7 +1517,6 @@ hr {
   max-width: 300px;
   margin: auto; }
 
-/* line 80, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .arg3-img {
   background-image: url("../img/arg-3.svg");
   background-repeat: no-repeat;
@@ -1666,19 +1527,16 @@ hr {
   max-width: 300px;
   margin: auto; }
 
-/* line 91, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .bg-clouds {
   background-image: url("../img/bg-clouds.svg");
   background-repeat: no-repeat;
   background-size: cover; }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 91, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .bg-clouds {
       background-image: url("../img/bg-clouds-sm.svg");
       background-repeat: no-repeat;
       background-size: cover; } }
 
-/* line 101, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .bg-tierra-sup {
   background-image: url("../img/bg-tierra-sup.svg");
   background-repeat: repeat-x;
@@ -1686,12 +1544,10 @@ hr {
   height: 220px;
   z-index: 100; }
 
-/* line 109, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .bg-tierra {
   background-image: url("../img/tierra-sm.svg");
   background-repeat: repeat-x; }
 
-/* line 113, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .molino {
   background-image: url("../img/molino.svg");
   background-repeat: no-repeat;
@@ -1700,7 +1556,6 @@ hr {
   position: absolute;
   margin-left: 20%; }
 
-/* line 122, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .rumble-island {
   max-width: 70%;
   margin: auto;
@@ -1708,7 +1563,6 @@ hr {
   /*MEDIA QUERIES*/
   /*Tablet*/ }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 122, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .rumble-island {
       min-width: 70%; } }
 
@@ -1730,24 +1584,21 @@ hr {
 }
 */
 /*decoración puzzles*/
-/* line 152, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .puzzle {
   min-height: 5rem;
   max-height: auto;
   width: 100%;
   margin: 0;
-  padding: 0.5rem 0 1rem 0;
+  padding: .5rem 0 1rem 0;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 152, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .puzzle {
-      padding: 0.5rem 2rem 1rem 2rem; } }
+      padding: .5rem 2rem 1rem 2rem; } }
   @media only screen and (min-width: 1024px) {
-    /* line 152, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .puzzle {
-      padding: 0.5rem 2rem 1rem 2rem; } }
+      padding: .5rem 2rem 1rem 2rem; } }
 
 /*.puzzle::after{
      width: 2rem;
@@ -1757,7 +1608,6 @@ hr {
     margin: 0 3rem 0 0;
     float: right;
 }*/
-/* line 179, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .placeholder-rect-img {
   margin: auto;
   padding-top: 1rem;
@@ -1766,7 +1616,6 @@ hr {
   background-color: grey;
   border-color: 3px solid #ffffff; }
 
-/* line 188, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .placeholder-squ-img {
   margin: 20px;
   padding-top: 1rem;
@@ -1775,7 +1624,6 @@ hr {
   background-color: grey;
   margin: auto; }
 
-/* line 196, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .placeholder-anim-img {
   margin: auto;
   padding-top: 1rem;
@@ -1788,42 +1636,36 @@ hr {
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 196, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .placeholder-anim-img {
       background-image: url("../img/Demo-tablet-T.gif");
       width: 500px;
       height: 389px;
       background-repeat: no-repeat; } }
   @media only screen and (min-width: 1024px) {
-    /* line 196, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .placeholder-anim-img {
       background-image: url("../img/Demo-tablet2.gif");
       width: 700px;
       height: 557px;
       background-repeat: no-repeat; } }
 
-/* line 221, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .step1-bgd {
   background-image: url("../img/set.svg");
   background-repeat: no-repeat;
   padding: 1rem;
   width: 50%; }
 
-/* line 227, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .step2-bgd {
   background-image: url("../img/fichas.svg");
   background-repeat: no-repeat;
   padding: 1rem;
   width: 50%; }
 
-/* line 233, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .step3-bgd {
   background-image: url("../img/step3.svg");
   background-repeat: no-repeat;
   padding: 1rem;
   width: 50%; }
 
-/* line 240, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .mini-circle {
   width: 2rem;
   height: 2rem;
@@ -1833,11 +1675,9 @@ hr {
   float: right;
   position: absolute; }
 
-/* line 250, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .img-content2 {
   /*Desktop*/ }
   @media only screen and (min-width: 1024px) {
-    /* line 250, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .img-content2 {
       width: auto;
       height: 100%;
@@ -1848,30 +1688,25 @@ hr {
         background-position: -10% 0;
         position: absolute;*/ } }
 
-/* line 266, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .img-content3 {
   /*Desktop*/ }
   @media only screen and (min-width: 1024px) {
-    /* line 266, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .img-content3 {
       width: 80%;
       margin-top: 20%;
       margin-bottom: 20%; } }
 
-/* line 275, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .steps-img {
   display: none;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 1024px) {
-    /* line 275, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
     .steps-img {
       display: inline-block;
       margin-left: auto;
       margin-right: auto; } }
 
-/* line 291, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .number-1 {
   z-index: 10;
   position: relative;
@@ -1888,7 +1723,6 @@ hr {
   box-shadow: #B9B7B7 0px 3px 3px;
   visibility: hidden; }
 
-/* line 307, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .number-2 {
   z-index: 10;
   position: relative;
@@ -1906,7 +1740,6 @@ hr {
   z-index: 10;
   visibility: hidden; }
 
-/* line 324, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .number-3 {
   z-index: 10;
   position: relative;
@@ -1923,11 +1756,9 @@ hr {
   box-shadow: #B9B7B7 0px 3px 3px;
   visibility: hidden; }
 
-/* line 340, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .bg-img {
   background-image: url("../img/bg.svg"); }
 
-/* line 343, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .bird1 {
   display: float;
   float: right;
@@ -1937,7 +1768,6 @@ hr {
   width: 75px;
   height: 75px; }
 
-/* line 352, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .bird2 {
   display: float;
   float: left;
@@ -1948,7 +1778,6 @@ hr {
   width: 75px;
   height: 60px; }
 
-/* line 362, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .butterfly {
   position: absolute;
   background-image: url("../img/butterfly.svg");
@@ -1956,7 +1785,6 @@ hr {
   width: 78px;
   height: 75px; }
 
-/* line 369, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .rs-fb {
   background-image: url("../img/rs_fb.svg");
   background-size: cover;
@@ -1964,7 +1792,6 @@ hr {
   height: 25px;
   margin: 10px; }
 
-/* line 376, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .rs-go {
   background-image: url("../img/rs_go.svg");
   background-size: cover;
@@ -1972,7 +1799,6 @@ hr {
   height: 25px;
   margin: 10px; }
 
-/* line 383, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .rs-tw {
   background-image: url("../img/rs_tw.svg");
   background-size: cover;
@@ -1980,18 +1806,15 @@ hr {
   height: 25px;
   margin: 10px; }
 
-/* line 390, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_images.scss */
 .suelo {
   border-bottom: 25px solid transparent;
   border-top: 0px solid transparent;
   border-image: url("../img/m-suelo.svg") 143 30 repeat; }
 
 /*BOTONES*/
-/* line 3, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-cam {
   box-shadow: #B9B7B7 0px 3px 3px; }
 
-/* line 8, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-act {
   display: inline-block;
   margin-bottom: 1rem;
@@ -2006,7 +1829,6 @@ hr {
   padding: 1.2rem 2.5rem 1.2rem 2.5rem;
   transition: all 0.3s ease 0s; }
 
-/* line 22, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-dwn {
   display: inline-block;
   margin-bottom: 0rem;
@@ -2022,7 +1844,6 @@ hr {
   padding: 1.5rem 2.5rem 1.5rem 2.5rem;
   transition: all 0.3s ease 0s; }
 
-/* line 40, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-slogan {
   display: inline-block;
   margin-top: 1rem;
@@ -2042,35 +1863,29 @@ hr {
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 550px) and (max-width: 767px) {
-    /* line 40, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
     .btn-slogan {
       margin-bottom: 1.5rem; } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 40, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
     .btn-slogan {
       margin: 2rem 0 3rem 0;
       font-size: 2rem;
       line-height: 2.25rem; } }
   @media screen and (min-width: 1024px) {
-    /* line 40, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
     .btn-slogan {
       margin: 1.5rem 0 2rem 0;
       font-size: 2rem;
       line-height: 2.25rem; } }
 
-/* line 78, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-act:hover, .btn-slogan:hover, .btn-dwn:hover {
   background-color: #33bb44;
   box-shadow: #B9B7B7 0px 1px 1px;
   cursor: pointer; }
 
-/* line 85, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-act:active, .btn-slogan:active {
   box-shadow: #B9B7B7 0px 1px 1px;
   position: relative;
   top: 1px; }
 
-/* line 91, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-inact {
   display: inline-block;
   margin: 12px;
@@ -2085,7 +1900,6 @@ hr {
   padding: 24px;
   text-transform: uppercase; }
 
-/* line 106, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-dwnld, .btn-dwnld-center {
   display: inline-block;
   margin: 12px;
@@ -2105,34 +1919,28 @@ hr {
   /*Tablet*/
   /*Desktop*/ }
   @media screen and (min-width: 1024px) {
-    /* line 106, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
     .btn-dwnld, .btn-dwnld-center {
       margin: 2rem 0 0rem 0; } }
 
-/* line 135, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-dwnld-center {
   margin: 0 5% 0 10%;
   /*MEDIA QUERIES*/
   /*Tablet*/
   /*Desktop*/ }
   @media screen and (min-width: 1024px) {
-    /* line 135, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
     .btn-dwnld-center {
       margin: 0 25% 0 20%; } }
 
-/* line 149, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-dwnld:hover, .btn-dwnld-center:hover {
   background-color: #d93560;
   box-shadow: #B9B7B7 0px 1px 1px;
   cursor: pointer; }
 
-/* line 157, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-dwnld:active, .btn-dwnld-center:active {
   box-shadow: #B9B7B7 0px 1px 1px;
   position: relative;
   top: 1px; }
 
-/* line 163, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-round {
   display: inline-block;
   color: #ffffff;
@@ -2147,31 +1955,25 @@ hr {
   -moz-box-shadow: 0px 2px 2px 0px #d1cfd1;
   box-shadow: 0px 2px 2px 0px #d1cfd1; }
 
-/* line 178, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-round:hover {
   background-color: #33bb44;
   cursor: pointer; }
 
-/* line 184, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-round:active {
   box-shadow: #B9B7B7 0px 1px 1px;
   position: relative;
   top: 1px; }
 
-/* line 190, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-svg {
   display: inline-block; }
 
-/* line 194, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-menu {
-  margin: 0 0.35rem;
+  margin: 0 .35rem;
   width: 2rem; }
 
-/* line 199, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_buttons.scss */
 .btn-center {
   margin: auto; }
 
-/* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_footer.scss */
 .footer {
   float: none;
   display: flex;
@@ -2184,15 +1986,12 @@ hr {
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_footer.scss */
     .footer {
       background-repeat: repeat-x; } }
   @media only screen and (min-width: 1024px) {
-    /* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_footer.scss */
     .footer {
       background-repeat: repeat-x; } }
 
-/* line 22, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_footer.scss */
 .contact {
   margin: auto;
   text-align: center;
@@ -2200,7 +1999,6 @@ hr {
   color: white;
   line-height: 38px; }
 
-/* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 body {
   font-size: 16px;
   line-height: 1.5rem;
@@ -2211,13 +2009,11 @@ body {
   height: auto;
   min-width: 320px; }
 
-/* line 12, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 a {
   text-decoration: none;
   color: black; }
 
 /*typography*/
-/* line 18, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -2232,13 +2028,11 @@ p {
   -webkit-margin-end: 0px;
   /*Desktop & tablet*/ }
   @media only screen and (min-width: 768px) {
-    /* line 18, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     p {
       font-size: 1.25rem;
       line-height: 1.5rem;
       margin-top: 1rem; } }
 
-/* line 39, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h1 {
   font-size: 1.85rem;
   line-height: 2rem;
@@ -2246,29 +2040,24 @@ h1 {
   margin-bottom: 1.36rem;
   font-weight: 700; }
   @media only screen and (min-width: 550px) and (max-width: 767px) {
-    /* line 39, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     h1 {
       margin-bottom: 0rem;
       font-size: 1.85rem;
       line-height: 2rem; } }
   @media only screen and (min-width: 768px) {
-    /* line 39, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     h1 {
       font-size: 4rem;
       line-height: 4.25rem; } }
 
-/* line 64, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .t-h1 {
   font-size: 1.5rem;
   line-height: 1.75rem;
   /*Desktop & tablet*/ }
   @media only screen and (min-width: 768px) {
-    /* line 64, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     .t-h1 {
       font-size: 3.5rem;
       line-height: 3.75rem; } }
 
-/* line 77, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h2 {
   font-size: 1.85rem;
   line-height: 2.5rem;
@@ -2276,7 +2065,6 @@ h2 {
   margin-bottom: 1rem;
   font-weight: 700; }
   @media only screen and (min-width: 768px) {
-    /* line 77, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     h2 {
       font-size: 2rem;
       line-height: 2.5rem;
@@ -2284,19 +2072,16 @@ h2 {
       margin-bottom: 1rem;
       font-weight: 700; } }
 
-/* line 94, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
   font-weight: 700; }
   @media only screen and (min-width: 768px) {
-    /* line 94, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     h3 {
       font-size: 1.3rem;
       line-height: 2rem; } }
 
-/* line 105, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h4 {
   font-size: 1rem;
   font-weight: 400;
@@ -2304,7 +2089,6 @@ h4 {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
-/* line 113, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h5 {
   font-size: 0.75rem;
   font-weight: 400;
@@ -2312,34 +2096,28 @@ h5 {
   margin-top: 2rem;
   margin-bottom: 2.1rem; }
 
-/* line 121, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 h6 {
   font-size: 0.625rem;
   line-height: 1rem;
   margin-top: 2.4rem;
   margin-bottom: 2.6rem; }
 
-/* line 128, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .ffamily {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700; }
 
-/* line 132, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .txt-center {
   text-align: center; }
 
-/* line 135, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .txt-margin {
   margin: 4rem 1rem 1rem 1rem; }
 
-/* line 138, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .capitalLetter {
   float: left;
   font-family: 'Open Sans',sans-serif;
   font-size: 5rem;
   margin-left: -20px; }
 
-/* line 144, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .citas {
   font-size: 2rem;
   line-height: 2.5rem;
@@ -2347,7 +2125,6 @@ h6 {
   margin-bottom: 1rem;
   font-weight: 700; }
   @media only screen and (min-width: 768px) {
-    /* line 144, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
     .citas {
       font-size: 2rem;
       line-height: 2.5rem;
@@ -2355,11 +2132,9 @@ h6 {
       margin-bottom: 1rem;
       font-weight: 700; } }
 
-/* line 160, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_typography.scss */
 .txt-shadow {
   text-shadow: 0px 1px 5px #222222; }
 
-/* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
 .header {
   display: flex;
   flex-direction: column;
@@ -2373,19 +2148,15 @@ h6 {
   /*MEDIA QUERIES*/
   /*Desktop*/ }
   @media only screen and (min-width: 568px) and (max-width: 767px) {
-    /* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .header {
       background-image: url("../img/bg-movil-p.svg"); } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .header {
       background-image: url("../img/bg-tablet.svg"); } }
   @media only screen and (min-width: 1024px) {
-    /* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .header {
       background-image: url("../img/bg-desktop.svg"); } }
 
-/* line 29, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
 .header-txt {
   flex: 1;
   flex-direction: column;
@@ -2399,44 +2170,36 @@ h6 {
   /*MEDIA QUERIES*/
   /*Desktop and tablet lands*/ }
   @media only screen and (min-width: 550px) and (max-width: 767px) {
-    /* line 29, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .header-txt {
       top: 2%;
       width: 60%; } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 29, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .header-txt {
       top: 2%;
       width: 90%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 29, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .header-txt {
       width: 60%;
       top: 7%; } }
 
-/* line 63, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
 .header-txt-content {
   margin: auto 5% auto 2%;
   padding-top: 30%; }
   @media only screen and (min-width: 550px) and (max-width: 767px) {
-    /* line 63, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .header-txt-content {
       margin: auto;
       padding-top: 5%;
       padding-left: 10%; } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 63, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .header-txt-content {
       margin: auto;
       padding-top: 40%;
       padding-left: 10%; } }
   @media only screen and (min-width: 1024px) {
-    /* line 63, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .header-txt-content {
       margin: auto 5% auto 5%;
       padding-top: 0; } }
 
-/* line 87, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
 .logo {
   display: flex;
   flex-direction: column;
@@ -2449,15 +2212,12 @@ h6 {
   /*Tablet*/
   /*Desktop*/ }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* line 87, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .logo {
       display: none; } }
   @media only screen and (min-width: 1024px) {
-    /* line 87, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_header.scss */
     .logo {
       display: none; } }
 
-/* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -2469,7 +2229,6 @@ html {
 /**
  * Remove default margin.
  */
-/* line 12, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 body {
   margin: 0; }
 
@@ -2481,7 +2240,6 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 38, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 article,
 aside,
 details,
@@ -2501,7 +2259,6 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 50, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -2515,7 +2272,6 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 60, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -2524,7 +2280,6 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
-/* line 71, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 [hidden],
 template {
   display: none; }
@@ -2534,7 +2289,6 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 82, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 a {
   background-color: transparent; }
 
@@ -2542,7 +2296,6 @@ a {
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-/* line 92, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -2552,14 +2305,12 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 103, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 112, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
@@ -2567,7 +2318,6 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 120, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 dfn {
   font-style: italic; }
 
@@ -2575,7 +2325,6 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 129, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -2583,7 +2332,6 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 138, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -2591,14 +2339,12 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 147, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 156, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -2606,11 +2352,9 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 163, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 167, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
@@ -2619,14 +2363,12 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 178, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 186, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -2635,14 +2377,12 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 197, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 205, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 hr {
   box-sizing: content-box;
   height: 0; }
@@ -2650,14 +2390,12 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 214, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 225, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 code,
 kbd,
 pre,
@@ -2677,7 +2415,6 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 249, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 button,
 input,
 optgroup,
@@ -2693,7 +2430,6 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 259, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 button {
   overflow: visible; }
 
@@ -2703,7 +2439,6 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 271, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 button,
 select {
   text-transform: none; }
@@ -2715,9 +2450,9 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 286, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -2727,7 +2462,6 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 296, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -2735,7 +2469,6 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 305, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -2745,7 +2478,6 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 315, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 input {
   line-height: normal; }
 
@@ -2756,7 +2488,6 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 328, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -2769,7 +2500,6 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 340, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -2778,7 +2508,6 @@ input[type="number"]::-webkit-outer-spin-button {
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
-/* line 349, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -2790,7 +2519,6 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 361, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -2798,7 +2526,6 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 369, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -2808,7 +2535,6 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 380, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -2818,7 +2544,6 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 389, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -2826,7 +2551,6 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 398, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 optgroup {
   font-weight: bold; }
 
@@ -2835,23 +2559,19 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 409, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 415, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 td,
 th {
   padding: 0; }
 
-/* line 419, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_normalize.scss */
 li, ul {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-/* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .page-header {
   padding: 30px;
   text-align: center;
@@ -2860,20 +2580,17 @@ li, ul {
   color: white;
   margin-bottom: 80px; }
 
-/* line 10, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .terms-sections {
   width: 80%;
   max-width: 700px;
   margin: 0 auto;
   margin-bottom: 80px; }
 
-/* line 17, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .ol {
   border-left: 3px #E6E6E6 solid;
   padding-left: 20px;
   font-family: 'Montserrat', sans-serif; }
 
-/* line 23, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .arrow-up {
   width: 0;
   height: 0;
@@ -2884,7 +2601,6 @@ li, ul {
   position: relative;
   top: -10px; }
 
-/* line 35, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .arrow-container {
   width: 50px;
   height: 50px;
@@ -2897,31 +2613,26 @@ li, ul {
   right: 30px;
   margin-top: -25px; }
 
-/* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
 fieldset {
   border: 0; }
 
-/* line 5, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
 .lighbox-fieldset {
   width: 80%;
   margin: 0 auto;
   padding: 20px 0px; }
 
-/* line 11, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
 label {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem; }
   @media only screen and (min-width: 768px) {
-    /* line 11, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
     label {
       font-size: 1.25rem;
       line-height: 1.5rem;
       margin-top: 1rem; } }
 
 /*Estilando estados del input*/
-/* line 25, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
 input {
   border-radius: 5px;
   border: 1px solid #b3b3b3;
@@ -2931,30 +2642,116 @@ input {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-/* line 34, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
 input:focus {
   border-color: #11bbcc;
   border-radius: 5px; }
 
-/* line 38, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
 input:hover {
   border-color: #11bbcc;
   color: #11bbcc; }
 
 /*Estilando estados del placeholder*/
-/* line 43, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
 input:hover::-webkit-input-placeholder {
   color: #11bbcc; }
 
-/* line 46, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
 input:hover:-moz-placeholder {
   color: #11bbcc; }
 
-/* line 49, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_forms.scss */
 input:hover:-ms-input-placeholder {
   color: #11bbcc; }
 
-/* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_lightbox.scss */
+/*Checkbox estilado*/
+input[type='checkbox'] {
+  height: 0;
+  width: 0; }
+
+input[type='checkbox'] + label {
+  position: relative;
+  display: flex;
+  margin: .6em 0;
+  align-items: center;
+  color: #9e9e9e;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.23, 1); }
+
+input[type='checkbox'] + label > ins {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 2em;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.23, 1); }
+
+input[type='checkbox'] + label > ins > i {
+  position: absolute;
+  bottom: 0;
+  font-style: normal;
+  color: #11bbcc; }
+
+input[type='checkbox'] + label > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+  width: 1em;
+  height: 1em;
+  background: transparent;
+  border: 2px solid #9E9E9E;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.23, 1); }
+
+input[type='checkbox'] + label:hover, input[type='checkbox']:focus + label {
+  color: #11bbcc; }
+
+input[type='checkbox'] + label:hover > span, input[type='checkbox']:focus + label > span {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #11bbcc; }
+
+input[type='checkbox']:checked + label > ins {
+  height: 100%; }
+
+input[type='checkbox']:checked + label > span {
+  border: 0.5em solid #11bbcc;
+  animation: shrink-bounce 200ms cubic-bezier(0.4, 0, 0.23, 1); }
+
+input[type='checkbox']:checked + label > span:before {
+  content: "";
+  position: absolute;
+  top: .6em;
+  left: .2em;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transform: rotate(45deg);
+  transform-origin: 0% 100%;
+  animation: checkbox-check 125ms 250ms cubic-bezier(0.4, 0, 0.23, 1) forwards; }
+
+@keyframes shrink-bounce {
+  0% {
+    transform: scale(1); }
+  33% {
+    transform: scale(0.85); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes checkbox-check {
+  0% {
+    width: 0;
+    height: 0;
+    border-color: #fff;
+    transform: translate3d(0, 0, 0) rotate(45deg); }
+  33% {
+    width: .2em;
+    height: 0;
+    transform: translate3d(0, 0, 0) rotate(45deg); }
+  100% {
+    width: .2em;
+    height: .5em;
+    border-color: #212121;
+    transform: translate3d(0, -0.5em, 0) rotate(45deg); } }
+
 .lightbox {
   padding: 20px;
   border: 10px #999999 solid;
@@ -2967,20 +2764,19 @@ input:hover:-ms-input-placeholder {
   position: absolute;
   left: 0;
   right: 0;
+  top: 20%;
   margin: auto; }
 
-/* line 16, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_lightbox.scss */
 .lightbox-header {
   float: left;
   margin-top: -60px; }
 
-/* line 21, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_lightbox.scss */
 .h1-lightbox {
   color: #ed497e;
   font-size: 1.85rem;
-  line-height: 2rem; }
+  line-height: 2rem;
+  width: 100%; }
 
-/* line 27, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_lightbox.scss */
 .close-position {
   position: relative;
   left: 97%;
@@ -2991,36 +2787,41 @@ input:hover:-ms-input-placeholder {
   background-position: center;
   background-size: 55% 55%; }
 
+.advice-text {
+  float: left;
+  margin-bottom: 25px; }
+
 /*Opciones*/
-/* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .accordion {
   width: 90%;
+  max-width: 450px;
   text-align: center;
   margin: auto;
   margin-top: -40px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  border-top: 1px solid #0097e8;
+  border-bottom: 1px solid #0097e8; }
 
-/* line 10, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
+.accordion:hover {
+  border-top: 1px solid #33bb44;
+  border-bottom: 1px solid #33bb44; }
+
 .inner {
   overflow: hidden;
   display: none; }
 
-/* line 14, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .inner.show {
   display: block; }
 
-/* line 17, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .toggle {
   display: block;
-  transition: background 0.3s ease; }
+  transition: background .3s ease; }
 
-/* line 22, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .accordion-li {
   padding: 20px;
   text-align: left; }
 
 /*Botón*/
-/* line 30, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .port-btn-seemore {
   display: inline-block;
   font-weight: 700;
@@ -3028,17 +2829,14 @@ input:hover:-ms-input-placeholder {
   color: #0097e8;
   background-color: white;
   border: 0;
-  border-top: 1px solid #0097e8;
-  border-bottom: 1px solid #0097e8;
   font-size: 1.5rem;
   padding: 10px; }
 
-/* line 44, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
+.port-btn-seemore:hover {
+  color: #33bb44; }
+
 .port-btn-seemore:before {
   content: "Menú"; }
 
-/* line 48, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .port-btn-seeless:before {
   content: "Cerrar"; }
-
-/*# sourceMappingURL=terms-style.css.map */

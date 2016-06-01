@@ -1,0 +1,35 @@
+{
+  "name": "eva",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "install": "^0.6.1"
+  },
+  "devDependencies": {
+    "beepbeep": "^1.2.0",
+    "browser-sync": "^2.12.10",
+    "colors": "^1.1.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.1",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silviajboo/kidscode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silviajboo/kidscode/issues"
+  },
+  "homepage": "https://github.com/silviajboo/kidscode#readme"
+}

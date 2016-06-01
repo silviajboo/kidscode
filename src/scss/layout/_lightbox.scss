@@ -10,6 +10,7 @@
     position: absolute;
 	left: 0;
 	right: 0;
+    top: 20%;
 	margin: auto;
 }
 
@@ -22,6 +23,7 @@
     color: $secondaryColorTxtPink;
     font-size: 1.85rem;
     line-height: 2rem;
+    width: 100%;
 }
 
 .close-position {
@@ -34,4 +36,9 @@
     background-position: center;
     background-size: 55% 55%;
     
+}
+
+.advice-text {
+    float: left;   
+    margin-bottom: 25px;
 }
