@@ -1,0 +1,28 @@
+.footer{
+    float:none;
+    display: flex;
+    justify-content: center;
+	padding: 3rem 2rem 1rem 2rem;
+	background-image: url("../img/footer.svg");
+	background-size: contain;
+    background-repeat: repeat-x;
+    
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        background-repeat: repeat-x;
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        background-repeat: repeat-x;
+    }
+}
+
+.contact{
+    margin: auto;
+    text-align: center;
+    padding: 45px 0px;
+    color: white;
+    line-height: 38px;
+}

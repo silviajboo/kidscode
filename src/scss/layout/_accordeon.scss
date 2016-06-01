@@ -1,0 +1,55 @@
+/*Opciones*/
+.accordion {
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    border-top: 1px solid $secondaryColorBgBlue3;
+    border-bottom: 1px solid $secondaryColorBgBlue3;
+}
+.accordion:hover {
+    border-top: 1px solid $primaryColorBgGreen;
+    border-bottom: 1px solid $primaryColorBgGreen;
+    
+}
+.inner {
+  overflow: hidden;
+  display: none;
+}
+.inner.show {
+  display: block;
+}
+.toggle {
+  display: block;
+  transition: background .3s ease;
+}
+.accordion-li {
+    padding: 20px;
+    text-align: left;
+    
+}
+
+
+/*Botón*/
+.port-btn-seemore {
+    display:inline-block;
+	font-weight: 700;
+	text-decoration: none;
+	color: $secondaryColorBgBlue3;
+    background-color: white;
+    border: 0;
+	font-size: 1.5rem;
+    padding: 10px;
+}
+.port-btn-seemore:hover {
+    color:$primaryColorBgGreen;
+    
+}
+.port-btn-seemore:before {
+    content: "Menú";
+}
+.port-btn-seeless:before {
+    content: "Cerrar";
+}

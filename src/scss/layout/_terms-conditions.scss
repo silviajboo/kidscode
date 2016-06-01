@@ -1,0 +1,46 @@
+.page-header {
+    padding: 30px;
+    text-align: center;
+    background-color: $primaryColorBgBlue;
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.terms-sections {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.ol {
+    border-left: 3px #E6E6E6 solid;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid white;
+    border-radius: 5px;
+    position: relative;
+    top: -10px;
+    
+}
+
+.arrow-container {
+    width: 50px;
+    height: 50px;
+    background-color: $primaryColorBgBlue;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    border: 5px solid white;
+    box-shadow: $shadow;
+    right: 30px;
+    margin-top: -25px;
+}
