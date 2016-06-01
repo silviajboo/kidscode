@@ -13,8 +13,6 @@
         min-width: 70%;
     }
 }
-
-/*decoración puzzles*/
 .puzzle{
 	min-height: 5rem;
 	max-height: auto;
@@ -31,16 +29,6 @@
        padding: .5rem 2rem 1rem 2rem;
     }
 }
-
-/*.puzzle::after{
-     width: 2rem;
-    height: 2rem;
-    border-radius: 50px;
-    padding: 1em 1em 1em 1em;
-    margin: 0 3rem 0 0;
-    float: right;
-}*/
-
 .mini-circle {
     width: 2rem;
     height: 2rem;
@@ -50,21 +38,12 @@
     float: right;
     position: absolute;
 }
-
 .img-content2{
 	/*Desktop*/
 	@media only screen and (min-width: 1024px){
         width: auto;
         height: 100%;
         margin-top: 0;
-        
-        /*background-image: url(../img/imgKids2.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: -10% 0;
-        position: absolute;*/
-        //background-attachment: inherit;
-        //flexbox-direction:row;
     }
 }
 .img-content3{

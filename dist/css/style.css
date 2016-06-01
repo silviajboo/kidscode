@@ -1465,7 +1465,7 @@ stretchRight
           justify-content: flex-end;
   text-align: center;
   margin: 0rem 0em 0rem 0rem;
-  min-height: 500px;
+  min-height: 650px;
   max-width: 600px; }
 
 .content-flex-4 {
@@ -1883,19 +1883,25 @@ hr {
       background-repeat: no-repeat; } }
 
 .step1-bgd {
-  background-image: url("../img/set.svg");
+  background-image: url("../img/step1.svg");
   background-repeat: no-repeat;
   padding: 1rem;
   width: 50%; }
 
 .step2-bgd {
-  background-image: url("../img/fichas.svg");
+  background-image: url("../img/step2.svg");
   background-repeat: no-repeat;
   padding: 1rem;
   width: 50%; }
 
 .step3-bgd {
   background-image: url("../img/step3.svg");
+  background-repeat: no-repeat;
+  padding: 1rem;
+  width: 50%; }
+
+.step4-bgd {
+  background-image: url("../img/step4.svg");
   background-repeat: no-repeat;
   padding: 1rem;
   width: 50%; }
@@ -2055,12 +2061,6 @@ hr {
   width: 25px;
   height: 25px;
   margin: 10px; }
-
-.suelo {
-  border-bottom: 25px solid transparent;
-  border-top: 0px solid transparent;
-  -o-border-image: url("../img/m-suelo.svg") 143 30 repeat;
-     border-image: url("../img/m-suelo.svg") 143 30 repeat; }
 
 /*BOTONES*/
 .btn-cam {
@@ -2274,7 +2274,6 @@ a {
 
 /*typography*/
 p {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem;
@@ -2333,7 +2332,6 @@ h2 {
       font-weight: 700; } }
 
 h3 {
-  font-family: 'Open Sans', sans-serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
   font-weight: 700; }
@@ -2366,7 +2364,6 @@ h6 {
   list-style: none; }
 
 .ffamily {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 700; }
 
 .txt-center {
@@ -2377,7 +2374,6 @@ h6 {
 
 .capitalLetter {
   float: left;
-  font-family: 'Open Sans',sans-serif;
   font-size: 5rem;
   margin-left: -20px; }
 

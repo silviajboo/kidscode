@@ -220,13 +220,13 @@
 }
 
 .step1-bgd{
-       background-image: url("../img/set.svg");
+       background-image: url("../img/step1.svg");
        background-repeat: no-repeat;
        padding:1rem;
        width: 50%;
 }
 .step2-bgd{
-       background-image: url("../img/fichas.svg");
+       background-image: url("../img/step2.svg");
        background-repeat: no-repeat;
        padding:1rem;
        width: 50%;
@@ -237,7 +237,12 @@
        padding:1rem;
        width: 50%;
 }
-
+.step4-bgd{
+       background-image: url("../img/step4.svg");
+       background-repeat: no-repeat;
+       padding:1rem;
+       width: 50%;
+}
 .mini-circle {
     width: 2rem;
     height: 2rem;
@@ -405,7 +410,7 @@
     margin: 10px;
 }
 .suelo{
-    border-bottom: 25px solid transparent;
-    border-top:0px solid transparent;
-    border-image:url("../img/m-suelo.svg") 143 30 repeat;
+    //border-bottom: 25px solid transparent;
+    //border-top:0px solid transparent;
+    //border-image:url("../img/m-suelo.svg") 143 30 repeat;
 }

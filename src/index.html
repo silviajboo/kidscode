@@ -1,38 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>KidsCode</title>
   <!--VIEWPORT-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <!--CSS-->
   <link rel="stylesheet" href="css/style.css">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
   <!--FAVICON-->
   <link rel="icon" type="image/png" href="../img/eye.png">
-
   <!--google fonts-->
-
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
-
-<!--Jquery
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>-->
-
-  <!--function scroll & execute css animation--> 
   <script>
   $(window).scroll(function() {
     $('.number-1, .number-2, .number-3, .number-4').each(function(){
       var imagePos = $(this).offset().top;
-
       var topOfWindow = $(window).scrollTop();
       if (imagePos < topOfWindow+400) {
-        $(this).addClass("slideUp");
-      }
+        $(this).addClass("slideUp");}
+      });
     });
-  });
   </script>
   <!--Google anlytics implementation -->
   <script>
@@ -40,209 +28,205 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-75956014-1', 'auto');
   ga('send', 'pageview');
-
   </script>
-
 </head>
-
 <body class="color-bg-yellow">
   <!--Cabecera-->
   <header>
     <div class="container color-bg-green header">
-
       <div class="header-txt">
-        <div class="logo-kidscode-header">        
-        </div>
+        <div class="logo-kidscode-header"></div>
         <div class="header-txt-content">
           <h1 class="t-h1 slideUp">La forma divertida de aprender a programar en familia</h1>
-
-
           <a href="#empieza">
-            <div class="btn-slogan">Empieza la Aventura</div></div>
+            <div class="btn-slogan">Empieza la Aventura</div>
           </a>
         </div>
       </div>
-    </header>
-
-    <!--Presentación de Proyecto -->
-    <section>
-      <div class="container color-bg-green-mountain suelo">
-        <div class="container-flex wrap">
-          <!--contenido izquierdo IMAGEN DE RUMBLE--> 
-          <div class="content-flex-1 f-basis-4 center color-txt-white">
-            <div class="rumble-img"></div>
-            <h1 class="t-h1">¡Hola!</h1><h2 class="color-txt-white"> Me llamo Rumble<br> ¿Quieres jugar conmigo?</h2><br>
+    </div>
+  </header>
+  <!--Presentación de Proyecto -->
+  <section>
+    <div class="container color-bg-green-mountain suelo">
+      <div class="container-flex wrap">
+        <!--contenido izquierdo IMAGEN DE RUMBLE--> 
+        <div class="content-flex-1 f-basis-4 center color-txt-white">
+          <div class="rumble-img"></div>
+          <h1 class="t-h1">¡Hola!</h1>
+          <h2 class="color-txt-white"> Me llamo Rumble<br>¿Quieres jugar conmigo?</h2>
+        </div>
+        <!--contenido derecho CUADRO ÚNETE A KIDSCODE-->  
+        <!--Partes superior-->
+        <div class="content-flex-3 f-basis-4">
+          <div class="content-rnd-top color-txt-white">
+            <h2>Únete a</h2>
+            <div class="logo-kidscode"></div>
           </div>
-
-          <!--contenido derecho CUADRO ÚNETE A KIDSCODE-->  
-          <!--Partes superior MAGENTA-->
-          <div class="content-flex-3 f-basis-4">
-            <div class="content-rnd-top color-txt-white"><h2>Únete a</h2>
-              <div class="logo-kidscode"></div>
-            </div>
-            <!--Partes inferior BLANCA-->
-            <div class="content-rnd-bottom">
-              <h2 class="color-txt-pink">Imprime las Fichas</h2>
-              <h3 class="color-txt-grey-drk">No todo queda en la pantalla</h3><hr>
-              <h2 class="color-txt-pink">Juega Online</h2>
-              <h3 class="color-txt-grey-drk">Entra en mi mundo y juntos viviremos mil aventuras</h3><hr>
-              <h2 class="color-txt-pink">Aprende a Programar</h2>
-              <h3 class="color-txt-grey-drk">De forma divertida y en família</h3>
-            </div>
+        <!--Partes inferior-->
+          <div class="content-rnd-bottom">
+            <h2 class="color-txt-pink">Imprime las Fichas</h2>
+            <h3 class="color-txt-grey-drk">No todo queda en la pantalla</h3><hr>
+            <h2 class="color-txt-pink">Juega Online</h2>
+            <h3 class="color-txt-grey-drk">Entra en mi mundo y juntos viviremos mil aventuras</h3><hr>
+            <h2 class="color-txt-pink">Aprende a Programar</h2>
+            <h3 class="color-txt-grey-drk">De forma divertida y en família</h3>
           </div>
         </div>
       </div>
-    </section>
-
-    <!--OBJETIVOS de Proyecto -->
-    <section>
-      <!--contenedor FLEX 2-->
-      <div class="container color-bg-blue-bg bg-clouds">
-
-        <!--contenido 1 flex--> 
-        <div class="bird2 tossing"></div>
-        <div class="container-flex wrap"> 
-
-          <div class="content-flex-1 max-min arg1-img f-basis-2 color-txt-white">
+    </div>
+  </section>
+  <!--OBJETIVOS de Proyecto -->
+  <section>
+    <!--contenedor OBJETIVOS-->
+    <div class="container color-bg-blue-bg bg-clouds">
+    <!--contenido FLEX A--> 
+      <div class="bird2 tossing"></div>
+      <div class="container-flex wrap"> 
+        <div class="content-flex-1 max-min arg1-img f-basis-2 color-txt-white"></div>
+    <!--contenido FLEX B--> 
+        <div class="content-flex-1 max-min arg2-img f-basis-2 color-txt-white"></div>
+    <!--contenido FLEX C--> 
+        <div class="content-flex-1 max-min arg3-img he f-basis-2 color-txt-white"></div>
+      </div>
+    </div>
+  </section>
+    <!--contenedor PASOS-->
+  <section id="empieza">
+    <!--contenedor FLEX 3-->
+    <div class="container color-bg-blue-bg">
+      <div class="bird1 tossing"></div>
+      <div class="molino"></div>
+      <div class="bg-tierra-sup"></div>
+    </div>
+    <div class="container color-bg-brown bg-tierra">
+      <div class=" container-flex color-txt-white">
+        <h1>...Empieza la aventura</h1>
+      </div>
+    </div>
+    <!--Contenido PASOS-->
+    <div class="container color-bg-brown">
+      <div class="container-flex wrap">
+      <!--contenido 1 flex--> 
+        <div class="content-flex-3  max-min step1-bgd he f-basis-2 color-txt-white">
+          <!--H3 no funciona...-->
+          <a href="pdf/fichas_v1.pdf" target="_blank">
+            <div class="btn-dwn">Regístrate</div>
+          </a>
+          <h3 class="color-txt-green-drk">
+          <div class="number-1"></div>
+          <div class="label color-txt-green">Regístrate
+            <p class="color-txt-green-drk">Y crea los perfiles de tus hijos</p>
           </div>
-          <!--contenido 2 flex--> 
-          <div class="content-flex-1 max-min arg2-img f-basis-2 color-txt-white">
-          </div>
-          <!--contenido 3 flex--> 
-          <div class="content-flex-1 max-min arg3-img he f-basis-2 color-txt-white">
-          </div>
+          
         </div>
-      </div>
-    </section>
-
-    <!--Título PASOS de Proyecto -->
-    <section id="empieza">
-      <!--contenedor FLEX 3-->
-      <div class="container color-bg-blue-bg">
-        <div class="bird1 tossing"></div>
-        <div class="molino"></div>
-        <div class="bg-tierra-sup"></div>
-      </div>
-      <div class="container color-bg-brown bg-tierra">
-        <div class=" container-flex color-txt-white">
-          <h1>...Empieza la aventura</h1>
-        </div>
-      </div>
-
-      <!--PASOS de Proyecto -->
-      <div class="container color-bg-brown suelo">
-        <div class="container-flex wrap">
-          <!--contenido 1 flex--> 
-
-          <!--contenido 1 flex--> 
-          <div class="content-flex-3  max-min step1-bgd he f-basis-2 color-txt-white"><h3 class="color-txt-green-drk">
+      <!--contenido 2 flex--> 
+        <div class="content-flex-3  max-min step2-bgd he f-basis-2 color-txt-white">
+          <!--H3 no funciona...-->
             <a href="pdf/fichas_v1.pdf" target="_blank">
-              <div class="btn-dwn">Imprimir las Fichas</div>
+            <div class="btn-dwn">Imprime fichas</div>
+          </a>
+          <h3 class="color-txt-green-drk">
+          <div class="number-2"></div>
+          <div class="label color-txt-green">Imprime las fichas
+            <p class="color-txt-green-drk">Los papis ayudarán ¿eh?</p>
+          </div>
+        </div>
+        <!--contenido 3 flex--> 
+        <div class="content-flex-3  max-min step3-bgd he f-basis-2 color-txt-white">
+          <!--H3 no funciona...-->
+          <h3 class="color-txt-green-drk">
+          <div class="number-3"></div>
+          <div class="label color-txt-green">¡Juega!
+            <p class="color-txt-green-drk">ayuda a Rumble en sus aventuras
+          </div>
+        </div>
+        <!--contenido 4 flex--> 
+        <div class="content-flex-3  max-min step4-bgd he f-basis-2 color-txt-white">
+          <!--H3 no funciona...-->
+          <h3 class="color-txt-green-drk">
+          <div class="number-4"></div>
+          <div class="label color-txt-green">¡Mira lo que hago!
+            <p class="color-txt-green-drk">Escanea el código QR para verlo</p>
+          </div>
+        </div>
+    </section>
+  <!--VIDEO-->
+   <section><!--contenedor FLEX 4-->
+    <div class="container color-bg-white">
+      <div class="container-flex wrap">
+          <div class="container-flex-1">
+            <div class="placeholder-anim-img"></div>
+          </div>
+          <div class="content-flex-btn">
+            <a href="#">
+              <a onClick="ga('send', 'event', 'juegaYa', 'click', 'juego1');" href="http://pacogarciapoza.github.io/kidscode_webapp/"></a>
             </a>
-            <div class="number-1"></div>
-            <div class="label color-txt-green">¡Imprime y recorta las fichas del juego!
-              <p class="color-txt-green-drk">Los papis ayudarán ¿eh?</p>
-            </div>
+            <div class="btn-act">¡Juega ya!</div>
           </div>
-          <!--contenido 2 flex--> 
-          <div class="content-flex-3  max-min step2-bgd he f-basis-2 color-txt-white"><h3 class="color-txt-green-drk">
-            <div class="number-2"></div>
-            <div class="label color-txt-green">Únelas
-              <p class="color-txt-green-drk">Abre la aplicación móvil y sigue el paso a paso</p>
-            </div>
-          </div>
-          <!--contenido 3 flex--> 
-          <div class="content-flex-3  max-min step3-bgd he f-basis-2 color-txt-white"><h3 class="color-txt-green-drk">
-            <div class="number-3"></div>
-            <div class="label color-txt-green">¡Mira lo que hago!
-              <p class="color-txt-green-drk">Escanea el código QR para verlo</p>
-            </div>
-          </div>
-          <!--contenido 4 flex--> 
-          <div class="content-flex-3  max-min step2-bgd he f-basis-2 color-txt-white"><h3 class="color-txt-green-drk">
-            <div class="number-4"></div>
-            <div class="label color-txt-green">¡Mira lo que hago!
-              <p class="color-txt-green-drk">Escanea el código QR para verlo</p>
-            </div>
-          </div>
-
-        </section>
-
-        <!--CÓMO JUGAR-->
-        <section><!--contenedor FLEX 4-->
-          <div class="container color-bg-white">
-            <div class="container-flex wrap">
-              <div class="container-flex-1">
-                <div class="placeholder-anim-img"></div>
-              </div>
-              <div class="content-flex-btn"><a href="#">
-                <a onClick="ga('send', 'event', 'juegaYa', 'click', 'juego1');" href="http://pacogarciapoza.github.io/kidscode_webapp/">
-                  <div class="btn-act">¡Juega ya!</div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!--TESTIMONIALS-->
-          <section>
-            <!--contenedor FLEX 5-->
-            <div class="container color-bg-yellow">
-
-              <!--contenido 1 flex--> 
-              <div class="container-flex wrap">
-                <div class="butterfly tossing"></div>
-                <div class=" testimonial max-min f-basis-3  center">
-                  <h3 class="txt-margin"><span class="capitalLetter">"</span>Se divierten y además aprender, ¿Qué más puedo pedir para los peques?"</h3>
-                  <h3>Pere Luján</h3>
-                  <p>Padre de Lina y Laura</p>
-                </div>
-                <!--contenido 2 flex--> 
-                <div class="testimonial max-min f-basis-3 center">
-                  <h3 class="txt-margin"><span class="capitalLetter">"</span>Una herramienta básica para mostrar las posibilidades de la programación a los niños"</h3>
-                  <h3>Marina Perea</h3>
-                  <p>Madre de Bruna</p>
-                </div>
-                <!--contenido 2 flex--> 
-                <div class="testimonial max-min f-basis-3 center">
-
-                  <h3 class="txt-margin"><span class="capitalLetter">"</span>
-                    Cada día las veo aprender algo nuevo, algo que compartimos"</h3>
-                    <h3>Laura García</h3>
-                    <p>Madre de Lucas</p></div></div>
-                    <div class="container-flex wrap color-bg-yellow color-txt-white txt-shadow">
-                      <h2>...Y ahora ¿Jugamos?</h2>
-                    </div>
-
-                    <div class="container-block ">
-                      <a onClick="ga('send', 'event', 'juegaYa', 'click', 'juego1');" href="http://pacogarciapoza.github.io/kidscode_webapp/">
-                        <div class="btn-act tossing">¡Juega ya!</div>
-                      </div>
-
-                    </section>
-
-                    <footer>
-                      <!--FOOTER de la página-->
-
-                      <div class="container-block color-bg-brown bg-tierra"><h4>
-                        <div class="container-icons">
-                          <a href="#"><div class="rs-fb"></div></a>
-                          <a href="#"><div class="rs-go"></div></a>
-                          <a href="#"><div class="rs-tw"></div></a>
-                        </div>
-                        <div class="contact color-txt-white"> proyectokidscode@gmail.com </div>
-                        <div class="copyright color-txt-white"> Copyright © 2016 Kids Code </div>
-                      </div>
-                    </footer></h4>
-
-                    <script src="js/scroll.js"></script>
-                  </body>
-                  <!-- execute button animations-->
-                  <script>
-                  $('.btn-slogan').click(function() {
-                    $(this).addClass("slideUp");
-                  });
-                  </script>
-                  </html>
+      </div>
+    </div>
+  </section>
+  <!--TESTIMONIALS-->
+  <section>
+  <!--contenedor FLEX-->
+    <div class="container color-bg-yellow">
+      <div class="container-flex wrap">
+        <div class="butterfly tossing"></div>
+        <!--contenido FLEX A--> 
+        <div class=" testimonial max-min f-basis-3 center">
+          <h3 class="txt-margin">
+            <span class="capitalLetter">"</span>
+            <p>Se divierten y además aprender, ¿Qué más puedo pedir para los peques?"</p>
+          </h3>
+          <h3>Pere Luján</h3>
+          <p>Padre de Lina y Laura</p>
+        </div>
+        <!--contenido FLEX B--> 
+        <div class="testimonial max-min f-basis-3 center">
+          <!--H3 no funciona...-->
+          <h3 class="txt-margin">
+            <span class="capitalLetter">"</span>
+            <p>Una herramienta básica para mostrar las posibilidades de la programación a los niños"</p>
+            <h3>Marina Perea</h3>
+            <p>Madre de Bruna</p>
+        </div>
+        <!--contenido 2 flex--> 
+        <div class="testimonial max-min f-basis-3 center">
+          <h3 class="txt-margin">
+            <span class="capitalLetter">"</span>
+            <p>Cada día las veo aprender algo nuevo, algo que compartimos"</p>
+            <h3>Laura García</h3>
+            <p>Madre de Lucas</p>
+        </div>
+      <div class="container-flex wrap color-bg-yellow color-txt-white txt-shadow">
+         <h2>...Y ahora ¿Jugamos?</h2>
+      </div>
+      <div class="container-block ">
+        <a onClick="ga('send', 'event', 'juegaYa', 'click', 'juego1');" href="http://pacogarciapoza.github.io/kidscode_webapp/">
+          <div class="btn-act tossing">¡Juega ya!</div>
+        </a>
+      </div>
+  </section>
+  <footer>
+    <div class="container-block color-bg-brown bg-tierra">
+      <h4>
+        <div class="container-icons">
+            <a href="#"><div class="rs-fb"></div></a>
+            <a href="#"><div class="rs-go"></div></a>
+            <a href="#"><div class="rs-tw"></div></a>
+        </div>
+        <div class="contact color-txt-white"> proyectokidscode@gmail.com </div>
+        <div class="copyright color-txt-white"> Copyright © 2016 Kids Code </div>
+     </div>
+  </footer></h4>
+  <script src="js/scroll.js"></script>
+</body>
+<!--Ejecuta las animaciones-->
+  <script>
+    $('.btn-slogan').click(function() {
+    $(this).addClass("slideUp");
+    });
+  </script>
+</html>
