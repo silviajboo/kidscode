@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Recuperar contraseña Lightbox</title>
+    <title>Conformar eliminar perfil Lightbox</title>
     <link href="css/terms-style.css" rel="stylesheet" type="text/css">
     
     <!--Movile viewport-->
@@ -20,19 +20,21 @@
     <div class="btn-round close-position"></div>
     
     <header class="lightbox-header">
-        <h1 class="h1-lightbox">Recuperar Contraseña</h1>
+        <h1 class="h1-lightbox">Eliminar el perfil</h1>
     </header>
     
     <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post" id="" name="" onsubmit="return validacion()">
         
         <fieldset class="lighbox-fieldset">
-             <label for="name">Introduce tu correo electrónico</label>
-             <input type="text" id="itNombre" name="name" class=""  placeholder="tucorreo@correo.com" required>
+             <label for="name">¿Estás seguro de que quieres eliminar la cuenta?</label>
+             <input type="text" id="itNombre" name="name" class="" required placeholder="Escribe aquí DELETE">
         </fieldset>
         
-        <button class="btn-act" type="submit" id="bEnviar">Recuperar</button>
+        <button class="btn-act" type="submit" id="bEnviar">Borrar</button>
     </form>
+    
 </div>
+
     
 </body>
 </html>
