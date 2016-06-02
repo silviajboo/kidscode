@@ -2752,44 +2752,56 @@ input[type='checkbox']:checked + label > span:before {
     border-color: #212121;
     transform: translate3d(0, -0.5em, 0) rotate(45deg); } }
 
-.lightbox {
-  padding: 20px;
-  border: 10px #999999 solid;
+.lightbox_double {
   border-radius: 5px;
-  width: 300px;
-  text-align: center;
   box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
-  text-align: center;
-  background-color: white;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 20%;
-  margin: auto; }
+  margin: auto;
+  position: absolut;
+  width: 100%;
+  text-align: center; }
+  @media screen and (min-width: 1024px) {
+    .lightbox_double {
+      margin: 0 auto;
+      border: 10px #999999 solid;
+      width: 80%; } }
 
-.lightbox-header {
-  float: left;
-  margin-top: -60px; }
+.close-position {
+  margin-right: 10px;
+  float: right;
+  background-image: url(../img/btn-cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55% 55%; }
+
+.lightbox_start {
+  width: 100%;
+  height: 100%;
+  display: block; }
+  @media screen and (min-width: 1024px) {
+    .lightbox_start {
+      display: inline-block;
+      width: 45%; } }
+
+.lightbox_create {
+  width: 100%;
+  height: 100%;
+  display: block; }
+  @media screen and (min-width: 1024px) {
+    .lightbox_create {
+      display: inline-block;
+      width: 45%; } }
+
+.lightbox-head {
+  padding: 10px;
+  margin-top: 0;
+  float: right;
+  width: 100%; }
 
 .h1-lightbox {
   color: #ed497e;
   font-size: 1.85rem;
   line-height: 2rem;
   width: 100%; }
-
-.close-position {
-  position: relative;
-  left: 97%;
-  top: -58px;
-  float: left;
-  background-image: url(../img/btn-cancel.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 55% 55%; }
-
-.advice-text {
-  float: left;
-  margin-bottom: 25px; }
 
 /*Opciones*/
 .accordion {

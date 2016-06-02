@@ -1,0 +1,68 @@
+.lightbox_double {
+    ///padding: 20px;
+    ///border: 10px red solid;///$secondaryColorBgBlack1 
+    border-radius: 5px;
+    box-shadow: $shadow;
+
+    ///top: 20%;
+    margin: auto;
+    position: absolut;
+    width: 100%;
+    text-align: center;
+    @media screen and (min-width: 1024px){
+margin: 0 auto;
+border: 10px $secondaryColorBgBlack1 solid;
+width: 80%;
+}
+
+}
+
+.close-position {
+margin-right: 10px;
+float: right;
+    background-image: url(../img/btn-cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55% 55%;
+    
+}
+
+.lightbox_start {
+width:100%;
+height:100%;
+
+display:block;
+
+@media screen and (min-width: 1024px){
+display:inline-block;
+width: 45%;
+
+        }
+}
+
+.lightbox_create {
+width:100%;
+height:100%;
+
+display:block;
+@media screen and (min-width: 1024px){
+display:inline-block;
+width: 45%;
+        }
+
+}
+
+.lightbox-head {
+    padding: 10px;
+    margin-top: 0;
+float: right;
+width: 100%;
+}
+
+.h1-lightbox {
+    color: $secondaryColorTxtPink;
+    font-size: 1.85rem;
+    line-height: 2rem;
+    width: 100%;
+}
+

@@ -94,12 +94,12 @@ gulp.task('build', ['clean'], function() {
 gulp.task('default', ['build'], function() {
     browserSync.init({
         server: {baseDir: "./dist"}, 
-        files:['./dist/css/main.css','./dist/*.html']
+        files:['./dist/css/inicio-style.css','./dist/*.html']
     });
     gulp.watch('src/scss/**/*.scss',['sass']);
     gulp.watch('src/*.html',['html']);
     gulp.watch('src/*.js',['scripts']);
-    gulp.watch('./dist/*.html').on('change', browserSync.reload)
+    gulp.watch('dist/*.html').on('change', browserSync.reload)
 });
 
 
