@@ -2851,7 +2851,8 @@ li, ul {
   margin: 0;
   padding: 0; }
 
-/* line 1, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
+/*Secciones de los términos*/
+/* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .page-header {
   padding: 30px;
   text-align: center;
@@ -2860,20 +2861,21 @@ li, ul {
   color: white;
   margin-bottom: 80px; }
 
-/* line 10, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
+/* line 11, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .terms-sections {
   width: 80%;
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   margin-bottom: 80px; }
 
-/* line 17, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
+/* line 18, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .ol {
   border-left: 3px #E6E6E6 solid;
   padding-left: 20px;
   font-family: 'Montserrat', sans-serif; }
 
-/* line 23, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
+/*Flecha de volver arriba*/
+/* line 25, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .arrow-up {
   width: 0;
   height: 0;
@@ -2884,7 +2886,7 @@ li, ul {
   position: relative;
   top: -10px; }
 
-/* line 35, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
+/* line 36, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_terms-conditions.scss */
 .arrow-container {
   width: 50px;
   height: 50px;
@@ -3104,59 +3106,41 @@ input[type='checkbox']:checked + label > span:before {
 /* line 2, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .accordion {
   width: 90%;
-  max-width: 450px;
+  max-width: 600px;
   text-align: center;
   margin: auto;
   margin-top: -40px;
-  margin-bottom: 40px;
-  border-top: 1px solid #0097e8;
-  border-bottom: 1px solid #0097e8; }
+  margin-bottom: 40px; }
 
-/* line 12, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
-.accordion:hover {
-  border-top: 1px solid #33bb44;
-  border-bottom: 1px solid #33bb44; }
-
-/* line 17, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
+/* line 10, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .inner {
   overflow: hidden;
   display: none; }
 
-/* line 21, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
+/* line 15, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .inner.show {
   display: block; }
 
-/* line 24, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
+/* line 18, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .toggle {
   display: block;
   transition: background 0.3s ease; }
 
-/* line 28, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
+/* line 22, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .accordion-li {
   padding: 20px;
   text-align: left; }
 
 /*Botón*/
-/* line 36, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
+/* line 30, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .port-btn-seemore {
-  display: inline-block;
-  font-weight: 700;
-  text-decoration: none;
-  color: #0097e8;
-  background-color: white;
-  border: 0;
-  font-size: 1.5rem;
-  padding: 10px; }
+  display: inline-block; }
 
-/* line 46, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
-.port-btn-seemore:hover {
-  color: #33bb44; }
-
-/* line 50, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
+/* line 33, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .port-btn-seemore:before {
   content: "Menú"; }
 
-/* line 53, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
+/* line 36, C:/Users/juanluis/Desktop/BAU/BAU-KIDSCODE/EQUIPO MACHO LOGIN/src/scss/layout/_accordeon.scss */
 .port-btn-seeless:before {
   content: "Cerrar"; }
 

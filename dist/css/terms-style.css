@@ -2790,6 +2790,7 @@ li, ul {
   margin: 0;
   padding: 0; }
 
+/*Secciones de los términos*/
 .page-header {
   padding: 30px;
   text-align: center;
@@ -2800,7 +2801,7 @@ li, ul {
 
 .terms-sections {
   width: 80%;
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   margin-bottom: 80px; }
 
@@ -2809,6 +2810,7 @@ li, ul {
   padding-left: 20px;
   font-family: 'Montserrat', sans-serif; }
 
+/*Flecha de volver arriba*/
 .arrow-up {
   width: 0;
   height: 0;
@@ -3065,17 +3067,11 @@ input[type='checkbox']:checked + label > span:before {
 /*Opciones*/
 .accordion {
   width: 90%;
-  max-width: 450px;
+  max-width: 600px;
   text-align: center;
   margin: auto;
   margin-top: -40px;
-  margin-bottom: 40px;
-  border-top: 1px solid #0097e8;
-  border-bottom: 1px solid #0097e8; }
-
-.accordion:hover {
-  border-top: 1px solid #33bb44;
-  border-bottom: 1px solid #33bb44; }
+  margin-bottom: 40px; }
 
 .inner {
   overflow: hidden;
@@ -3095,17 +3091,7 @@ input[type='checkbox']:checked + label > span:before {
 
 /*Botón*/
 .port-btn-seemore {
-  display: inline-block;
-  font-weight: 700;
-  text-decoration: none;
-  color: #0097e8;
-  background-color: white;
-  border: 0;
-  font-size: 1.5rem;
-  padding: 10px; }
-
-.port-btn-seemore:hover {
-  color: #33bb44; }
+  display: inline-block; }
 
 .port-btn-seemore:before {
   content: "Menú"; }
