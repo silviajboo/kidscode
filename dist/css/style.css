@@ -2834,13 +2834,22 @@ h6 {
   top: 1px; }
 
 .profile-title {
-  float: right; }
+  float: right;
+  width: 70%;
+  padding-left: 3rem; }
 
 .profile-info-create {
-  float: right; }
+  float: right;
+  width: 70%;
+  padding-left: 3rem; }
+
+.profile-info-create > input {
+  width: 70%; }
 
 .profile-btn-add {
-  float: right; }
+  float: right;
+  width: 70%;
+  text-align: center; }
 
 fieldset {
   border: 0; }

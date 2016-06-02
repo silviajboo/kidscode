@@ -128,20 +128,33 @@
     top: 1px;
 }
 
+
 .profile-title{
     float: right;
+    width: 70%;
+    padding-left: 3rem;
+    // text-align: center;
         // top: 5%;
         // right: 20%;
 }
 
 .profile-info-create{
     float: right;
+    width: 70%;
+    padding-left: 3rem;
+    //text-align: center;
         // top: 15%;
         // right: 10%;
 }
 
+.profile-info-create > input{
+    width: 70%;
+}
+
 .profile-btn-add{
     float: right;
+    width: 70%;
+    text-align: center;
         // top: 35%;
         // right: 10%;
 }
