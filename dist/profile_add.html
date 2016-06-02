@@ -12,11 +12,10 @@
 
 </head>
 
-
 <body>
 
-	<header>
-		<div class="container-menu color-bg-blue">
+	<header class="container-menu">
+		<!-- <div > -->
 
 			<!-- logo kidscode -->
 			<div class="container-menu-logo">
@@ -54,52 +53,63 @@
 					</nav>
 				</div>
 			</div>
-		</div>
+		<!-- </div> -->
 
 	</header>
 
-	<div class="container-profile">
+	<div class="container-page-profile color-bg-blue-bg bg-clouds">
+
 		<div class="container-account-edit">
-			<h3 class="account-name">
+			<h5 class="account-name color-txt-grey">
 				Hola nombre@dominio.com
-			</h3>
-			<p class="account-edit">
-
+			</h5>
+			<h5 class="account-edit color-txt-grey">
 				<img class="account-edit--img" src="img/ic-settings.png" alt="configuración perfil" lang="es">
-			</p>
+			</h5>
 
 		</div>
 
-		<div class="profile-title txt-center">
-			<h1 class="t-h1--withoutshadow txt-uppercase">perfil kids</h1>
-			<h2>Crea el perfil de tu hij@</h2>
+		<div class="container-new-profile">
 
-		</div>
-
-		<div class="profile-info-flex">
-			<div class="profile-info-create">
-				<p>Nombre del niñ@</p>
+			<div class="profile-title">
+				<h2 class="txt-uppercase color-txt-white">perfil kids</h2>
+				<h3 class="color-txt-white">Crea el perfil de tu hij@</h3>
 
 			</div>
 
 			<div class="profile-photo-create">
-				<img src="/img/avatar_add.png">
-
+				<a href="#">
+					<article class="profile-photo--btn">
+						<div class="profile-photo-select--img"></div>
+					</article>
+					<h4 class="profile-photo-select txt-center">Elegir imagen</h4>    
+				</a>
 			</div>
 
-			<div class="profile-add">
-
+			<div class="profile-info-create">
+				<label for="name" class="color-txt-white">Nombre del niñ@</label>
+				<input type="text" id="itNombre" name="name" placeholder="Nombre" required>
 			</div>
+
+			<div class="profile-btn-add">
+				<div class="btn-act txt-uppercase" >Añadir</div>
+			</div>
+
 		</div>
 	</div>
 
-
-	<footer>
-
+	<!--FOOTER de la página-->
+	<footer class="footer_profile color-bg-blue-bg">
+		
+		<div class="container-block">
+			<div class="contact color-txt-white"> proyectokidscode@gmail.com </div>
+			<div class="copyright color-txt-white"> Copyright © 2016 Kids Code </div>
+		</div>
 	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="js/burguer-menu.js"></script>
+
 </body>
 
 </html>

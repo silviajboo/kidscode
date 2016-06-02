@@ -15,7 +15,7 @@ a{
 
 /*typography*/
 p{
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Montserrat', sans-serif; 
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.25rem;
@@ -76,6 +76,18 @@ h1{
 .t-h1--withoutshadow{
     text-shadow: 0px 0px 0px;
 }
+.t-h2{
+    // font-size: 2rem;
+    // line-height: 2.5rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+/*Desktop & tablet*/
+    @media only screen and (min-width: 768px){
+    font-size: 2.5rem;
+    line-height: 2.75rem; 
+    }
+}
 
 h2{
     font-size: 2rem;
@@ -95,7 +107,7 @@ h2{
 }
 
 h3{
-    font-family:'Open Sans', sans-serif;
+    font-family:'Montserrat', sans-serif; 
     font-size: 1.1rem;
     line-height: 1.5rem;
     font-weight: 700;

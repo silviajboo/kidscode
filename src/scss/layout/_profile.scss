@@ -1,158 +1,150 @@
-.container-profile{
-	margin-top: 120px;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	width: 100%;
+.container-page-profile{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
 
-	/*MEDIA QUERIES*/
-    /*Tablet*/
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-       	padding-left: 1.5rem;
-		padding-right: 1.5rem;
-    }
+.profile-btn {
+    width: 210px;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 6px;
+    border: 5px solid white;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 0px rgba(194,192,194,1);
+    position: relative;
+    top: 0px;
+}
 
-    /*Desktop*/
-    @media only screen and (min-width: 1024px){
-       	padding-left: 2rem;
-		padding-right: 2rem;
-    } 
+.profile-photo-select {
+    //margin: 2.4rem auto auto auto;
+}
+.profile-photo--btn {
+    
+}
+
+
+
+.profile-photo-select--img {
+    background-image: url(../img/kid_add.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 165px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    transition: all 0.3s ease 0s;
 }
 
 .container-account-edit{
-	width: 100%;
-	height: auto;
-  //border-top: .5px solid $primaryColorBgBlack;
+    position: relative;
+    overflow: auto;
 }
 
 .account-name{
-	float:left;
-	width: 80%;
-	line-height: 0rem;
-	
-	/*MEDIA QUERIES*/
-    /*Tablet*/
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-       line-height: 1.5rem;
-       width: 50%;
-    }
-
-    /*Desktop*/
-    @media only screen and (min-width: 1024px){
-       	line-height: 1.5rem;
-       	width: 50%;
-    } 
+    display: inline;
+    float: left;
 }
-
-.account-edit{
-	float: right;
-	width: 20%;
-	line-height: 2rem;
-	/*MEDIA QUERIES*/
-    /*Tablet*/
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-       width: 50%;
-    }
-
-    /*Desktop*/
-    @media only screen and (min-width: 1024px){
-       	width: 50%;
-    } 
-}
-
 .account-edit--img{
-	float: right;
-}
-.account-edit:after{
-	content: none;
-	float: right;
-	padding-right: 10px;
-	/*MEDIA QUERIES*/
+   display: block;
+   float: right;
+    /*MEDIA QUERIES*/
     /*Tablet*/
     @media only screen and (min-width: 768px) and (max-width: 1023px){
-       content: "Editar cuenta familiar";
+     display: none;
    }
 
     /*Desktop*/
     @media only screen and (min-width: 1024px){
-       	content: "Editar cuenta familiar";
+      display:none;
     } 
-	
 }
-
-// .account-edit:after{
-// 	background-image: "../img/ic-settings.png";
-// }
-
-.account-edit--img{
-	margin-left: 5px;
-	width: 30px;
-	height: 30px;
-}
-
-.profile-title{
-	width: 100%;
-	text-align: center;
-	padding-top: 5%;
-}
-
-.profile-info-flex{
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-
+.account-edit:after{
+   content: none;
+   float: right;
+   padding-right: 10px;
     /*MEDIA QUERIES*/
     /*Tablet*/
     @media only screen and (min-width: 768px) and (max-width: 1023px){
-       flex-direction: row;
-       padding: 0 10% 0 10%;
-    }
+     content: "Editar cuenta familiar";
+   }
 
     /*Desktop*/
     @media only screen and (min-width: 1024px){
-        flex-direction: row;
-        padding: 0 10% 0 10%;
+      content: "Editar cuenta familiar";
     } 
 
 }
 
-.profile-info-create{
-    order: -1;
+.container-new-profile{
+    width: 95%;
+    height: auto;
+    margin: 1% 2.5% 1% 2.5%;
+    padding: 1rem;
+    overflow: auto;
+
+    position: relative;
+        top:0;
+        left:0;
+    // top: 50%;
+    // transform: translateY(-50%);
+
+    border-radius: 20px;
+    border: 5px solid $primaryColorWhite;
+    box-shadow: 0px 2px 2px 0px rgba(194,192,194,1);
+    
     /*MEDIA QUERIES*/
     /*Tablet*/
     @media only screen and (min-width: 768px) and (max-width: 1023px){
-       order: 1;
-    }
+     width: 80%;
+     margin: 5% 10% 2% 10%;
+   }
 
     /*Desktop*/
     @media only screen and (min-width: 1024px){
-        order: 1;
+      width: 60%;
+      margin: 5% 20% 2% 20%;
     } 
+
 }
 
 .profile-photo-create{
-    width: 100%;
+    float: left;
+        top: 50%;
+        bottom: 50%;
 
-    /*MEDIA QUERIES*/
-    /*Tablet*/
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-       width: 50%;
-    }
-
-    /*Desktop*/
-    @media only screen and (min-width: 1024px){
-        width: 50%;
-    } 
-}
-.profile-photo-create > img{
-  border-radius: 500px 500px 500px 500px;
-  border: 3px solid $primaryColorBgBlack;
-  width: 60%;
-  height: 60%;
-  margin: auto;
+    width: 210px;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 6px;
+    border: 5px solid white;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 0px rgba(194,192,194,1);
 }
 
+.profile-photo-create:active{
+    top: 1px;
+}
 
+.profile-title{
+    float: right;
+        // top: 5%;
+        // right: 20%;
+}
 
+.profile-info-create{
+    float: right;
+        // top: 15%;
+        // right: 10%;
+}
+
+.profile-btn-add{
+    float: right;
+        // top: 35%;
+        // right: 10%;
+}
 
 
 

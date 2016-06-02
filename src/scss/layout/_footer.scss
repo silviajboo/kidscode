@@ -18,10 +18,33 @@
         background-repeat: repeat-x;
     }
 }
+.footer_profile{
+    position: absolute;
+        bottom: 0;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 3rem 2rem 1rem 2rem;
+    background-image: url("../img/footer.svg");
+    background-size: contain;
+    background-repeat: repeat;
+    
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        background-repeat: repeat;
+    }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1024px){
+        background-repeat: repeat;
+    }
+}
 
 .copyright, .contact{
-    margin: auto;
+    margin: 1rem;
     text-align: center;
-    //width: 85%;
-    padding: .5rem;
+    width: 100%;
+    
 }
+
