@@ -19,7 +19,7 @@
     }
 }
 .footer_profile{
-    position: absolute;
+    position: relative;
         bottom: 0;
     width: 100%;
     height: auto;
@@ -28,6 +28,8 @@
     background-image: url("../img/footer.svg");
     background-size: contain;
     background-repeat: repeat;
+    background-color: #BBDEF1;
+    // antes: color-bg-blue-bg
     
     /*MEDIA QUERIES*/
     /*Tablet*/
