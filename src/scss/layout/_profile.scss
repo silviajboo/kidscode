@@ -50,14 +50,6 @@
     top: 0px;
 }
 
-.profile-photo-select {
-    //margin: 2.4rem auto auto auto;
-}
-
-.profile-photo--btn {
-    
-}
-
 .profile-photo-select--img {
     // background-image: url(../img/kid_add.png);
     background-color: $secondaryColorBgBlue3;
@@ -149,6 +141,7 @@
     float: left;
     padding-left: 7.5%;
     line-height: 0;
+    width: 50%;
 
     /*MEDIA QUERIES*/
     /*Tablet*/
@@ -156,7 +149,6 @@
      padding-left: 10%;
    }
 
-    /*MEDIA QUERIES*/
     /*Big tablet + Little Desktop*/
     @media only screen and (min-width: 1000px) and (max-width: 1123px){
      padding-left: 15%;
@@ -168,14 +160,37 @@
     } 
 
 }
+
+.account-edit{
+    float: right;
+    padding-right: 7.5%;
+    width: 50%;
+    display: inline;
+    line-height: 0;
+    /*MEDIA QUERIES*/
+    /*Tablet*/
+    @media only screen and (min-width: 768px) and (max-width: 999px){
+     padding-right: 10%;
+   }
+
+    /*Big tablet + Little Desktop*/
+    @media only screen and (min-width: 1000px) and (max-width: 1123px){
+     padding-right: 15%;
+   }
+
+    /*Desktop*/
+    @media only screen and (min-width: 1124px){
+      padding-right: 25%;
+    } 
+}
+
 .account-edit--img{
    display: block;
    float: right;
-   margin-right: 7.5%;
    width: 40px;
    margin-top: -20px;
    height: auto;
-   line-height: 0;
+   cursor: pointer;
 
    /*MEDIA QUERIES*/
     /*Tablet*/
@@ -187,22 +202,12 @@
 .account-edit::after{
    content: none;
    float: right;
-   //padding-right: 10px;
+
     /*MEDIA QUERIES*/
-    /*Tablet*/
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-     content: "Editar cuenta familiar";
-     padding-right: 10%;
-   }
-    /*Big tablet + Little Desktop*/
-    @media only screen and (min-width: 1000px) and (max-width: 1123px){
-     content: "Editar cuenta familiar";
-     padding-right: 15%;
-   }
-    /*Desktop*/
-    @media only screen and (min-width: 1124px){
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px) {
       content: "Editar cuenta familiar";
-      padding-right: 25%;
+      cursor: pointer;
     } 
 
 }

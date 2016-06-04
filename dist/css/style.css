@@ -2555,7 +2555,7 @@ h6 {
   float: left;
   height: auto;
   width: 200px;
-  margin: auto; }
+  margin: 5px auto 0 auto; }
 
 .container-menu-options {
   float: right;
@@ -2584,6 +2584,11 @@ h6 {
   @media only screen and (min-width: 1024px) {
     .menu-desktop {
       display: block; } }
+
+.menu-desktop li a:hover, .menu-mobile li a:hover {
+  padding-bottom: .5rem;
+  border-bottom: 2px solid #0097e8;
+  cursor: pointer; }
 
 .menu-logo-burguer-scrolled-inactive {
   padding-top: 1rem; }
@@ -2629,7 +2634,8 @@ h6 {
 .nav-mobile .btn-anim-three {
   position: fixed;
   top: 25px;
-  right: 25px; }
+  right: 25px;
+  cursor: pointer; }
 
 .nav-mobile .nav {
   padding: 0;
@@ -2813,9 +2819,9 @@ h6 {
   float: left;
   padding-left: 7.5%;
   line-height: 0;
+  width: 50%;
   /*MEDIA QUERIES*/
   /*Tablet*/
-  /*MEDIA QUERIES*/
   /*Big tablet + Little Desktop*/
   /*Desktop*/ }
   @media only screen and (min-width: 768px) and (max-width: 999px) {
@@ -2828,14 +2834,33 @@ h6 {
     .account-name {
       padding-left: 25%; } }
 
+.account-edit {
+  float: right;
+  padding-right: 7.5%;
+  width: 50%;
+  display: inline;
+  line-height: 0;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Big tablet + Little Desktop*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 999px) {
+    .account-edit {
+      padding-right: 10%; } }
+  @media only screen and (min-width: 1000px) and (max-width: 1123px) {
+    .account-edit {
+      padding-right: 15%; } }
+  @media only screen and (min-width: 1124px) {
+    .account-edit {
+      padding-right: 25%; } }
+
 .account-edit--img {
   display: block;
   float: right;
-  margin-right: 7.5%;
   width: 40px;
   margin-top: -20px;
   height: auto;
-  line-height: 0;
+  cursor: pointer;
   /*MEDIA QUERIES*/
   /*Tablet*/ }
   @media only screen and (min-width: 768px) {
@@ -2846,21 +2871,11 @@ h6 {
   content: none;
   float: right;
   /*MEDIA QUERIES*/
-  /*Tablet*/
-  /*Big tablet + Little Desktop*/
-  /*Desktop*/ }
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
     .account-edit::after {
       content: "Editar cuenta familiar";
-      padding-right: 10%; } }
-  @media only screen and (min-width: 1000px) and (max-width: 1123px) {
-    .account-edit::after {
-      content: "Editar cuenta familiar";
-      padding-right: 15%; } }
-  @media only screen and (min-width: 1124px) {
-    .account-edit::after {
-      content: "Editar cuenta familiar";
-      padding-right: 25%; } }
+      cursor: pointer; } }
 
 fieldset {
   border: 0; }
