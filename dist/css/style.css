@@ -2240,7 +2240,7 @@ hr {
 
 .footer_profile {
   position: relative;
-  bottom: 0;
+  bottom: -100px;
   width: 100%;
   height: auto;
   -webkit-box-pack: center;
@@ -2549,7 +2549,11 @@ h6 {
   padding-right: 2rem;
   opacity: 1;
   background-color: #A9D7EA;
-  box-shadow: 0px 2px 2px 0px #c2c0c2; }
+  box-shadow: 0px 2px 2px 0px #B9B7B7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999; }
 
 .container-menu-logo {
   float: left;
@@ -2589,24 +2593,6 @@ h6 {
   padding-bottom: .5rem;
   border-bottom: 2px solid #0097e8;
   cursor: pointer; }
-
-.menu-logo-burguer-scrolled-inactive {
-  padding-top: 1rem; }
-
-.menu-logo-burguer-scrolled-active {
-  padding-top: 0; }
-
-.scrolled-inactive {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  -webkit-transition: all ease-in 300ms;
-  transition: all ease-in 300ms; }
-
-.scrolled-active {
-  padding-top: 0;
-  padding-bottom: 0;
-  -webkit-transition: all ease-in 300ms;
-  transition: all ease-in 300ms; }
 
 .nav-desktop li {
   display: inline-block;
@@ -2706,6 +2692,7 @@ h6 {
   width: 100%;
   height: auto;
   position: relative;
+  top: 100px;
   padding-top: 1rem 0 1rem 0;
   background-color: #BBDEF1; }
 
@@ -2756,9 +2743,21 @@ h6 {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
 
-.profile-photo-select--img > img {
+.profile-photo-select--img > img, .profile-photo-select--img-new > img {
   width: 80%;
   margin: auto 10%; }
+
+.profile-photo-select--img-new {
+  background-color: #0097e8;
+  opacity: .2;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
 
 .container-new-profile {
   width: 85%;
@@ -2790,13 +2789,13 @@ h6 {
       width: 50%;
       margin: 0 25% 2% 25%; } }
 
-.profile-title, .profile-info-create, .profile-btn-add {
+.profile-title-create, .profile-info-create, .profile-btn-add, .profile-info {
   float: none;
   text-align: center;
   /*MEDIA QUERIES*/
   /*Tablet & Desktop*/ }
   @media only screen and (min-width: 768px) {
-    .profile-title, .profile-info-create, .profile-btn-add {
+    .profile-title-create, .profile-info-create, .profile-btn-add, .profile-info {
       float: right;
       width: 50%;
       text-align: left; } }
@@ -2809,6 +2808,14 @@ h6 {
 
 .profile-info-create > label {
   display: block; }
+
+.profile-info > input {
+  width: 50%;
+  margin-left: 10px; }
+
+.profile-info > label {
+  display: inline;
+  width: 20%; }
 
 .container-account-edit {
   position: relative;
@@ -2876,6 +2883,71 @@ h6 {
     .account-edit::after {
       content: "Editar cuenta familiar";
       cursor: pointer; } }
+
+.container-profile {
+  width: 85%;
+  height: auto;
+  margin: 0 7.5%;
+  padding: 1rem;
+  overflow: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
+  box-shadow: 0px 2px 2px 0px #c2c0c2;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container-profile {
+      width: 80%;
+      margin: 0 10% 3% 10%; } }
+  @media only screen and (min-width: 1024px) {
+    .container-profile {
+      width: 70%;
+      margin: 0 15% 2% 15%; } }
+
+.profile-title {
+  float: none;
+  text-align: center;
+  display: block;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .profile-title {
+      width: 80%;
+      margin: 0 10%; } }
+
+.profile-title > h3 {
+  line-height: 1rem; }
+
+.profile-photo {
+  float: none;
+  display: inline-block;
+  width: 220px;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 6px;
+  border: 5px solid white;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px 0px #B9B7B7; }
+
+.profile-photo > a > h4 {
+  line-height: 0rem;
+  color: #404040; }
+
+.profile-photo-create > a > h4 {
+  color: #404040; }
+
+.profile-photos {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  float: none; }
 
 fieldset {
   border: 0; }
