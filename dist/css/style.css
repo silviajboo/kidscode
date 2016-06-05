@@ -2248,7 +2248,7 @@ hr {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 3rem 2rem 1rem 2rem;
-  background-image: url("../img/footer.svg");
+  background-image: url("../img/footer.png");
   background-size: contain;
   background-repeat: repeat;
   background-color: #BBDEF1;
@@ -2789,6 +2789,36 @@ h6 {
       width: 50%;
       margin: 0 25% 2% 25%; } }
 
+.container-profile {
+  width: 85%;
+  height: auto;
+  margin: 0 7.5%;
+  padding: 1rem;
+  overflow: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
+  box-shadow: 0px 2px 2px 0px #c2c0c2;
+  /*MEDIA QUERIES*/
+  /*Tablet*/
+  /*MEDIA QUERIES*/
+  /*Big tablet + Little Desktop*/
+  /*Desktop*/ }
+  @media only screen and (min-width: 768px) and (max-width: 999px) {
+    .container-profile {
+      width: 80%;
+      margin: 0 10% 3% 10%; } }
+  @media only screen and (min-width: 1000px) and (max-width: 1123px) {
+    .container-profile {
+      width: 70%;
+      margin: 0 15% 3% 15%; } }
+  @media only screen and (min-width: 1124px) {
+    .container-profile {
+      width: 50%;
+      margin: 0 25% .5% 25%; } }
+
 .profile-title-create, .profile-info-create, .profile-btn-add, .profile-info {
   float: none;
   text-align: center;
@@ -2884,30 +2914,6 @@ h6 {
       content: "Editar cuenta familiar";
       cursor: pointer; } }
 
-.container-profile {
-  width: 85%;
-  height: auto;
-  margin: 0 7.5%;
-  padding: 1rem;
-  overflow: auto;
-  position: relative;
-  top: 0;
-  left: 0;
-  border-radius: 20px;
-  border: 5px solid #ffffff;
-  box-shadow: 0px 2px 2px 0px #c2c0c2;
-  /*MEDIA QUERIES*/
-  /*Tablet*/
-  /*Desktop*/ }
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .container-profile {
-      width: 80%;
-      margin: 0 10% 3% 10%; } }
-  @media only screen and (min-width: 1024px) {
-    .container-profile {
-      width: 70%;
-      margin: 0 15% 2% 15%; } }
-
 .profile-title {
   float: none;
   text-align: center;
@@ -2924,7 +2930,6 @@ h6 {
 
 .profile-photo {
   float: none;
-  display: inline-block;
   width: 220px;
   margin: 1rem auto;
   background-color: white;
@@ -2934,7 +2939,31 @@ h6 {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  box-shadow: 0px 2px 2px 0px #B9B7B7; }
+  box-shadow: 0px 2px 2px 0px #B9B7B7;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .profile-photo {
+      float: left;
+      top: 50%;
+      bottom: 50%;
+      margin: 1rem auto 1rem 3rem; } }
+
+.profile-photo.float-left {
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .profile-photo.float-left {
+      float: left;
+      margin-left: 1.2rem; } }
+
+.profile-photo.float-right {
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .profile-photo.float-right {
+      float: right;
+      margin-right: 1.2rem; } }
 
 .profile-photo > a > h4 {
   line-height: 0rem;
@@ -2943,22 +2972,6 @@ h6 {
 .profile-photo-create > a > h4 {
   color: #404040; }
 
-.profile-photos {
-  width: 80%;
-  height: auto;
-  margin: auto;
-  float: none; }
-
-.profile-info > div > span {
-  float: none;
-  min-width: 70%;
-  /*MEDIA QUERIES*/
-  /*Tablet & Desktop*/ }
-  @media only screen and (min-width: 768px) {
-    .profile-info > div > span {
-      float: right;
-      padding-left: 1px; } }
-
 .profile-info > div {
   margin: 1rem; }
 
@@ -2966,24 +2979,38 @@ h6 {
   font-size: 1rem; }
 
 .lbl-profile-txt > p {
-  font-size: 1rem;
   line-height: 2rem;
-  padding-left: .5rem;
-  /*MEDIA QUERIES*/
-  /*Tablet & Desktop*/ }
-  @media only screen and (min-width: 768px) {
-    .lbl-profile-txt > p {
-      margin-top: 0;
-      margin-bottom: 0; } }
+  font-size: 1rem;
+  margin-top: 0; }
 
 .lbl-profile-txt {
   font-size: 1rem;
+  display: inline-block;
+  width: 80%;
+  margin: auto 10%;
   padding-left: 1px;
   border-radius: 5px;
   border: 1px solid #11bbcc;
   color: #11bbcc;
   background-color: #ffffff;
-  resize: none; }
+  resize: none;
+  line-height: 2rem;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .lbl-profile-txt {
+      padding-left: .5rem;
+      width: 100%;
+      margin: auto; } }
+
+.lbl-profile-txt.inline {
+  overflow: none;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .lbl-profile-txt.inline {
+      width: 60%;
+      float: right; } }
 
 .profile-btn-delete > .btn-act {
   font-size: 1rem;
@@ -2997,6 +3024,10 @@ h6 {
   @media only screen and (min-width: 768px) {
     .profile-btn-delete {
       float: right; } }
+
+.profile-btn-add > .btn-act {
+  font-size: 1rem;
+  padding: 1rem 2rem; }
 
 fieldset {
   border: 0; }
