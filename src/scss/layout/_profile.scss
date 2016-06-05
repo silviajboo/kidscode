@@ -15,7 +15,7 @@
 .profile-photo-create{
     float: none;
     width: 260px;
-    margin: 1.5rem auto;
+    margin: 2rem auto 1rem auto;
     background-color: white;
     border-radius: 20px;
     padding-bottom: 6px;
@@ -90,8 +90,6 @@
     position: relative;
         top:0;
         left:0;
-    // top: 50%;
-    // transform: translateY(-50%);
 
     border-radius: 20px;
     border: 5px solid $primaryColorWhite;
@@ -272,38 +270,6 @@
 
 }
 
-// .container-profile{
-//     width: 85%;
-//     height: auto;
-//     margin: 0 7.5%;
-//     padding: 1rem;
-//     overflow: auto;
-
-//     position: relative;
-//         top:0;
-//         left:0;
-//     // top: 50%;
-//     // transform: translateY(-50%);
-
-//     border-radius: 20px;
-//     border: 5px solid $primaryColorWhite;
-//     box-shadow: 0px 2px 2px 0px rgba(194,192,194,1);
-    
-//     /*MEDIA QUERIES*/
-//     /*Tablet*/
-//     @media only screen and (min-width: 768px) and (max-width: 1023px){
-//      width: 80%;
-//      margin: 0 10% 3% 10%;
-//    }
-
-//     /*Desktop*/
-//     @media only screen and (min-width: 1024px){
-//       width: 70%;
-//       margin: 0 15% 2% 15%;
-//     } 
-
-// }
-
 .profile-title{
     float:none;
     text-align: center;
@@ -438,4 +404,85 @@
     font-size: 1rem;
     padding: 1rem 2rem;
 
+}
+
+.profile-return{
+    position: absolute;
+        top: .4rem;
+        left: .5rem;
+
+    /*MEDIA QUERIES*/
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px){
+        top: .8rem;
+        left: .5rem;
+    }
+
+}
+.profile-return > img{
+    width: 30px;
+    /*MEDIA QUERIES*/
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px){
+        width: 50px;
+    }
+
+}
+.profile-return::before{
+    content:"Volver";
+    color:$primaryColorWhite;
+    font-size: .6rem;
+    position: absolute;
+        top: 20px;
+        left: 2px;
+
+    /*MEDIA QUERIES*/
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px){
+        font-size: .8rem;
+        position: absolute;
+            top: 45px;
+            left: 8px;
+    }
+}
+
+.container-new-profile>a>.profile-return{
+    position: absolute;
+        top: .2rem;
+        left: .5rem;
+
+    /*MEDIA QUERIES*/
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px){
+        top: .4rem;
+        left: .5rem;
+    }
+}
+
+.container-new-profile>a>.profile-return > img{
+    width: 30px;
+    /*MEDIA QUERIES*/
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px){
+        width: 30px;
+    }
+
+}
+
+.container-new-profile>a>.profile-return::before{
+    content:"Volver";
+    color:$primaryColorWhite;
+    font-size: .6rem;
+    position: absolute;
+        top: 20px;
+        left: 2px;
+
+    /*MEDIA QUERIES*/
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px){
+        font-size: .7rem;
+        position: absolute;
+            top: 1px;
+            left: 40px;
+    }
 }

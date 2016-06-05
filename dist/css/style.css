@@ -2250,7 +2250,7 @@ hr {
   padding: 3rem 2rem 1rem 2rem;
   background-image: url("../img/footer.png");
   background-size: contain;
-  background-repeat: repeat;
+  background-repeat: repeat-x;
   background-color: #BBDEF1;
   /*MEDIA QUERIES*/
   /*Tablet*/
@@ -2699,7 +2699,7 @@ h6 {
 .profile-photo-create {
   float: none;
   width: 260px;
-  margin: 1.5rem auto;
+  margin: 2rem auto 1rem auto;
   background-color: white;
   border-radius: 20px;
   padding-bottom: 6px;
@@ -3028,6 +3028,76 @@ h6 {
 .profile-btn-add > .btn-act {
   font-size: 1rem;
   padding: 1rem 2rem; }
+
+.profile-return {
+  position: absolute;
+  top: .4rem;
+  left: .5rem;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .profile-return {
+      top: .8rem;
+      left: .5rem; } }
+
+.profile-return > img {
+  width: 30px;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .profile-return > img {
+      width: 50px; } }
+
+.profile-return::before {
+  content: "Volver";
+  color: #ffffff;
+  font-size: .6rem;
+  position: absolute;
+  top: 20px;
+  left: 2px;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .profile-return::before {
+      font-size: .8rem;
+      position: absolute;
+      top: 45px;
+      left: 8px; } }
+
+.container-new-profile > a > .profile-return {
+  position: absolute;
+  top: .2rem;
+  left: .5rem;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .container-new-profile > a > .profile-return {
+      top: .4rem;
+      left: .5rem; } }
+
+.container-new-profile > a > .profile-return > img {
+  width: 30px;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .container-new-profile > a > .profile-return > img {
+      width: 30px; } }
+
+.container-new-profile > a > .profile-return::before {
+  content: "Volver";
+  color: #ffffff;
+  font-size: .6rem;
+  position: absolute;
+  top: 20px;
+  left: 2px;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .container-new-profile > a > .profile-return::before {
+      font-size: .7rem;
+      position: absolute;
+      top: 1px;
+      left: 40px; } }
 
 fieldset {
   border: 0; }
