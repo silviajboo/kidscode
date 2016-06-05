@@ -17,42 +17,42 @@
 	<header class="container-menu">
 		<!-- <div > -->
 
-			<!-- logo kidscode -->
-			<div class="container-menu-logo">
-				<a href="http://silviajboo.github.io/kidscode/">
-					<img src="img/logo.svg" alt="KidsCode" lang="en">
-				</a>  
+		<!-- logo kidscode -->
+		<div class="container-menu-logo">
+			<a href="http://silviajboo.github.io/kidscode/">
+				<img src="img/logo.svg" alt="KidsCode" lang="en">
+			</a>  
+		</div>
+
+		<div class="container-menu-options">
+			<!-- menu desktop -->
+			<div class="menu-desktop nav-desktop">
+				<nav>
+					<ul>
+						<li><a href="http://pacogarciapoza.github.io/kidscode_webapp/" class="li-play txt-uppercase">juega</a></li>
+						<li><a href="http://silviajboo.github.io/kidscode/" class="li-close-session txt-uppercase">cerrar sesion</a></li>
+					</ul>
+				</nav>
 			</div>
 
-			<div class="container-menu-options">
-				<!-- menu desktop -->
-				<div class="menu-desktop nav-desktop">
-					<nav>
-						<ul>
-							<li><a href="http://pacogarciapoza.github.io/kidscode_webapp/" class="li-play txt-uppercase">juega</a></li>
-							<li><a href="http://silviajboo.github.io/kidscode/" class="li-close-session txt-uppercase">cerrar sesion</a></li>
-						</ul>
-					</nav>
+			<!-- menu burguer mobile & tablet -->
+			<div class="menu-mobile nav-mobile menu-burguer closed">
+				<div class="container-menu-logo">
+					<a href="http://silviajboo.github.io/kidscode/"><img src="img/logo.svg" alt="KidsCode" lang="en"></a>
 				</div>
-
-				<!-- menu burguer mobile & tablet -->
-				<div class="menu-mobile nav-mobile menu-burguer closed">
-					<div class="container-menu-logo">
-						<a href="http://silviajboo.github.io/kidscode/"><img src="img/logo.svg" alt="KidsCode" lang="en"></a>
-					</div>
-					<a class="btn-anim-three">
-						<span class="one"></span>
-						<span class="two"></span>
-						<span class="three"></span>
-					</a>
-					<nav>
-						<ul class="nav" role="sidebar">
-							<li><a href="http://pacogarciapoza.github.io/kidscode_webapp/" class="li-play txt-uppercase">juega</a></li>
-							<li><a href="http://silviajboo.github.io/kidscode/" class="li-close-session txt-uppercase">cerrar sesion</a></li>
-						</ul>
-					</nav>
-				</div>
+				<a class="btn-anim-three">
+					<span class="one"></span>
+					<span class="two"></span>
+					<span class="three"></span>
+				</a>
+				<nav>
+					<ul class="nav" role="sidebar">
+						<li><a href="http://pacogarciapoza.github.io/kidscode_webapp/" class="li-play txt-uppercase">juega</a></li>
+						<li><a href="http://silviajboo.github.io/kidscode/" class="li-close-session txt-uppercase">cerrar sesion</a></li>
+					</ul>
+				</nav>
 			</div>
+		</div>
 		<!-- </div> -->
 
 	</header>
@@ -81,22 +81,28 @@
 					<article class="profile-photo--btn">
 						<div class="profile-photo-select--img"><img src="img/kid_profile2.png" alt="Añadir imagen perfil niño/niña"></div>
 					</article>
-					<h4 class="profile-photo-select txt-center">Editar imagen</h4>    
+					<h4 class="profile-photo-select txt-center">Editar perfil</h4>    
 				</a>
 			</div>
 
 			<div class="profile-info">
-				<label for="name" class="color-txt-white">Nombre</label>
-				<input type="text" id="itNombre" name="name" placeholder="Jana" required>
+				<div>
+					<label for="name" class="lbl-profile-title color-txt-white">Nombre</label>
+					<span class="lbl-profile-txt">Jana </span>
+				</div>
+				<div>
+					<label for="exercicies" class="lbl-profile-title color-txt-white">Ejercicios realizados</label>
+					<div class="lbl-profile-txt">
+						<p>1.- Despertar a Rumble</p>
+						<p>2.- Encuentra mi sombrero</p>
+					</div>
+				</div>
+			
 
-				<label for="exercicies" class="color-txt-white">Ejercicios realizados</label>
-				<input type="text" id="itNombre" name="name" placeholder="Jana" required>
+			<div class="profile-btn-delete">
+				<div class="btn-act color-bg-pink" >Eliminar perfil</div>
 			</div>
-
-			<div class="profile-btn-add">
-				<div class="btn-act txt-uppercase" >Añadir</div>
-			</div>
-
+		</div>
 		</div>
 	</div>
 

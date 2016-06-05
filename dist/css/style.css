@@ -2926,7 +2926,7 @@ h6 {
   float: none;
   display: inline-block;
   width: 220px;
-  margin: 1rem;
+  margin: 1rem auto;
   background-color: white;
   border-radius: 20px;
   padding-bottom: 6px;
@@ -2948,6 +2948,55 @@ h6 {
   height: auto;
   margin: auto;
   float: none; }
+
+.profile-info > div > span {
+  float: none;
+  min-width: 70%;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .profile-info > div > span {
+      float: right;
+      padding-left: 1px; } }
+
+.profile-info > div {
+  margin: 1rem; }
+
+.lbl-profile-title {
+  font-size: 1rem; }
+
+.lbl-profile-txt > p {
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-left: .5rem;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .lbl-profile-txt > p {
+      margin-top: 0;
+      margin-bottom: 0; } }
+
+.lbl-profile-txt {
+  font-size: 1rem;
+  padding-left: 1px;
+  border-radius: 5px;
+  border: 1px solid #11bbcc;
+  color: #11bbcc;
+  background-color: #ffffff;
+  resize: none; }
+
+.profile-btn-delete > .btn-act {
+  font-size: 1rem;
+  background-color: #ff67a7;
+  padding: 1rem; }
+
+.profile-btn-delete {
+  float: none;
+  /*MEDIA QUERIES*/
+  /*Tablet & Desktop*/ }
+  @media only screen and (min-width: 768px) {
+    .profile-btn-delete {
+      float: right; } }
 
 fieldset {
   border: 0; }

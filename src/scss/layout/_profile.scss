@@ -286,7 +286,7 @@
     float: none;
     display: inline-block;
     width: 220px;
-    margin: 1rem;
+    margin: 1rem auto;
     background-color: white;
     border-radius: 20px;
     padding-bottom: 6px;
@@ -310,4 +310,63 @@
     height: auto;   
     margin: auto;
     float: none;
+}
+
+.profile-info>div>span{
+    float:none;
+     min-width: 70%;
+    /*MEDIA QUERIES*/
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px){
+        float:right;
+        padding-left: 1px;
+    }
+}
+
+.profile-info>div{
+    margin: 1rem;
+}
+
+.lbl-profile-title{
+    font-size: 1rem;
+}
+.lbl-profile-txt>p{
+    font-size: 1rem;
+    line-height: 2rem;
+    //margin-bottom: 1.5rem;
+    padding-left: .5rem;
+    /*MEDIA QUERIES*/
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px){
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+   
+}
+
+.lbl-profile-txt{
+    font-size: 1rem;
+    
+    padding-left: 1px;
+    border-radius: 5px;
+    border: 1px solid $primaryColorBgBlue;
+    color: $primaryColorBgBlue;
+    background-color: $primaryColorWhite;
+    resize:none;
+}
+
+.profile-btn-delete > .btn-act{
+    font-size: 1rem;
+    background-color: $secondaryColorBgPink1;
+    padding: 1rem;
+
+}
+
+.profile-btn-delete{
+    float:none;
+    /*MEDIA QUERIES*/
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px){
+        float: right;
+    }
 }
