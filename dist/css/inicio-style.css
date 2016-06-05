@@ -2776,11 +2776,14 @@ input[type='checkbox']:checked + label > span:before {
 .lightbox_start {
   width: 100%;
   height: 100%;
-  display: block; }
+  display: block;
+  border-bottom: 10px #999999 solid; }
   @media screen and (min-width: 1024px) {
     .lightbox_start {
       display: inline-block;
-      width: 45%; } }
+      width: 45%;
+      border-bottom: none;
+      border-right: 5px #999999 solid; } }
 
 .lightbox_create {
   width: 100%;
@@ -2802,6 +2805,21 @@ input[type='checkbox']:checked + label > span:before {
   font-size: 1.85rem;
   line-height: 2rem;
   width: 100%; }
+
+.lightbox {
+  padding: 20px;
+  border: 10px #999999 solid;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin: auto; }
 
 /*Opciones*/
 .accordion {

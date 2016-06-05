@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar sesión</title>
+    <link href="css/inicio-style.css" rel="stylesheet" type="text/css">
+    
+    <!--Movile viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale1">
+    
+    <!--google fonts-->
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    
+</head>
+<body>
+        
+<div class="lightbox">
+    
+    <div class="btn-round close-position"></div>
+    
+    <header class="lightbox-header">
+        <h1 class="h1-lightbox">Crea tu cuenta</h1>
+    </header>
+    
+    <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post" id="" name="" onsubmit="return validacion()">
+        
+        <fieldset class="lighbox-fieldset">
+             <p>Crea la cuenta familiar para jugar</p>
+             <br>
+             <label for="name">Tu correo</label>
+             <input type="text" id="itNombre" name="name" class=""  placeholder="tucorreo@correo.com" required>
+            <label for="name">Tu contraseña</label>
+             <input type="text" id="itNombre" name="name" class="" required placeholder="*****">
+        </fieldset>
+            <label for="name">Confirmar contraseña</label>
+             <input type="text" id="itNombre" name="name" class="" required placeholder="*****">
+         <input id='one' type='checkbox' />
+         <label for='one'>
+          <span></span> <a href="">He leído y acepto los términos y condiciones</a>
+          <ins><i></i></ins>
+        </label>
+        
+        <button class="btn-act" type="submit" id="bEnviar">Regístrate</button>
+    </form>
+</div>
+    
+</body>
+</html>
