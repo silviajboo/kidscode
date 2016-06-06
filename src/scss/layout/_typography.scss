@@ -19,7 +19,6 @@ p{
     font-size: 1.25rem;
     line-height: 1.5rem;
     display: block;
-    border: 1px solid grey;
 
     /*Desktop & tablet*/
     @media only screen and (min-width: 768px){
@@ -91,12 +90,10 @@ h3{
     font-size: 1.5rem;
     line-height: 1.75rem;
     font-weight: 700;
-    border:1px solid green;
 
     @media only screen and (min-width: 768px){
     font-size: 1.3rem;
     line-height: 1.75rem;
-    border:1px solid orange;
     font-weight: 400;
     }
 }

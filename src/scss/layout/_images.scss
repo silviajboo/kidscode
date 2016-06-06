@@ -3,16 +3,14 @@
 .rumble-img{
     display:flex;
     margin:auto;
-    padding-top:0rem;
-    height: 250px;
+    height: 280px;
+    width:290px;
     background-image: url("../img/rumble.svg");
     background-repeat: no-repeat;
-    border:1px solid blue;
     
     @media only screen and (min-width: 768px){
     width:420px;
     height: 400px;
-    border:1px solid red; 
     }
 }
 .logo-kidscode{
