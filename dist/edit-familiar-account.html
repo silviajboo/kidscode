@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Modificar cuenta familiar</title>
+    <link href="css/terms-style.css" rel="stylesheet" type="text/css">
+    
+    <!--Movile viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale1">
+    
+    <!--google fonts-->
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    
+</head>
+<body>
+        
+<div class="lightbox familiar-settings">
+    
+    <div class="btn-round close-position"></div>
+    
+    <header class="lightbox-header">
+        <h1 class="h1-lightbox">Modificar cuenta familiar</h1>
+    </header>
+    
+    <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post" id="" name="" onsubmit="return validacion()">
+        
+        <fieldset class="lighbox-fieldset">
+             <label for="name">Modificar contraseña</label>
+             <input type="text" id="itNombre" name="name" class=""  placeholder="contraseña antigua" required>
+            <input type="text" id="itNombre" name="name" class=""  placeholder="contraseña nueva" required>
+        </fieldset>
+        
+        <button class="btn-act" type="submit" id="bEnviar">Modificar</button>
+    </form>
+    
+    <div class="delete-link"><a href="confirm-delete.html">Eliminar cuenta</a></div>
+    
+</div>
+    
+</body>
+</html>

@@ -3064,6 +3064,17 @@ input[type='checkbox']:checked + label > span:before {
   float: left;
   margin-bottom: 25px; }
 
+.familiar-settings {
+  top: 10%;
+  line-height: 10px; }
+
+.delete-link {
+  font-size: 14px;
+  line-height: 20px; }
+
+.delete-link:before {
+  content: url("../img/danger-icon-33-33.svg"); }
+
 /*Opciones*/
 .accordion {
   width: 90%;
