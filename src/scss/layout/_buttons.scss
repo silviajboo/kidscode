@@ -34,7 +34,21 @@
 		padding: 1.5rem 2.5rem 1.5rem 2.5rem;
 		transition: all 0.3s ease 0s;
 	}
-
+	&-ini{
+		display:float;
+    	float: right;
+    	margin:1rem;
+		box-shadow:$colorShadowBtn 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;;
+		color:$primaryColorWhite;
+		font-weight: 700;
+		text-decoration: none;
+		background-color: $secondaryColorBgBlue3;
+		font-size: 1.25rem;
+		border-radius: 10px;
+		padding: 1rem 2.25rem 1rem 2.25rem;
+		transition: all 0.3s ease 0s;
+	}
 	
 
 	&-slogan {
@@ -75,7 +89,7 @@
 
 	}
 
-	&-act:hover, &-slogan:hover, &-dwn:hover{
+	&-act:hover, &-slogan:hover, &-dwn:hover, &-ini:hover{
 		background-color: $primaryColorBgGreen;
 		box-shadow:$colorShadowBtn 0px 1px 1px;
 		cursor: pointer;
@@ -200,5 +214,27 @@
 }
 .btn-center{
 	margin:auto;
+}
+.login{
+	font-size:1rem;
+	background-color:$secondaryColorBgBlue5;
+    color:$primaryColorWhite;
+    border: 1px dotted $primaryColorWhite;
+    margin:0.25rem 0.75rem;
+    float:right;
+    border-radius:5px;
+    padding:0.75rem;
+    @media only screen and (min-width: 768px){
+    margin-right:3rem;
+    }
+}
+.login:hover{
+	font-size:1rem;
+    border: 1px solid $primaryColorWhite;
+    background-color:$secondaryColorBgBlue3;
+    margin:1rem;
+    float:right;
+    border-radius:5px;
+    padding:0.75rem;
 }
 

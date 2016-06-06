@@ -16,15 +16,10 @@ a{
 /*typography*/
 p{
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    margin-top: 1rem;
-    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     display: block;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    border: 1px solid grey;
 
     /*Desktop & tablet*/
     @media only screen and (min-width: 768px){
@@ -72,31 +67,37 @@ h1{
     line-height: 3.75rem; 
     }
 }
+.h-h1{
+    font-size: 3.5rem;
+    line-height: 3rem; 
+}
 
 h2{
-    font-size: 2rem;
+    font-size: 2.25rem;
     line-height: 2.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     font-weight: 700;
 
-    
-@media only screen and (min-width: 768px){
-    font-size: 2rem;
+    @media only screen and (min-width: 768px){
+    font-size: 2.5rem;
     line-height: 2.5rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     font-weight: 700;
     }
 }
 
 h3{
-    font-size: 1.1rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     font-weight: 700;
-@media only screen and (min-width: 768px){
+    border:1px solid green;
+
+    @media only screen and (min-width: 768px){
     font-size: 1.3rem;
-    line-height: 2rem;
+    line-height: 1.75rem;
+    border:1px solid orange;
+    font-weight: 400;
     }
 }
 
@@ -159,4 +160,7 @@ h6{
 }
 .txt-shadow{
      text-shadow: 0px 1px 5px $secondaryColorBgBlack2;
+}
+.uppercase{
+    text-transform: uppercase;
 }
