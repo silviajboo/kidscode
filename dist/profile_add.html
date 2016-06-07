@@ -70,6 +70,7 @@
 		</div>
 
 		<div class="container-new-profile">
+		
 			<a href="profile_global.html">
 				<div class="profile-return">
 					<img src="img/return.png" alt="Volver">
@@ -86,21 +87,41 @@
 				<a href="#">
 					<article class="profile-photo--btn">
 						<div class="profile-photo-select--img"><img src="img/kid_add.png" alt="Añadir imagen perfil niño/niña"></div>
+						<div class="profile-photo-select--img-selected profile-closed"><img src="img/kid_profile2.png" alt="Añadir imagen perfil niño/niña"></div>
 					</article>
 					<h4 class="profile-photo-select txt-center">Elegir imagen</h4>    
 				</a>
 			</div>
 
-			<div class="profile-info-create">
-				<label for="name" class="color-txt-white">Nombre del niñ@</label>
-				<input type="text" id="itNombre" name="name" placeholder="Nombre" required>
+			<div class="profile-photo-select-avatar profile-closed">
+				<article class="profile-photo--btn">
+					<div class="profile-photo-select-avatar--img">
+						<a href="#">
+							<img src="img/kid_profile1.png" alt="Añadir imagen perfil niño/niña">
+							<img src="img/kid_profile2.png" alt="Añadir imagen perfil niño/niña">
+							<img src="img/kid_profile3.png" alt="Añadir imagen perfil niño/niña">
+							<img src="img/kid_profile4.png" alt="Añadir imagen perfil niño/niña">
+							<img src="img/kid_profile5.png" alt="Añadir imagen perfil niño/niña">
+							<img src="img/kid_profile6.png" alt="Añadir imagen perfil niño/niña">
+							<img src="img/kid_profile7.png" alt="Añadir imagen perfil niño/niña">
+							<img src="img/kid_profile8.png" alt="Añadir imagen perfil niño/niña">
+							<img src="img/kid_profile9.png" alt="Añadir imagen perfil niño/niña">
+						</a>
+					</div>
+				</article>
+				<h4 class="profile-photo-select txt-center">Selecciona imagen</h4>    
 			</div>
 
-			<div class="profile-btn-add">
-				<a href="profile_global.html">
-					<div class="btn-act txt-uppercase">Añadir</div>
-				</a>
+			<div class="profile-info-create">
+				<label for="name" class="lbl-profile-title color-txt-white">Nombre del niñ@</label>
+				<input type="text" id="itNombre" name="name" placeholder="Nombre" required>
 			</div>
+			
+			<a href="profile_global.html">
+				<div class="profile-btn-add">	
+					<div class="btn-act">Añadir</div>
+				</div>
+			</a>
 
 		</div>
 	</div>
@@ -116,6 +137,8 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="js/burguer-menu.js"></script>
+	<script src="js/profile.js"></script>
+	<script src="js/scroll.js"></script>
 
 </body>
 

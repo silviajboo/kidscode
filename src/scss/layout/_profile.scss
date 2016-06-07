@@ -62,9 +62,22 @@
     border-top-right-radius: 1rem;
     transition: all 0.3s ease 0s;
 }
-.profile-photo-select--img>img,.profile-photo-select--img-new>img{
+
+.profile-photo-select--img>img,.profile-photo-select--img-selected>img,.profile-photo-select--img-new>img{
     width: 80%;
     margin: auto 10%;
+}
+.profile-photo-select--img-selected {
+    // background-image: url(../img/kid_add.png);
+    background-color: $secondaryColorBgBlue3;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    // height: 165px;
+    height: auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    transition: all 0.3s ease 0s;
 }
 
 .profile-photo-select--img-new {
@@ -78,6 +91,39 @@
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     transition: all 0.3s ease 0s;
+}
+
+.profile-photo-select-avatar--img>a>img{
+    width: 25%;
+    margin: auto 3.5%;
+    cursor: pointer;
+}
+
+.profile-photo-select-avatar--img>a>img:hover{
+    background-color: $secondaryColorBgGreen3;
+    border-radius: 3px;
+    transition: all 0.3s ease 0s;
+}
+
+.profile-photo-select-avatar{
+    float: none;
+    width: 260px;
+    margin: 2rem auto 1rem auto;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 6px;
+    border: 5px solid white;
+    transition: all 0.3s ease 0s;
+    //cursor: pointer;
+    box-shadow: 0px 2px 2px 0px rgba(194,192,194,1);
+
+    /*MEDIA QUERIES*/
+    /*Tablet & Desktop*/
+    @media only screen and (min-width: 768px){
+        float: left;
+            top: 50%;
+            bottom: 50%;
+    }
 }
 
 .container-new-profile{
@@ -114,6 +160,12 @@
       width: 50%;
       margin: 0 25% 2% 25%;
     } 
+
+}
+
+.container-new-profile-disabled{
+    background-color: $primaryColorBgBlack;
+    z-index: 999;
 
 }
 
@@ -174,6 +226,8 @@
 
 .profile-info-create > input{
     width: 50%;
+    margin-top: 5px;
+    margin-bottom: 35px;
 }
 .profile-info-create > label{
     display: block;
@@ -397,12 +451,13 @@
     /*Tablet & Desktop*/
     @media only screen and (min-width: 768px){
         float: right;
+        margin: 1rem;
     }
 }
 
 .profile-btn-add > .btn-act{
     font-size: 1rem;
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
 
 }
 
@@ -470,7 +525,7 @@
 }
 
 .container-new-profile>a>.profile-return::before{
-    content:"Volver";
+    content: "Volver";
     color:$primaryColorWhite;
     font-size: .6rem;
     position: absolute;
@@ -486,3 +541,13 @@
             left: 40px;
     }
 }
+
+.profile-closed{
+    display:none;
+}
+
+.profile-disable{
+    pointer-events: none;
+    opacity: 0.3;
+}
+
