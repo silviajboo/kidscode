@@ -63,10 +63,11 @@
 			<h5 class="account-name color-txt-grey">
 				Hola sljboo@gmail.com
 			</h5>
-			<h5 class="account-edit color-txt-grey">
-				<img class="account-edit--img" src="img/ic-settings.png" alt="configuración perfil" lang="es">
-			</h5>
-
+			
+				<h5 class="account-edit color-txt-grey">
+					<img class="account-edit--img" src="img/ic-settings.png" alt="configuración perfil" lang="es">
+				</h5>
+			
 		</div>
 
 		<div class="container-profile">
@@ -103,14 +104,91 @@
 					</div>
 				</div>
 
-				<a href="#">
 					<div class="profile-btn-delete">
 						<div class="btn-act color-bg-pink" >Eliminar perfil</div>
 					</div>
-				</a>
 			</div>
 		</div>
 	</div>
+
+	<!--Lightbox 1 Edit Account-->
+	<div class="lightbox lightbox-hidden lightbox-account">
+
+		<!--Botón de cerrar-->
+		<div class="btn-round-close close-position" id="changestyle-close"></div>
+
+		<header class="lightbox-header">
+			<h2 class="h1-lightbox">Modificar cuenta familiar</h2>
+		</header>
+
+		<form>
+
+			<fieldset class="lighbox-fieldset">
+				<label for="name">Modificar contraseña</label>
+				<input type="password" id="itNombre" name="name" class=""  placeholder="contraseña antigua" required>
+				<input type="password" id="itNombre" name="name" class=""  placeholder="contraseña nueva" required>
+			</fieldset>
+
+		</form>
+
+		<button class="btn-act" type="submit" id="changestyle-cta">Modificar</button>
+
+	</div>
+
+	<!--Lightbox 2 Edit Account-->
+
+	<div class="lightbox-advice-account lightbox-hidden">
+
+		<div class="btn-round-close close-position" id="changestyle-close2"></div>
+
+		<header class="lightbox-header">
+			<h2 class="h1-lightbox">Contraseña cambiada</h2>
+		</header>
+
+		<section class="advice-text">
+			<p>Tu contraseña ha sido cambiada</p>
+		</section>
+
+	</div>
+
+	<!--Lightbox 1 Delete-->
+    <div class="lightbox lightbox-hidden lightbox-delete">
+    
+        <!--Botón de cerrar-->
+    <div class="btn-round-close close-position" id="changestyle-close3"></div>
+    
+    <header class="lightbox-header">
+        <h2 class="h1-lightbox">Eliminar el perfil</h2>
+    </header>
+    
+    <form>
+        
+        <fieldset class="lighbox-fieldset">
+             <label for="name">¿Estás seguro que quieres eliminar la cuenta?</label>
+             <input type="text" id="itNombre" name="name" class="" required placeholder="Escribe aquí DELETE">
+        </fieldset>
+    </form>
+    
+    <button class="btn-act" type="submit" id="changestyle-cta2">Borrar</button>
+    
+</div>
+    
+<!--Lightbox 2 Delete-->
+    
+    <div class="lightbox-advice-delete lightbox-hidden">
+    
+        <div class="btn-round-close close-position" id="changestyle-close4"></div>
+    
+        <header class="lightbox-header">
+            <h1 class="h1-lightbox">Perfil eliminado</h1>
+        </header>
+    
+        <section class="advice-text">
+            <p>El perfil ha sido eliminado satisfactoriamente</p>
+        </section>
+        
+    </div>
+    
 
 	<!--FOOTER de la página-->
 	<footer class="footer_profile color-bg-blue-bg">
@@ -123,6 +201,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="js/burguer-menu.js"></script>
+	<script src="js/lightbox.js"></script>
 
 </body>
 

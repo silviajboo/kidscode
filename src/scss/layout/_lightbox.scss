@@ -1,0 +1,91 @@
+.lightbox {
+    padding: 20px;
+    border: 10px $secondaryColorBgBlack1 solid;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    box-shadow: $shadow;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+	left: 0;
+	right: 0;
+    top: 20%;
+	margin: auto;
+    transition: all 0.3s ease 0s;
+}
+
+.lightbox-advice-account,.lightbox-advice-delete, .lightbox-advice-added-account {
+    padding: 20px;
+    border: 10px $secondaryColorBgBlack1 solid;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    box-shadow: $shadow;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+	left: 0;
+	right: 0;
+    top: 20%;
+	margin: auto;
+    transition: all 0.3s ease 0s;
+}
+.lightbox-account > form > fieldset > label{
+    font-size: 1.18rem;
+}
+
+.lightbox-hidden {
+    display: none;
+}
+
+.lightbox-header {
+    float: left;
+    margin-top: -60px;
+}
+
+.lighbox-fieldset {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.h1-lightbox {
+    color: $secondaryColorTxtPink;
+    font-size: 1.85rem;
+    line-height: 2rem;
+    width: 100%;
+}
+
+.close-position {
+    position: relative;
+    left: 97%;
+    top: -58px;
+    float: left;
+    background-image: url(../img/btn-cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55% 55%;
+    
+}
+
+.advice-text {
+    float: left;   
+    margin-bottom: 25px;
+}
+
+.familiar-settings {
+    top: 10%;
+    line-height: 10px;
+    
+}
+
+.delete-link {
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+.delete-link:before {
+    content: url('../img/danger-icon-33-33.svg');
+}

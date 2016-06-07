@@ -189,6 +189,20 @@
 		top: 1px;
 	}
 
+	&-round-close {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: #ed497e;
+    padding: 24px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 2px 2px 0px #d1cfd1;
+}
+
 	&-svg{
 		display: inline-block;
 	}

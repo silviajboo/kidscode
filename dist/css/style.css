@@ -2204,6 +2204,19 @@ hr {
   position: relative;
   top: 1px; }
 
+.btn-round-close {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 5px solid white;
+  border-radius: 50%;
+  background-color: #ed497e;
+  padding: 24px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 2px 2px 0px #d1cfd1; }
+
 .btn-svg {
   display: inline-block; }
 
@@ -2553,7 +2566,7 @@ h6 {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999; }
+  z-index: 998; }
 
 .container-menu-logo {
   float: left;
@@ -3180,8 +3193,8 @@ input {
   padding: 5px;
   width: 90%;
   min-width: 200px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 input:focus {
   border-color: #11bbcc;
@@ -3200,3 +3213,83 @@ input:hover:-moz-placeholder {
 
 input:hover:-ms-input-placeholder {
   color: #11bbcc; }
+
+.lightbox {
+  padding: 20px;
+  border: 10px #999999 solid;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin: auto;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+.lightbox-advice-account, .lightbox-advice-delete, .lightbox-advice-added-account {
+  padding: 20px;
+  border: 10px #999999 solid;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin: auto;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+.lightbox-account > form > fieldset > label {
+  font-size: 1.18rem; }
+
+.lightbox-hidden {
+  display: none; }
+
+.lightbox-header {
+  float: left;
+  margin-top: -60px; }
+
+.lighbox-fieldset {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0px; }
+
+.h1-lightbox {
+  color: #ed497e;
+  font-size: 1.85rem;
+  line-height: 2rem;
+  width: 100%; }
+
+.close-position {
+  position: relative;
+  left: 97%;
+  top: -58px;
+  float: left;
+  background-image: url(../img/btn-cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55% 55%; }
+
+.advice-text {
+  float: left;
+  margin-bottom: 25px; }
+
+.familiar-settings {
+  top: 10%;
+  line-height: 10px; }
+
+.delete-link {
+  font-size: 14px;
+  line-height: 20px; }
+
+.delete-link:before {
+  content: url("../img/danger-icon-33-33.svg"); }

@@ -70,7 +70,7 @@
 		</div>
 
 		<div class="container-new-profile">
-		
+
 			<a href="profile_global.html">
 				<div class="profile-return">
 					<img src="img/return.png" alt="Volver">
@@ -117,13 +117,67 @@
 				<input type="text" id="itNombre" name="name" placeholder="Nombre" required>
 			</div>
 			
-			<a href="profile_global.html">
-				<div class="profile-btn-add">	
-					<div class="btn-act">Añadir</div>
-				</div>
-			</a>
+			<div class="profile-btn-add">	
+				<div class="btn-act">Añadir</div>
+			</div>
 
 		</div>
+	</div>
+
+	<!--Lightbox 1 Editar cuenta-->
+	<div class="lightbox lightbox-hidden lightbox-account">
+
+		<!--Botón de cerrar-->
+		<div class="btn-round-close close-position" id="changestyle-close"></div>
+
+		<header class="lightbox-header">
+			<h2 class="h1-lightbox">Modificar cuenta familiar</h2>
+		</header>
+
+		<form>
+
+			<fieldset class="lighbox-fieldset">
+				<label for="name">Modificar contraseña</label>
+				<input type="password" id="itNombre" name="name" class=""  placeholder="contraseña antigua" required>
+				<input type="password" id="itNombre" name="name" class=""  placeholder="contraseña nueva" required>
+			</fieldset>
+
+		</form>
+
+		<button class="btn-act" type="submit" id="changestyle-cta">Modificar</button>
+
+	</div>
+
+	<!--Lightbox 2 Editar cuenta-->
+
+	<div class="lightbox-advice-account lightbox-hidden">
+
+		<div class="btn-round-close close-position" id="changestyle-close2"></div>
+
+		<header class="lightbox-header">
+			<h2 class="h1-lightbox">Contraseña cambiada</h2>
+		</header>
+
+		<section class="advice-text">
+			<p>Tu contraseña ha sido cambiada</p>
+		</section>
+
+	</div>
+
+	<!--Lightbox 2 Cuenta añadida OK-->
+	<div class="lightbox-advice-added-account lightbox-hidden">
+
+		<a href="profile_global.html">
+			<div class="btn-round-close close-position" id="changestyle-close2"></div>
+		</a>
+		<header class="lightbox-header">
+			<h2 class="h1-lightbox">Perfil añadido</h2>
+		</header>
+
+		<section class="advice-text">
+			<p>El perfil ha sido añadido correctamente</p>
+		</section>
+
 	</div>
 
 	<!--FOOTER de la página-->
@@ -139,6 +193,8 @@
 	<script src="js/burguer-menu.js"></script>
 	<script src="js/profile.js"></script>
 	<script src="js/scroll.js"></script>
+	<script src="js/lightbox.js"></script>
+
 
 </body>
 
