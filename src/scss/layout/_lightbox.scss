@@ -10,13 +10,10 @@
     @media screen and (min-width: 768px){
         border: 10px $secondaryColorBgBlack1 solid;
         width: 80%;
-
     }
-
 }
 
 .main-container {
-
     @media screen and (min-width: 768px){
         width: 80%;
         margin: auto;
@@ -24,10 +21,8 @@
     }
 }
 
-
 .close-position-double {  ///MISMAS CARACTERÍSTICAS QUE EL SIMPLE
     display:none;
-
     @media screen and (min-width: 768px){
         display:block; 
         float: right;
@@ -39,26 +34,21 @@
         background-image: url(../img/btn-cancel.svg);
         background-repeat: no-repeat;
         background-position: center;
-
     }
 }
 
 .lightbox_start {
     width:100%;
     height:100%;
-    // display:block;
     float:left;
     border-bottom: 10px $secondaryColorBgBlack1 solid;
 
     @media screen and (min-width: 768px){
-        // display:inline-block;
         width: 50%;
         padding-top: 10px;
         padding-bottom: 30px;
         border-bottom: none;
         border-right: 5px $secondaryColorBgBlack1 solid;
-        ///border:1px solid blue;
-
     }
 }
 
@@ -66,13 +56,9 @@
     width:100%;
     height:100%;
     float:right;
-    // display:block;
     @media screen and (min-width: 768px){
-        // display:inline-block;
-        width: 50%;
-        ///border:1px solid red;
+    width: 50%;
     }
-
 }
 
 .lightbox-head {
@@ -82,7 +68,15 @@
     width: 100%;
 }
 
+.lightbox-btn {
+bottom: 20px;
+@media screen and (min-width: 768px){
+padding-top:20px;
+padding-bottom: 40px;
+width:100%;
 
+}
+}
 
 ///LO USAN TODOS
 
@@ -126,7 +120,6 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: 55% 55%;
-
     }
 }
 
