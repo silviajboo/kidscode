@@ -9,32 +9,36 @@ body {
     min-width: 320px;
 }
 
-a{
+a {
     text-decoration: none;
-    color: black;
+    color: $secondaryColorBgBlue3;
+    cursor: pointer
+
+}
+
+a:hover {
+    color: $primaryColorBgGreen;
 }
 
 /*typography*/
 p{
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: 400;
     font-size: 1rem;
     line-height: 1.25rem;
-    margin-top: 1rem;
-    margin-bottom: 0.75rem;
-    display: block;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-
+    
     /*Desktop & tablet*/
     @media only screen and (min-width: 768px){
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    margin-top: 1rem; 
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin-top: 1rem; 
     }
 }
+
+.t-p{
+    padding-bottom: 1rem;
+
+}
+
+.p-checkbox
 
 h1{
     font-size: 1.85rem;
@@ -47,19 +51,19 @@ h1{
 
     //Mobile Portrait
     @media only screen and (min-width: 550px) and (max-width: 767px){
-    margin-bottom: 0rem;
+        margin-bottom: 0rem;
     // margin-left:6%;
     // margin-right: 6%;
     font-size: 1.85rem;
     line-height: 2rem;
-    }
+}
     //Desktop & tablet
     @media only screen and (min-width: 768px){
     // margin-left:12%;
     // margin-right: 12%;
     font-size: 4rem;
     line-height: 4.25rem;
-    }
+}
 }
 .t-h1{
     // font-size: 2rem;
@@ -68,10 +72,10 @@ h1{
     line-height: 1.75rem;
 
 /*Desktop & tablet*/
-    @media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
     font-size: 3.5rem;
     line-height: 3.75rem; 
-    }
+}
 }
 
 h2{
@@ -82,12 +86,12 @@ h2{
     font-weight: 700;
 
     
-@media only screen and (min-width: 768px){
-    font-size: 2rem;
-    line-height: 2.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
+    @media only screen and (min-width: 768px){
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
     }
 }
 
@@ -96,9 +100,9 @@ h3{
     font-size: 1.1rem;
     line-height: 1.5rem;
     font-weight: 700;
-@media only screen and (min-width: 768px){
-    font-size: 1.3rem;
-    line-height: 2rem;
+    @media only screen and (min-width: 768px){
+        font-size: 1.3rem;
+        line-height: 2rem;
     }
 }
 
@@ -136,10 +140,10 @@ h6{
     margin: 4rem 1rem 1rem 1rem;
 }
 .capitalLetter{
-   float:left;
-   font-family: 'Open Sans',sans-serif;
-   font-size:5rem;
-   margin-left:-20px;
+ float:left;
+ font-family: 'Open Sans',sans-serif;
+ font-size:5rem;
+ margin-left:-20px;
 }
 .citas{
     font-size: 2rem;
@@ -149,14 +153,14 @@ h6{
     font-weight: 700;
 
     
-@media only screen and (min-width: 768px){
-    font-size: 2rem;
-    line-height: 2.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
+    @media only screen and (min-width: 768px){
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
     }
 }
 .txt-shadow{
-     text-shadow: 0px 1px 5px $secondaryColorBgBlack2;
+   text-shadow: 0px 1px 5px $secondaryColorBgBlack2;
 }

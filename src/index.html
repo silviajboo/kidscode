@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Iniciar sesión</title>
+  <title>Iniciar sesión - Crea tu cuenta</title>
   <link href="css/inicio-style.css" rel="stylesheet" type="text/css">
 
   <!--Movile viewport-->
@@ -14,63 +14,71 @@
 
 </head>
 <body>
-
-  <div class="lightbox_double">
-    <div class="btn-round close-position"></div>
+<div class="main-container">
+<div class="lightbox_double">
+    <div class="btn-round close-position-double"></div>
 
     <div class="lightbox_start">        
       <header class="lightbox-head">
         <h1 class="h1-lightbox">Inicia tu sesión</h1>
-        <p>Inicia tu sesión con tu e-mail y contraseña </p>
+        <p class="t-p">Pon tu e-mail y contraseña </p>
       </header>
 
       <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post" id="" name="" onsubmit="return validacion()">
-        <fieldset class="lighbox-fieldset">
-         <label for="name">Tu correo</label>
+
+        <fieldset class="lighbox-fieldset-double">
+         <label for="name" class="label-text">Tu correo</label>
          <input type="text" id="itNombre" name="name" class="" placeholder="hola@email.com" require>
        </fieldset>
-       <fieldset class="lighbox-fieldset">
-         <label for="name">Tu contraseña</label>
+
+       <fieldset class="lighbox-fieldset-double">
+         <label for="name" class="label-text">Tu contraseña</label>
          <input type="text" id="itNombre" name="password" class="" placeholder="*****" required>
-         
+         <br>
          <a href="">Has olvidado la contraseña?</a>
-         <input id='one' type='checkbox' />
-         <label for='one'>
-          <span></span> No cerrar sesión
-          <ins><i></i></ins>
-        </label>
-        <button class="btn-act" type="submit" id="Enviar">Iniciar sesión</button>
-      </fieldset>
-    </form>
+       </label>
+   <fieldset class="lighbox-fieldset">
+  <input id="box1" type="checkbox" />
+  <label for="box1">Cerrar sesión</label>
+  </fieldset>
+      <button class="btn-act" type="submit" id="Enviar">Inicia sesión</button>
+    </fieldset>
+
+  </form>
   </div>
 
 
-  <div class="lightbox_create"><header class="lightbox-head">
+<div class="lightbox_create">
+  <header class="lightbox-head">
     <h1 class="h1-lightbox">Crea tu cuenta</h1>
-    <p>Crea la cuenta familiar para jugar</p>
+    <p class="t-p">Crea la cuenta familiar para jugar</p>
   </header>
-  <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post" id="" name="" onsubmit="return validacion()">
 
-    <fieldset class="lighbox-fieldset">
-     <label for="name">Tu correo</label>
+  <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post" id="" name="" onsubmit="return validacion()">
+    <fieldset class="lighbox-fieldset-double">
+     <label for="name" class="label-text"> Tu correo</label>
      <input type="text" id="itNombre" name="name" class=""  placeholder="hola@email.com" required>
    </fieldset>
-   <fieldset class="lighbox-fieldset">
-     <label for="name">Tu contraseña</label>
+
+   <fieldset class="lighbox-fieldset-double">
+     <label for="name" class="label-text">Tu contraseña</label>
      <input type="text" id="itNombre" name="password" class=""  placeholder="*****" required>
    </fieldset>
-   <fieldset class="lighbox-fieldset">
-     <label for="name">Confirmar contraseña</label>
-     <input type="text" id="itNombre" name="password" class=""  placeholder="*****" required>
-   </fieldset>
-     <input id='two' type='checkbox' />
-  <label for='two'>
-          <span></span> He leído y acepto <a href="">los términos y condiciones</a>
-          <ins><i></i></ins>
-        </label>
-   <button class="btn-act" type="submit" id="Enviar">Regístrate</button>
- </fieldset>
-  </form>
+
+   <!--<fieldset class="lighbox-fieldset-double">
+     <label for="name" class="label-text">Confirmar contraseña</label>
+     <input type="text" id="itNombre" name="password" class=""  placeholder="*****" required>-->
+
+   <fieldset class="lighbox-fieldset-checkbox">
+   <input id="box2" type="checkbox" />
+  <label for="box2">He leído y acepto <a href="">los términos y condiciones de uso</a></label>
+  </fieldset>
+
+  <button class="btn-act" type="submit" id="Enviar">Regístrate</button>
+     </fieldset>
+</form>
+</div>
+
 </div>
 </div>
 </body>

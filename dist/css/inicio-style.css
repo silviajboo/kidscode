@@ -5,6 +5,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -2011,21 +2012,16 @@ body {
 
 a {
   text-decoration: none;
-  color: black; }
+  color: #0097e8;
+  cursor: pointer; }
+
+a:hover {
+  color: #33bb44; }
 
 /*typography*/
 p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem;
-  margin-top: 1rem;
-  margin-bottom: 0.75rem;
-  display: block;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
   /*Desktop & tablet*/ }
   @media only screen and (min-width: 768px) {
     p {
@@ -2033,6 +2029,10 @@ p {
       line-height: 1.5rem;
       margin-top: 1rem; } }
 
+.t-p {
+  padding-bottom: 1rem; }
+
+.p-checkbox
 h1 {
   font-size: 1.85rem;
   line-height: 2rem;
@@ -2040,12 +2040,14 @@ h1 {
   margin-bottom: 1.36rem;
   font-weight: 700; }
   @media only screen and (min-width: 550px) and (max-width: 767px) {
-    h1 {
+    .p-checkbox
+h1 {
       margin-bottom: 0rem;
       font-size: 1.85rem;
       line-height: 2rem; } }
   @media only screen and (min-width: 768px) {
-    h1 {
+    .p-checkbox
+h1 {
       font-size: 4rem;
       line-height: 4.25rem; } }
 
@@ -2621,6 +2623,15 @@ fieldset {
   margin: 0 auto;
   padding: 20px 0px; }
 
+.lighbox-fieldset-double {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0px; }
+
+.lighbox-fieldset-checkbox {
+  margin: 0 auto;
+  width: 80%; }
+
 label {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -2631,6 +2642,10 @@ label {
       font-size: 1.25rem;
       line-height: 1.5rem;
       margin-top: 1rem; } }
+
+@media only screen and (min-width: 768px) {
+  .label-text {
+    font-size: 1rem; } }
 
 /*Estilando estados del input*/
 input {
@@ -2660,20 +2675,48 @@ input:hover:-moz-placeholder {
 input:hover:-ms-input-placeholder {
   color: #11bbcc; }
 
-/*Checkbox estilado*/
-input[type='checkbox'] {
-  height: 0;
-  width: 0; }
+/*NEW CHECKBOX*/
+input[type=checkbox] {
+  display: none; }
 
-input[type='checkbox'] + label {
+/* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block; }
+
+input[type=checkbox] + label:before {
+  content: "\f096"; }
+
+/* unchecked icon */
+input[type=checkbox] + label:before {
+  letter-spacing: 10px; }
+
+/* space between checkbox and label */
+input[type=checkbox]:checked + label:before {
+  content: "\f046"; }
+
+/* checked icon */
+input[type=checkbox]:checked + label:before {
+  color: #33bb44; }
+
+/* allow space for check mark */
+/*Checkbox estilado
+
+input[type='checkbox']{ 
+  height: 0; 
+  width: 0;
+  display:none;
+}
+
+input[type='checkbox'] + label{
   position: relative;
   display: flex;
-  margin: .6em 0;
+  margin: 1em;
   align-items: center;
   color: #9e9e9e;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.23, 1); }
-
-input[type='checkbox'] + label > ins {
+  transition: color 250ms cubic-bezier(.4,.0,.23,1);
+}
+input[type='checkbox'] + label > ins{
   position: absolute;
   display: block;
   bottom: 0;
@@ -2682,15 +2725,15 @@ input[type='checkbox'] + label > ins {
   width: 100%;
   overflow: hidden;
   text-decoration: none;
-  transition: height 300ms cubic-bezier(0.4, 0, 0.23, 1); }
-
-input[type='checkbox'] + label > ins > i {
+  transition: height 300ms cubic-bezier(.4,.0,.23,1);
+}
+input[type='checkbox'] + label > ins > i{
   position: absolute;
   bottom: 0;
   font-style: normal;
-  color: #11bbcc; }
-
-input[type='checkbox'] + label > span {
+  color: $primaryColorBgBlue;
+}
+input[type='checkbox'] + label > span{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2700,24 +2743,24 @@ input[type='checkbox'] + label > span {
   background: transparent;
   border: 2px solid #9E9E9E;
   border-radius: 2px;
-  cursor: pointer;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.23, 1); }
+  cursor: pointer;  
+  transition: all 250ms cubic-bezier(.4,.0,.23,1);
+}
 
-input[type='checkbox'] + label:hover, input[type='checkbox']:focus + label {
-  color: #11bbcc; }
+input[type='checkbox'] + label:hover, input[type='checkbox']:focus + label{
+  color: $primaryColorBgBlue;
+}
+input[type='checkbox'] + label:hover > span, input[type='checkbox']:focus + label > span{
+  background: rgba(255,255,255,.1);
+  border: 2px solid $primaryColorBgBlue;
+}
+input[type='checkbox']:checked + label > ins{ height: 100%; }
 
-input[type='checkbox'] + label:hover > span, input[type='checkbox']:focus + label > span {
-  background: rgba(255, 255, 255, 0.1);
-  border: 2px solid #11bbcc; }
-
-input[type='checkbox']:checked + label > ins {
-  height: 100%; }
-
-input[type='checkbox']:checked + label > span {
-  border: 0.5em solid #11bbcc;
-  animation: shrink-bounce 200ms cubic-bezier(0.4, 0, 0.23, 1); }
-
-input[type='checkbox']:checked + label > span:before {
+input[type='checkbox']:checked + label > span{
+  border: .5em solid $primaryColorBgBlue;
+  animation: shrink-bounce 200ms cubic-bezier(.4,.0,.23,1);
+}
+input[type='checkbox']:checked + label > span:before{
   content: "";
   position: absolute;
   top: .6em;
@@ -2726,84 +2769,96 @@ input[type='checkbox']:checked + label > span:before {
   border-bottom: 3px solid transparent;
   transform: rotate(45deg);
   transform-origin: 0% 100%;
-  animation: checkbox-check 125ms 250ms cubic-bezier(0.4, 0, 0.23, 1) forwards; }
+  animation: checkbox-check 125ms 250ms cubic-bezier(.4,.0,.23,1) forwards;
+}
 
-@keyframes shrink-bounce {
-  0% {
-    transform: scale(1); }
-  33% {
-    transform: scale(0.85); }
-  100% {
-    transform: scale(1); } }
-
-@keyframes checkbox-check {
-  0% {
+@keyframes shrink-bounce{
+  0%{
+    transform: scale(1);
+  }
+  33%{    
+    transform: scale(.85);
+  }
+  100%{
+    transform: scale(1);    
+  }
+}
+@keyframes checkbox-check{
+  0%{
     width: 0;
     height: 0;
     border-color: #fff;
-    transform: translate3d(0, 0, 0) rotate(45deg); }
-  33% {
+    transform: translate3d(0,0,0) rotate(45deg);
+  }
+  33%{
     width: .2em;
     height: 0;
-    transform: translate3d(0, 0, 0) rotate(45deg); }
-  100% {
+    transform: translate3d(0,0,0) rotate(45deg);
+  }
+  100%{    
     width: .2em;
-    height: .5em;
+    height: .5em;    
     border-color: #212121;
-    transform: translate3d(0, -0.5em, 0) rotate(45deg); } }
-
+    transform: translate3d(0,-.5em,0) rotate(45deg);
+  }
+}*/
 .lightbox_double {
   border-radius: 5px;
   box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
-  margin: auto;
-  position: absolut;
+  position: absolute;
   width: 100%;
   text-align: center; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 768px) {
     .lightbox_double {
-      margin: 0 auto;
       border: 10px #999999 solid;
       width: 80%; } }
 
-.close-position {
-  margin-right: 10px;
-  float: right;
-  background-image: url(../img/btn-cancel.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 55% 55%; }
+@media screen and (min-width: 768px) {
+  .main-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px; } }
+
+.close-position-double {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .close-position-double {
+      display: block;
+      float: right;
+      margin-right: -40px;
+      margin-top: -40px;
+      margin-bottom: -30px;
+      width: 5rem;
+      height: 5rem;
+      background-image: url(../img/btn-cancel.svg);
+      background-repeat: no-repeat;
+      background-position: center; } }
 
 .lightbox_start {
   width: 100%;
   height: 100%;
-  display: block;
+  float: left;
   border-bottom: 10px #999999 solid; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 768px) {
     .lightbox_start {
-      display: inline-block;
-      width: 45%;
+      width: 50%;
+      padding-top: 10px;
+      padding-bottom: 30px;
       border-bottom: none;
       border-right: 5px #999999 solid; } }
 
 .lightbox_create {
   width: 100%;
   height: 100%;
-  display: block; }
-  @media screen and (min-width: 1024px) {
+  float: right; }
+  @media screen and (min-width: 768px) {
     .lightbox_create {
-      display: inline-block;
-      width: 45%; } }
+      width: 50%; } }
 
 .lightbox-head {
   padding: 10px;
   margin-top: 0;
   float: right;
-  width: 100%; }
-
-.h1-lightbox {
-  color: #ed497e;
-  font-size: 1.85rem;
-  line-height: 2rem;
   width: 100%; }
 
 .lightbox {
@@ -2820,6 +2875,33 @@ input[type='checkbox']:checked + label > span:before {
   right: 0;
   top: 20%;
   margin: auto; }
+
+.lightbox-header {
+  float: left;
+  margin-top: -60px; }
+
+.h1-lightbox {
+  color: #ed497e;
+  font-size: 1.85rem;
+  line-height: 2rem;
+  width: 100%; }
+
+.close-position {
+  display: none; }
+  @media screen and (min-width: 1024px) {
+    .close-position {
+      position: relative;
+      left: 97%;
+      top: -58px;
+      float: left;
+      background-image: url(../img/btn-cancel.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 55% 55%; } }
+
+.advice-text {
+  float: left;
+  margin-bottom: 25px; }
 
 /*Opciones*/
 .accordion {
