@@ -23,16 +23,17 @@
         <h1 class="h1-lightbox">Modificar cuenta familiar</h1>
     </header>
     
-    <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post" id="" name="" onsubmit="return validacion()">
+    <form>
         
         <fieldset class="lighbox-fieldset">
              <label for="name">Modificar contraseña</label>
-             <input type="text" id="itNombre" name="name" class=""  placeholder="contraseña antigua" required>
-            <input type="text" id="itNombre" name="name" class=""  placeholder="contraseña nueva" required>
+             <input type="password" id="itNombre" name="name" class=""  placeholder="contraseña antigua" required>
+            <input type="password" id="itNombre" name="name" class=""  placeholder="contraseña nueva" required>
         </fieldset>
         
-        <button class="btn-act" type="submit" id="bEnviar">Modificar</button>
     </form>
+    
+    <a href="password-changed.html"><button class="btn-act" type="submit" id="bEnviar">Modificar</button></a>
     
     <div class="delete-link"><a href="confirm-delete.html">Eliminar cuenta</a></div>
     

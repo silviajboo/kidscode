@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Cambiar contraseña</title>
+    <link href="css/terms-style.css" rel="stylesheet" type="text/css">
+    
+    <!--Movile viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale1">
+    
+    <!--google fonts-->
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    
+
+</head>
+<body>
+    
+<!--Clic aqui para mostrar lightbox-->
+    <button class="btn-act btn2" type="submit" id="changestyle">Cambiar contraseña</button>
+    
+<!--Lightbox 1-->
+    <div class="lightbox lightbox-hidden">
+    
+        <!--Botón de cerrar-->
+    <div class="btn-round close-position" id="changestyle-close"></div>
+    
+    <header class="lightbox-header">
+        <h1 class="h1-lightbox">Modificar cuenta familiar</h1>
+    </header>
+    
+    <form>
+        
+        <fieldset class="lighbox-fieldset">
+             <label for="name">Modificar contraseña</label>
+             <input type="password" id="itNombre" name="name" class=""  placeholder="contraseña antigua" required>
+            <input type="password" id="itNombre" name="name" class=""  placeholder="contraseña nueva" required>
+        </fieldset>
+        
+    </form>
+    
+    <button class="btn-act" type="submit" id="changestyle-cta">Modificar</button>
+    
+</div>
+    
+<!--Lightbox 2-->
+    
+    <div class="lightbox-advice lightbox-hidden">
+    
+        <div class="btn-round close-position" id="changestyle-close2"></div>
+    
+        <header class="lightbox-header">
+        <h1 class="h1-lightbox">Contraseña cambiada</h1>
+    </header>
+    
+        <section class="advice-text">
+        <p>Su contraseña ha sido cambiada</p>
+    </section>
+        
+    </div>
+    
+<!--Script del lightbox-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/lightbox.js"></script>
+      
+</body>
+</html>

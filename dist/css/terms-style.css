@@ -3040,6 +3040,24 @@ input[type='checkbox']:checked + label > span:before {
   top: 20%;
   margin: auto; }
 
+.lightbox-advice {
+  padding: 20px;
+  border: 10px #999999 solid;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin: auto; }
+
+.lightbox-hidden {
+  display: none; }
+
 .lightbox-header {
   float: left;
   margin-top: -60px; }
