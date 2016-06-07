@@ -6,10 +6,7 @@ gulpfile.js
 package.json
 .sass-cache
 .publish
-src/img
-src/js
 src/pdf
-dist/js
 dist/pdf
 
 ### Windows ###
