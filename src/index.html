@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--CSS-->
   <link rel="stylesheet" href="css/style.css">
+  <!--LIBRERÍA JQUERY-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   
   <!--FAVICON-->
@@ -39,10 +40,74 @@
 <body>
   <!--Cabecera-->
   <header class="color-bg-blue-head header-btn">
-    <a class="login"href="pdf/fichas_v1.pdf" target="_blank">
+    <a class="login" id="changestyle-cta-login">
           Iniciar sesión
     </a>
+
     <div class="container color-bg-blue-head header">
+      <!--LIGHTBOX-->
+  <div class="main-container-lightbox lightbox-hidden">
+<div class="lightbox_double">
+    <div class="btn-round close-position-double" id="changestyle-close"></div>
+
+    <div class="lightbox_start">        
+      <header class="lightbox-head">
+        <h3 class="h1-lightbox">Inicia tu sesión</h3>
+        <p class="t-p">Pon tu e-mail y contraseña </p>
+      </header>
+
+      <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post" id="" name="" onsubmit="return validacion()">
+
+        <fieldset class="lighbox-fieldset-double">
+         <label for="name" class="label-text">Tu correo</label>
+         <input type="text" id="itNombre" name="name" class="" placeholder="hola@email.com" require>
+       </fieldset>
+
+       <fieldset class="lighbox-fieldset-double">
+         <label for="password" class="label-text">Tu contraseña</label>
+         <input type="text" id="itNombre" name="password" class="" placeholder="*****" required>
+         <br>
+         <a href="">¿Olvidaste la contraseña?</a>
+       </label>
+   <fieldset class="lighbox-fieldset">
+  <input id="box1" type="checkbox" />
+  <label for="box1" class="label-text">No cerrar sesión</label>
+  </fieldset>
+      <button class="btn-act" type="submit" id="Enviar">Entra</button>
+    </fieldset>
+
+  </form>
+  </div>
+<div class="lightbox_create">
+  <header class="lightbox-head">
+    <h3 class="h1-lightbox">Crea tu cuenta</h3>
+    <p class="t-p">Crea la cuenta familiar para jugar</p>
+  </header>
+
+  <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post" id="" name="" onsubmit="return validacion()">
+    <fieldset class="lighbox-fieldset-double">
+     <label for="name" class="label-text"> Tu correo</label>
+     <input type="text" id="itNombre" name="name" class=""  placeholder="hola@email.com" required>
+   </fieldset>
+
+   <fieldset class="lighbox-fieldset-double">
+     <label for="password" class="label-text">Tu contraseña</label>
+     <input type="text" id="itNombre" name="password" class=""  placeholder="*****" required>
+   </fieldset>
+
+   <fieldset class="lighbox-fieldset-checkbox">
+   <input id="box2" type="checkbox" />
+  <label for="box2" class="label-text">Acepto los <br><a href="">términos y condiciones</a></label>
+  </fieldset>
+
+  <div class="lightbox-btn"><button class="btn-act" type="submit" id="Enviar">Regístrate</button></div>
+     </fieldset>
+</form>
+</div>
+
+</div>
+</div>
+<!--Lightbox end-->
       <div class="header-txt">
         <div class="logo-kidscode-header">
           
@@ -139,7 +204,7 @@
       <!--contenido 2 flex--> 
         <div class="content-flex-3  max-min step2-bgd he f-basis-3">
             <a href="pdf/fichas_v1.pdf" target="_blank">
-            <div class="btn-dwn uppercase">imprímete tu set de fichas</div>
+            <div class="btn-dwn uppercase">imprime</div>
           </a>
           <div class="number-2-img"></div>
           <div class="label color-txt-green">
@@ -225,13 +290,14 @@
       </div>
       <div class="contact color-txt-white"> 
         <h4>proyectokidscode@gmail.com 
-          <br>Copyright © 2016 Kids Code
+          <br>Copyright ©2016 Kids Code
         </h4>
       </div>
      </div>
     </footer>
   <!--GENERA SCROLL EMPIEZA LA AVENTURA-->
   <script src="js/scroll.js"></script>
+  <script src="js/lightbox.js"></script>
 </body>
   <!--Ejecuta las animaciones-->
   <script>

@@ -9,8 +9,15 @@ body {
     min-width: 320px;
 }
 
-a{
+a {
     text-decoration: none;
+    color: $secondaryColorBgBlue3;
+    cursor: pointer
+
+}
+
+a:hover {
+    color: $primaryColorBgGreen;
 }
 
 /*typography*/

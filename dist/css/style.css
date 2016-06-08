@@ -4,6 +4,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1721,6 +1722,91 @@ hr {
 .padding {
   padding: 2rem; }
 
+fieldset {
+  border: 0; }
+
+.lighbox-fieldset {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0px; }
+
+.lighbox-fieldset-double {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0px; }
+
+.lighbox-fieldset-checkbox {
+  margin: 0 auto;
+  width: 80%; }
+
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem; }
+  @media only screen and (min-width: 768px) {
+    label {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      margin-top: 1rem; } }
+
+@media only screen and (min-width: 768px) {
+  .label-text {
+    font-size: 1rem; } }
+
+/*Estilando estados del input*/
+input {
+  border-radius: 5px;
+  border: 1px solid #b3b3b3;
+  padding: 5px;
+  width: 90%;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+input:focus {
+  border-color: #11bbcc;
+  border-radius: 5px; }
+
+input:hover {
+  border-color: #11bbcc;
+  color: #11bbcc; }
+
+/*Estilando estados del placeholder*/
+input:hover::-webkit-input-placeholder {
+  color: #11bbcc; }
+
+input:hover:-moz-placeholder {
+  color: #11bbcc; }
+
+input:hover:-ms-input-placeholder {
+  color: #11bbcc; }
+
+/*CHECKBOX*/
+input[type=checkbox] {
+  display: none; }
+
+/* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block; }
+
+input[type=checkbox] + label:before {
+  content: "\f096"; }
+
+/* unchecked icon */
+input[type=checkbox] + label:before {
+  letter-spacing: 10px; }
+
+/* space between checkbox and label */
+input[type=checkbox]:checked + label:before {
+  content: "\f046"; }
+
+/* checked icon */
+input[type=checkbox]:checked + label:before {
+  color: #33bb44; }
+
+/* allow space for check mark */
 body {
   font-size: 16px;
   line-height: 1.5rem;
@@ -1732,7 +1818,12 @@ body {
   min-width: 320px; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #0097e8;
+  cursor: pointer; }
+
+a:hover {
+  color: #33bb44; }
 
 /*typography*/
 p {
@@ -2441,3 +2532,128 @@ h6 {
       display: block;
       width: 400px;
       height: 200px; } }
+
+.lightbox_double {
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  z-index: 12;
+  top: -60px;
+  left: 0; }
+  @media screen and (min-width: 768px) {
+    .lightbox_double {
+      border: 10px #999999 solid;
+      width: 90%; } }
+  @media screen and (min-width: 1025px) {
+    .lightbox_double {
+      top: 10%; } }
+
+@media screen and (min-width: 768px) {
+  .main-container-lightbox {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    margin-top: -320px;
+    /* height/2 = 500px / 2 */
+    margin-left: -30%; } }
+
+.close-position-double {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .close-position-double {
+      display: block;
+      float: right;
+      margin-right: -40px;
+      margin-top: -40px;
+      margin-bottom: -30px;
+      width: 5rem;
+      height: 6rem;
+      background-image: url(../img/btn-cancel.svg);
+      background-repeat: no-repeat;
+      background-position: center; } }
+
+.lightbox_start {
+  width: 100%;
+  height: 100%;
+  float: left;
+  border-bottom: 10px #999999 solid; }
+  @media screen and (min-width: 768px) {
+    .lightbox_start {
+      width: 50%;
+      padding-top: 25px;
+      padding-bottom: 40px;
+      border-bottom: none;
+      border-right: 5px #999999 solid; } }
+
+.lightbox_create {
+  width: 100%;
+  height: 100%;
+  float: right; }
+  @media screen and (min-width: 768px) {
+    .lightbox_create {
+      width: 50%; } }
+
+.lightbox-head {
+  padding: 10px;
+  margin-top: 0;
+  float: right;
+  width: 100%; }
+
+.lightbox-btn {
+  bottom: 20px; }
+  @media screen and (min-width: 768px) {
+    .lightbox-btn {
+      padding-top: 20px;
+      padding-bottom: 40px;
+      width: 100%; } }
+
+.lightbox {
+  padding: 20px;
+  border: 10px #999999 solid;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 1px 2px 5px 0px rgba(50, 50, 50, 0.3);
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin: auto; }
+
+.lightbox-header {
+  float: left;
+  margin-top: -60px; }
+
+.h1-lightbox {
+  color: #ed497e;
+  font-size: 1.85rem;
+  line-height: 2rem;
+  width: 100%; }
+
+.close-position {
+  display: none; }
+  @media screen and (min-width: 1024px) {
+    .close-position {
+      position: relative;
+      left: 97%;
+      top: -58px;
+      float: left;
+      background-image: url(../img/btn-cancel.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 55% 55%; } }
+
+.advice-text {
+  float: left;
+  margin-bottom: 25px; }
+
+.lightbox-hidden {
+  display: none; }
