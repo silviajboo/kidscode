@@ -34,7 +34,21 @@
 		padding: 1.5rem 2.5rem 1.5rem 2.5rem;
 		transition: all 0.3s ease 0s;
 	}
-
+	&-ini{
+		display:float;
+		float: right;
+		margin:1rem;
+		box-shadow:$colorShadowBtn 0px 3px 3px;
+		border: 5px solid $primaryColorWhite;;
+		color:$primaryColorWhite;
+		font-weight: 700;
+		text-decoration: none;
+		background-color: $secondaryColorBgBlue3;
+		font-size: 1.25rem;
+		border-radius: 10px;
+		padding: 1rem 2.25rem 1rem 2.25rem;
+		transition: all 0.3s ease 0s;
+	}
 	
 
 	&-slogan {
@@ -61,25 +75,25 @@
     	}
 
     	@media only screen and (min-width: 768px) and (max-width: 1023px){
-    	  margin: 2rem 0 3rem 0;
-    	  font-size: 2rem;
-		  line-height: 2.25rem;
+    		margin: 2rem 0 3rem 0;
+    		font-size: 2rem;
+    		line-height: 2.25rem;
     	}
 
    		/*Desktop*/
-    	@media screen and (min-width: 1024px){
-      	  margin: 1.5rem 0 2rem 0;
-      	  font-size: 2rem;
-		  line-height: 2.25rem;
-    	}
+   		@media screen and (min-width: 1024px){
+   			margin: 1.5rem 0 2rem 0;
+   			font-size: 2rem;
+   			line-height: 2.25rem;
+   		}
 
-	}
+   	}
 
-	&-act:hover, &-slogan:hover, &-dwn:hover{
-		background-color: $primaryColorBgGreen;
-		box-shadow:$colorShadowBtn 0px 1px 1px;
-		cursor: pointer;
-	}
+   	&-act:hover, &-slogan:hover, &-dwn:hover, &-ini:hover{
+   		background-color: $primaryColorBgGreen;
+   		box-shadow:$colorShadowBtn 0px 1px 1px;
+   		cursor: pointer;
+   	}
 
 	//le damos sensación de presionar botón
 	&-act:active, &-slogan:active {
@@ -122,36 +136,36 @@
 		/*MEDIA QUERIES*/
     	/*Tablet*/
     	@media only screen and (min-width: 768px) and (max-width: 1023px){
-      
+    		
     	}
 
    		/*Desktop*/
-    	@media screen and (min-width: 1024px){
-      	  margin: 2rem 0 0rem 0;
-    	}
+   		@media screen and (min-width: 1024px){
+   			margin: 2rem 0 0rem 0;
+   		}
 
-	}
+   	}
 
-	&-dwnld-center{
-		margin: 0 5% 0 10%;
+   	&-dwnld-center{
+   		margin: 0 5% 0 10%;
 
 		/*MEDIA QUERIES*/
     	/*Tablet*/
     	@media only screen and (min-width: 768px) and (max-width: 1023px){
-      
+    		
     	}
    		/*Desktop*/
-    	@media screen and (min-width: 1024px){
-      	  margin: 0 25% 0 20%;
-    	}
-	}
+   		@media screen and (min-width: 1024px){
+   			margin: 0 25% 0 20%;
+   		}
+   	}
 
-	&-dwnld:hover, &-dwnld-center:hover{
-		background-color: $secondaryColorBgPink2;
-		box-shadow:$colorShadowBtn 0px 1px 1px;
-		cursor: pointer;
-		
-	}
+   	&-dwnld:hover, &-dwnld-center:hover{
+   		background-color: $secondaryColorBgPink2;
+   		box-shadow:$colorShadowBtn 0px 1px 1px;
+   		cursor: pointer;
+   		
+   	}
 
 	//le damos sensación de presionar botón
 	&-dwnld:active, &-dwnld-center:active {
@@ -190,18 +204,18 @@
 	}
 
 	&-round-close {
-    display: inline-block;
-    color: #ffffff;
-    font-weight: 700;
-    text-transform: uppercase;
-    border: 5px solid white;
-    border-radius: 50%;
-    background-color: #ed497e;
-    padding: 24px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    box-shadow: 0px 2px 2px 0px #d1cfd1;
-}
+		display: inline-block;
+		color: #ffffff;
+		font-weight: 700;
+		text-transform: uppercase;
+		border: 5px solid white;
+		border-radius: 50%;
+		background-color: #ed497e;
+		padding: 24px;
+		-webkit-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s;
+		box-shadow: 0px 2px 2px 0px #d1cfd1;
+	}
 
 	&-svg{
 		display: inline-block;
@@ -215,4 +229,20 @@
 .btn-center{
 	margin:auto;
 }
+.btn-login{
+	font-size:1rem;
+	// background-color:$secondaryColorBgBlue5;
+	// color:$primaryColorWhite;
+	// border: 1px dotted $primaryColorWhite;
+	margin:0.25rem 0.75rem;
+	float:right;
+	// border-radius:5px;
+	padding:0.75rem;
+	@media only screen and (min-width: 768px){
+		margin-right:3rem;
+	}
+}
+.btn-login:hover{
+	background-color:$secondaryColorBgBlue3;
 
+}

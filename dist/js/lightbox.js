@@ -62,9 +62,20 @@ $(document).ready(function(){
     
     $('#changestyle-cta2').click(function(e) {
         $('.lightbox-delete').addClass('lightbox-hidden');
-        $('.lightbox-advice-delete').addClass('lightbox-hidden');
-        $('.container-profile').toggleClass("profile-disable");
-        $('.container-account-edit').toggleClass("profile-disable"); 
+        $('.lightbox-advice-delete').removeClass('lightbox-hidden');
+        // $('.container-profile').toggleClass("profile-disable");
+        // $('.container-account-edit').toggleClass("profile-disable"); 
     });
 });
+    //Button login
+    $('#changestyle-close-login').click(function(e) {
+        $('.main-container-lightbox').addClass('lightbox-hidden');
+        
+    });
+
+    $('#changestyle-cta-login').click(function(e) {
+        $('.main-container-lightbox').toggleClass('lightbox-hidden');
+        
+    });
+
 

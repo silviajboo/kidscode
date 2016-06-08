@@ -1,20 +1,18 @@
 @import 'variables/color-variables';
 @import 'vendor/normalize';
 @import 'vendor/animations';
+@import 'vendor/clearfix';
 @import 'colors/color-background';
 @import 'colors/color-text';
-@import 'vendor/clearfix';
 @import 'layout/generic';
+@import 'layout/forms-init';
+@import 'layout/typography';
 @import 'layout/images';
 @import 'layout/buttons';
 @import 'layout/footer';
-@import 'layout/typography';
 @import 'layout/header';
+@import 'layout/lightbox';
 @import 'layout/menu';
 @import 'layout/profile';
-@import 'layout/forms';
-@import 'layout/lightbox';
-
-
-
-
+@import 'layout/terms-conditions';
+@import 'layout/accordeon';

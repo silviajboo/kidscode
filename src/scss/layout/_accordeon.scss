@@ -1,0 +1,38 @@
+/*Opciones*/
+.accordion {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+.inner {
+  overflow: hidden;
+  display: none;
+    
+}
+.inner.show {
+  display: block;
+}
+.toggle {
+  display: block;
+  transition: background .3s ease;
+}
+.accordion-li {
+    padding: 20px;
+    text-align: left;
+    
+}
+
+
+/*Botón*/
+.port-btn-seemore {
+    display:inline-block;
+}
+.port-btn-seemore:before {
+    content: "Menú";
+}
+.port-btn-seeless:before {
+    content: "Cerrar";
+}

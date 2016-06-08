@@ -1,62 +1,33 @@
 //Estilos para las imágenes, ilustraciones que utilizamos
 //en la web
-
-
 .rumble-img{
+    display:flex;
     margin:auto;
-    padding-top:0rem;
-    height: 250px;
-    width: 295px;
+    height: 280px;
+    width:290px;
     background-image: url("../img/rumble.svg");
     background-repeat: no-repeat;
-     @media only screen and (min-width: 320px) and (max-width: 1023px){
+    
+    @media only screen and (min-width: 768px){
+    width:420px;
+    height: 400px;
     }
 }
-.logo-kidscode-header{
-    //max-width: 39%;
-    // position: absolute;
-    //     top: 5%;
-    //     left: 15%;
-    //margin: 3% auto 0 6%;
-    // margin:auto;
-    //padding-top: 0rem;
-    width: 200px;
-    height: 100px;
-    margin: auto;
-    background-image: url("../img/logo.svg");
-    background-repeat: no-repeat;
-    //display: none;
-            /*MEDIA QUERIES*/
-        /*Tablet*/
-        @media only screen and (min-width: 768px) and (max-width: 1023px){
-         display: block;
-         width: 400px;
-        height: 200px;
-        }
-
-        /*Desktop*/
-        @media screen and (min-width: 1024px){
-          display:block;
-          width: 400px;
-    height: 200px;
-        }
-}
-
 .logo-kidscode{
     margin:auto;
     padding-top:0rem;
-    height: 200px;
-    width: 400px;
+    height: 130px;
+    width: 260px;
     background-image: url("../img/logo.svg");
     background-repeat: no-repeat;
 
-    @media only screen and (min-width: 320px) and (max-width: 1023px){
-        height:120px;
-        width:280px;
-        }
+    @media only screen and (min-width: 768px){
+    height:130px;
+    width:300px;
+    }
 }
-
-.arg1-img{
+.reason{
+    &1-img{
     background-image: url("../img/arg-1.svg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -65,9 +36,8 @@
     height:445px;
     max-width:300px;
     margin:auto;
-
 }
-.arg2-img{
+    &2-img{
     background-image: url("../img/arg-2.svg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -77,7 +47,7 @@
     max-width:300px;
     margin:auto;
 }
-.arg3-img{
+    &3-img{
     background-image: url("../img/arg-3.svg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -86,210 +56,71 @@
     height:430px;
     max-width:300px;
     margin:auto;
+    }
 }
-
-.bg-clouds{
+.bg{
+    &-clouds{
     background-image: url("../img/bg-clouds.svg");
     background-repeat: no-repeat;
     background-size:cover;
+
     @media only screen and (min-width: 768px) and (max-width: 1023px){
     background-image: url("../img/bg-clouds-sm.svg");
     background-repeat: no-repeat;
     background-size:cover;
     }
 }
-.bg-tierra-sup{
+    &-soil-sup{
     background-image: url("../img/bg-tierra-sup.svg");
     background-repeat: repeat-x;
     position:relative;
     height: 220px;
     z-index: 100;
-    }
-
-.bg-tierra{
+    }   
+    &-soil{
     background-image: url("../img/tierra-sm.svg");
     background-repeat: repeat-x;
     height:175px;
+    }
 }
-.molino{
+.windmill-img{
     background-image: url("../img/molino.svg");
     background-repeat: no-repeat;
     height:220px;
     width:150px;
     position:absolute;
     margin-left:20%;
-}
-    
-.rumble-island{
+}   
+.rumble-island-img{
     max-width: 70%;
     margin: auto;
     margin-top: 5rem;
 
-    /*MEDIA QUERIES*/
-    /*Tablet*/
     @media only screen and (min-width: 768px) and (max-width: 1023px){
         min-width: 70%;
     }
 }
-/*.step1{
-    background-image: url("../img/set.svg");
-    background-repeat: no-repeat;
-    flex-basis:300px;
-    width:300px;
-    height: 215px;
-    margin:auto;
-}
-.step2{
-    background-image: url("../img/fichas.svg");
-    background-repeat: no-repeat;
-    flex-basis:300px;
-    width:300px;
-    height: 200px;
-    margin:auto;
-}
-*/
-
-/*decoración puzzles*/
-.puzzle{
-	min-height: 5rem;
-	max-height: auto;
-	width: 100%;
-    margin: 0;
-    padding: .5rem 0 1rem 0;
-    /*MEDIA QUERIES*/
-    /*Tablet*/
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-        padding: .5rem 2rem 1rem 2rem;
-    }
-    /*Desktop*/
-    @media only screen and (min-width: 1024px){
-       padding: .5rem 2rem 1rem 2rem;
-    }
-}
-
-/*.puzzle::after{
-     width: 2rem;
-    height: 2rem;
-    border-radius: 50px;
-    padding: 1em 1em 1em 1em;
-    margin: 0 3rem 0 0;
-    float: right;
-}*/
-
-
-.placeholder-rect-img{
-    margin:auto;
-    padding-top:1rem;
-    height: 250px;
-    width: 150px;
-    background-color:grey;
-    border-color:3px solid #ffffff;
-}
-
-.placeholder-squ-img{
-    margin:20px;
-    padding-top:1rem;
-    height: 350px;
-    width: 300px;
-    background-color:grey;
-    margin: auto;
-}
-.placeholder-anim-img{
-    margin:auto;
-    padding-top:1rem;
-    width: 280px;
-    height: 223px;
-    background-image: url("../img/Demo-tablet-M.gif");
-    border-color:3px solid #ffffff;
-    background-repeat:no-repeat;
-    /*MEDIA QUERIES*/
-    /*Tablet*/
-    @media only screen and (min-width: 768px) and (max-width: 1023px){
-        background-image: url("../img/Demo-tablet-T.gif");
-        width:500px;
-        height: 389px;
-        background-repeat:no-repeat;
-    }
-    /*Desktop*/
-    @media only screen and (min-width: 1024px){
-        background-image: url("../img/Demo-tablet2.gif");
-        width: 700px;
-        height: 557px;
-        background-repeat:no-repeat;
-    }
-}
-
 .step1-bgd{
-       background-image: url("../img/set.svg");
+       background-image: url("../img/step1.svg");
        background-repeat: no-repeat;
        padding:1rem;
-       width: 50%;
 }
 .step2-bgd{
-       background-image: url("../img/fichas.svg");
+       background-image: url("../img/step2.svg");
        background-repeat: no-repeat;
-       padding:1rem;
-       width: 50%;
+       padding:1rem;  
 }
 .step3-bgd{
        background-image: url("../img/step3.svg");
        background-repeat: no-repeat;
        padding:1rem;
-       width: 50%;
 }
-
-.mini-circle {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50px;
-    padding: 1em 1em 1em 1em;
-    margin: 0 0 0 3rem;
-    float: right;
-    position: absolute;
+.step4-bgd{
+       background-image: url("../img/step4.svg");
+       background-repeat: no-repeat;
+       padding:1rem;
 }
-
-.img-content2{
-	/*Desktop*/
-	@media only screen and (min-width: 1024px){
-        width: auto;
-        height: 100%;
-        margin-top: 0;
-        
-        /*background-image: url(../img/imgKids2.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: -10% 0;
-        position: absolute;*/
-        //background-attachment: inherit;
-        //flexbox-direction:row;
-    }
-}
-.img-content3{
-	/*Desktop*/
-	@media only screen and (min-width: 1024px){
-        width: 80%;
-        margin-top: 20%;
-        margin-bottom: 20%;
-    }
-}
-
-.steps-img{
-    display:none;
-    
-    /*MEDIA QUERIES*/
-    /*Tablet*/
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-    }
-
-    /*Desktop*/
-    @media only screen and (min-width: 1024px){
-      display: inline-block;
-      margin-left: auto;
-      margin-right: auto;
-      //flex-direction: row;
-    }
-}
-.number-1{
+.number-1-img{
     z-index: 10;
     position:relative;
     background-image: url("../img/1.svg");
@@ -305,7 +136,7 @@
     box-shadow:$colorShadowBtn 0px 3px 3px;
     visibility: hidden;
 }
-.number-2{
+.number-2-img{
     z-index: 10;
     position:relative;
     background-image: url("../img/2.svg");
@@ -322,7 +153,7 @@
     z-index: 10;
     visibility: hidden;
 }
-.number-3{
+.number-3-img{
     z-index: 10;
     position:relative;
     background-image: url("../img/3.svg");
@@ -338,10 +169,23 @@
     box-shadow:$colorShadowBtn 0px 3px 3px;
     visibility: hidden;
 }
-.bg-img{
-    background-image: url("../img/bg.svg");  
+.number-4-img{
+    z-index: 10;
+    position:relative;
+    background-image: url("../img/4.svg");
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    padding:2rem;
+    border-radius:80%;
+    background-color: $primaryColorBgGreen;
+    border: 5px solid white;
+    margin-bottom: -40px;
+    margin-left:-20px;
+    box-shadow:$colorShadowBtn 0px 3px 3px;
+    visibility: hidden;
 }
-.bird1{
+.bird1-img{
     display:float;
     float: right;
     margin-right:10%;
@@ -350,7 +194,7 @@
     width:75px;
     height: 75px;
 }
-.bird2{
+.bird2-img{
     display:float;
     float: left;
     margin-top:7%;
@@ -360,36 +204,49 @@
     width:75px;
     height: 60px;
 }
-.butterfly{
+.butterfly-img{
     position: absolute;
     background-image: url("../img/butterfly.svg");
     background-size:cover;
     width:78px;
     height: 75px;
 }
-.rs-fb{
+.rs-fb-img{
     background-image: url("../img/rs_fb.svg");
     background-size:cover;
     width:25px;
     height: 25px;
     margin: 10px;
 }
-.rs-go{
+.rs-go-img{
     background-image: url("../img/rs_go.svg");
     background-size:cover;
     width:25px;
     height: 25px;
     margin: 10px;
 }
-.rs-tw{
+.rs-tw-img{
     background-image: url("../img/rs_tw.svg");
     background-size:cover;
     width:25px;
     height: 25px;
     margin: 10px;
 }
-.suelo{
-    border-bottom: 25px solid transparent;
-    border-top:0px solid transparent;
-    border-image:url("../img/m-suelo.svg") 143 30 repeat;
+
+/*VIDEO*/
+.videoWrapper {
+    position: relative;
+    padding-bottom: 54%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    @media screen and (min-width: 320px) and (max-width: 1023px) {
+    padding-bottom: 52%; /* 16:9 */
+    }
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

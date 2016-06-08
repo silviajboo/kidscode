@@ -1,3 +1,98 @@
+///LOGIN - LOGOUT double
+
+.lightbox_double {
+    border-radius: 5px;
+    box-shadow: $shadow;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color:white;
+    z-index: 12;
+    top:-60px;
+    left:0;
+    
+    @media screen and (min-width: 768px){
+        border: 10px $secondaryColorBgBlack1 solid;
+        width: 90%;
+    }
+
+    @media screen and (min-width: 1025px){
+        top:10%;
+    }
+}
+
+.main-container-lightbox {
+    @media screen and (min-width: 768px){
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        position: absolute;
+        top: 50%;
+        left: 43%;
+        margin-top: -320px;   /* height/2 = 500px / 2 */
+        margin-left: -30%;
+    }
+}
+
+.close-position-double {  ///MISMAS CARACTERÍSTICAS QUE EL SIMPLE
+    display:none;
+    @media screen and (min-width: 768px){
+        display:block; 
+        float: right;
+        margin-right: -40px;
+        margin-top: -40px;
+        margin-bottom: -30px;
+        width: 5rem;
+        height: 6rem;
+        background-image: url(../img/btn-cancel.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.lightbox_start {
+    width:100%;
+    height:100%;
+    float:left;
+    border-bottom: 10px $secondaryColorBgBlack1 solid;
+
+    @media screen and (min-width: 768px){
+        width: 50%;
+        padding-top: 25px;
+        padding-bottom: 40px;
+        border-bottom: none;
+        border-right: 5px $secondaryColorBgBlack1 solid;
+    }
+}
+
+.lightbox_create {
+    width:100%;
+    height:100%;
+    float:right;
+    @media screen and (min-width: 768px){
+        width: 50%;
+    }
+}
+
+.lightbox-head {
+    padding: 10px;
+    margin-top: 0;
+    float: right;
+    width: 100%;
+}
+
+.lightbox-btn {
+    bottom: 20px;
+    @media screen and (min-width: 768px){
+        padding-top:20px;
+        padding-bottom: 40px;
+        width:100%;
+
+    }
+}
+
+///LO USAN TODOS
+
 .lightbox {
     padding: 20px;
     border: 10px $secondaryColorBgBlack1 solid;
@@ -8,11 +103,62 @@
     text-align: center;
     background-color: white;
     position: absolute;
-	left: 0;
-	right: 0;
+    left: 0;
+    right: 0;
     top: 20%;
-	margin: auto;
-    transition: all 0.3s ease 0s;
+    margin: auto;
+}
+
+
+.lightbox-header {
+    float: left;
+    margin-top: -60px;
+}
+
+.h1-lightbox {
+    color: $secondaryColorTxtPink;
+    font-size: 1.85rem;
+    line-height: 2rem;
+    width: 100%;
+}
+
+
+.close-position {
+    display: block;
+    position: relative;
+    left: 97%;
+    top: -58px;
+    float: left;
+    background-image: url(../img/btn-cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55% 55%;
+}
+
+.lightbox_double > .close-position {
+    display:none;
+
+    //Desktop
+    @media screen and (min-width: 1024px){
+        display: block;
+        position: relative;
+        left: 97%;
+        top: -58px;
+        float: left;
+        background-image: url(../img/btn-cancel.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 55% 55%;
+    }
+}
+
+.advice-text {
+    float: left;   
+    margin-bottom: 25px;
+}
+//Prar ejecutar .JS
+.lightbox-hidden {
+    display: none;
 }
 
 .lightbox-advice-account,.lightbox-advice-delete, .lightbox-advice-added-account {
@@ -25,65 +171,25 @@
     text-align: center;
     background-color: white;
     position: absolute;
-	left: 0;
-	right: 0;
+    left: 0;
+    right: 0;
     top: 20%;
-	margin: auto;
+    margin: auto;
     transition: all 0.3s ease 0s;
 }
+
 .lightbox-account > form > fieldset > label{
     font-size: 1.18rem;
-}
-
-.lightbox-hidden {
-    display: none;
-}
-
-.lightbox-header {
-    float: left;
-    margin-top: -60px;
-}
-
-.lighbox-fieldset {
-    width: 80%;
-    margin: 0 auto;
-    padding: 10px 0px;
-}
-
-.h1-lightbox {
-    color: $secondaryColorTxtPink;
-    font-size: 1.85rem;
-    line-height: 2rem;
-    width: 100%;
-}
-
-.close-position {
-    position: relative;
-    left: 97%;
-    top: -58px;
-    float: left;
-    background-image: url(../img/btn-cancel.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 55% 55%;
-    
-}
-
-.advice-text {
-    float: left;   
-    margin-bottom: 25px;
 }
 
 .familiar-settings {
     top: 10%;
     line-height: 10px;
-    
 }
 
 .delete-link {
     font-size: 14px;
     line-height: 20px;
-    
 }
 
 .delete-link:before {
