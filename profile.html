@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>KidsCode</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<link rel="icon" type="image/png" href="../img/eye.png">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body class="body-bg-color-profile">
+
+	<header class="container-menu">
+		<!-- <div > -->
+
+		<!-- logo kidscode -->
+		<div class="container-menu-logo">
+			<a href="index.html">
+				<img src="img/logo.svg" alt="KidsCode" lang="en">
+			</a>  
+		</div>
+
+		<div class="container-menu-options">
+			<!-- menu desktop -->
+			<div class="menu-desktop nav-desktop">
+				<nav>
+					<ul>
+						<li><a href="http://pacogarciapoza.github.io/kidscode_webapp/" class="li-play txt-uppercase">juega</a></li>
+						<li><a href="http://silviajboo.github.io/kidscode/" class="li-close-session txt-uppercase">cerrar sesion</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- menu burguer mobile & tablet -->
+			<div class="menu-mobile nav-mobile menu-burguer closed">
+				<div class="container-menu-logo">
+					<a href="http://silviajboo.github.io/kidscode/"><img src="img/logo.svg" alt="KidsCode" lang="en"></a>
+				</div>
+				<a class="btn-anim-three">
+					<span class="one"></span>
+					<span class="two"></span>
+					<span class="three"></span>
+				</a>
+				<nav>
+					<ul class="nav" role="sidebar">
+						<li><a href="http://pacogarciapoza.github.io/kidscode_webapp/" class="li-play txt-uppercase">juega</a></li>
+						<li><a href="http://silviajboo.github.io/kidscode/" class="li-close-session txt-uppercase">cerrar sesion</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- </div> -->
+
+	</header>
+
+	<div class="container-page-profile bg-clouds">
+
+		<div class="container-account-edit">
+			<h5 class="account-name color-txt-grey">
+				Hola sljboo@gmail.com
+			</h5>
+			
+				<h5 class="account-edit color-txt-grey">
+					<img class="account-edit--img" src="img/ic-settings.png" alt="configuración perfil" lang="es">
+				</h5>
+			
+		</div>
+
+		<div class="container-profile">
+
+			<div class="profile-title">
+				<h2 class="txt-uppercase color-txt-white">perfil kid-jana</h2>
+				<a href="profile_global.html">
+					<div class="profile-return">
+						<img src="img/return.png" alt="Volver">
+					</div>
+				</a>
+			</div>
+			
+			
+			<div class="profile-photo">
+				<a href="#">
+					<article class="profile-photo--btn">
+						<div class="profile-photo-select--img"><img src="img/kid_profile2.png" alt="Añadir imagen perfil niño/niña"></div>
+					</article>
+					<h4 class="profile-photo-select txt-center">Editar perfil</h4>    
+				</a>
+			</div>
+
+			<div class="profile-info">
+				<div>
+					<label for="name" class="lbl-profile-title color-txt-white">Nombre</label>
+					<div class="lbl-profile-txt inline">Jana </div>
+				</div>
+				<div>
+					<label for="exercicies" class="lbl-profile-title color-txt-white">Ejercicios realizados</label>
+					<div class="lbl-profile-txt">
+						<p>1.- Despierta a Rumble</p>
+						<p>2.- A por mi sombrero</p>
+					</div>
+				</div>
+
+					<div class="profile-btn-delete">
+						<div class="btn-act color-bg-pink" >Eliminar perfil</div>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Lightbox 1 Edit Account-->
+	<div class="lightbox lightbox-hidden lightbox-account">
+
+		<!--Botón de cerrar-->
+		<div class="btn-round-close close-position" id="changestyle-close"></div>
+
+		<header class="lightbox-header">
+			<h2 class="h1-lightbox">Modificar cuenta familiar</h2>
+		</header>
+
+		<form>
+
+			<fieldset class="lighbox-fieldset">
+				<label for="name">Modificar contraseña</label>
+				<input type="password" id="itNombre" name="name" class=""  placeholder="contraseña antigua" required>
+				<input type="password" id="itNombre" name="name" class=""  placeholder="contraseña nueva" required>
+			</fieldset>
+
+		</form>
+
+		<button class="btn-act" type="submit" id="changestyle-cta">Modificar</button>
+
+	</div>
+
+	<!--Lightbox 2 Edit Account-->
+
+	<div class="lightbox-advice-account lightbox-hidden">
+
+		<div class="btn-round-close close-position" id="changestyle-close2"></div>
+
+		<header class="lightbox-header">
+			<h2 class="h1-lightbox">Contraseña cambiada</h2>
+		</header>
+
+		<section class="advice-text">
+			<p>Tu contraseña ha sido cambiada</p>
+		</section>
+
+	</div>
+
+	<!--Lightbox 1 Delete-->
+    <div class="lightbox lightbox-hidden lightbox-delete">
+    
+        <!--Botón de cerrar-->
+    <div class="btn-round-close close-position" id="changestyle-close3"></div>
+    
+    <header class="lightbox-header">
+        <h2 class="h1-lightbox">Eliminar el perfil</h2>
+    </header>
+    
+    <form>
+        
+        <fieldset class="lighbox-fieldset">
+             <label for="name">¿Estás seguro que quieres eliminar la cuenta?</label>
+             <input type="text" id="itNombre" name="name" class="" required placeholder="Escribe aquí DELETE">
+        </fieldset>
+    </form>
+    
+    <button class="btn-act" type="submit" id="changestyle-cta2">Borrar</button>
+    
+</div>
+    
+<!--Lightbox 2 Delete-->
+    
+    <div class="lightbox-advice-delete lightbox-hidden">
+    
+        <div class="btn-round-close close-position" id="changestyle-close4"></div>
+    
+        <header class="lightbox-header">
+            <h1 class="h1-lightbox">Perfil eliminado</h1>
+        </header>
+    
+        <section class="advice-text">
+            <p>El perfil ha sido eliminado satisfactoriamente</p>
+        </section>
+        
+    </div>
+    
+
+	<!--FOOTER de la página-->
+	<footer class="footer_profile">
+		
+		<div class="container-block">
+			<div class="contact color-txt-white"> proyectokidscode@gmail.com </div>
+			<div class="copyright color-txt-white"> Copyright © 2016 Kids Code </div>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="js/burguer-menu.js"></script>
+	<script src="js/lightbox.js"></script>
+
+</body>
+
+</html>
