@@ -244,5 +244,10 @@
 }
 .btn-login:hover{
 	background-color:$secondaryColorBgBlue3;
-
+	color: $primaryColorWhite;
+	border-radius: 10px;
+	transition: all 0.3s ease 0s;
+}
+.btn-register-double{
+	margin-top: 1.2rem;
 }

@@ -39,7 +39,7 @@
 
 <body>
   <!--Cabecera-->
-  <header class="color-bg-blue-head header-btn">
+  <header class="color-bg-blue-head header-btn" id="header">
     <a class="btn-login txt-uppercase color-txt-white" id="changestyle-cta-login">
       Iniciar sesión
     </a>
@@ -67,7 +67,7 @@
                <label for="password" class="label-text">Tu contraseña</label>
                <input type="text" id="itNombre" name="password" class="" placeholder="*****" required>
                <br>
-               <a href="">¿Olvidaste la contraseña?</a>
+               <p class="password_reset">¿Olvidaste la contraseña?</p>
              </label>
              <fieldset class="lighbox-fieldset">
               <input id="box1" type="checkbox" />
@@ -102,14 +102,59 @@
            <label for="box2" class="label-text">Acepto los <br><a href="terms-conditions.html">términos y condiciones</a></label>
          </fieldset>
 
-         <div class="lightbox-btn"><button class="btn-act" type="submit" id="Enviar">Regístrate</button></div>
+         
        </fieldset>
      </form>
-   </div>
+     <a href="profile_add.html">
+       <div class="lightbox-btn">
+        <button class="btn-act btn-register-double" type="submit" id="Enviar">Regístrate</button>
+      </div>
+    </a>
+  </div>
 
- </div>
+</div>
 </div>
 <!--Lightbox end-->
+
+<!--Lightbox recuperar contraseña 1-->
+<div class="lightbox lightbox-hidden lightbox-password">
+
+  <!--Botón de cerrar-->
+  <div class="btn-round-close close-position" id="changestyle-close5"></div>
+
+  <header class="lightbox-header">
+    <h3 class="h1-lightbox">Recuperar Contraseña</h3>
+  </header>
+
+  <form>
+
+    <fieldset class="lighbox-fieldset">
+     <label for="name">Introduce tu correo electrónico</label>
+     <input type="text" id="itNombre" name="name" class=""  placeholder="tucorreo@correo.com" required>
+   </fieldset>
+ </form>
+
+ <button class="btn-act" type="submit" id="changestyle-cta5">Recuperar</button>
+
+</div>
+
+<!--Lightbox recuperar contraseña 2-->
+
+<div class="lightbox-advice-password lightbox-hidden">
+
+  <div class="btn-round-close close-position" id="changestyle-close6"></div>
+
+  <header class="lightbox-header">
+    <h3 class="h1-lightbox">Contraseña recuperada</h3>
+  </header>
+
+  <section class="advice-text">
+    <p>Hemos enviado instrucciones a tu correo electrónico para crear una nueva contraseña</p>
+  </section>
+
+</div>
+
+<!-- header kidscode    -->
 <div class="header-txt">
   <div class="logo-kidscode-header">
 
@@ -194,8 +239,8 @@
     <div class="container-flex wrap">
       <!--contenido 1 flex--> 
       <div class="content-flex-3 max-min step1-bgd he f-basis-3">
-        <a href="pdf/fichas_v1.pdf" target="_blank">
-          <div class="btn-dwn uppercase">regístrate</div>
+        <a href="#header">
+          <div class="btn-dwn btn-register uppercase">regístrate</div>
         </a>
         <div class="number-1-img"></div>
         <div class="label color-txt-green">
@@ -289,7 +334,7 @@
     <div class="contact-index color-txt-white"> 
       <h4>proyectokidscode@gmail.com</h4>
       <h4>Copyright ©2016 Kids Code</h4>
-      
+
     </div>
   </div>
 </footer>

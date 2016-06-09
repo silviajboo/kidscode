@@ -66,7 +66,7 @@ $(document).ready(function(){
         // $('.container-profile').toggleClass("profile-disable");
         // $('.container-account-edit').toggleClass("profile-disable"); 
     });
-});
+
     //Button login
     $('#changestyle-close-login').click(function(e) {
         $('.main-container-lightbox').addClass('lightbox-hidden');
@@ -78,4 +78,28 @@ $(document).ready(function(){
         
     });
 
+    //recuperar contraseña
+    $('.password_reset').click(function(e) {
+        $('.lightbox-password').removeClass('lightbox-hidden'); 
+        $('.main-container-lightbox').addClass('lightbox-hidden'); 
+    });
 
+    $('#changestyle-close5').click(function(e) {
+        $('.lightbox-password').addClass('lightbox-hidden'); 
+    });
+    
+    $('#changestyle-cta5').click(function(e) {
+        $('.lightbox-password').addClass('lightbox-hidden');
+        $('.lightbox-advice-password').removeClass('lightbox-hidden');
+    });
+
+    $('#changestyle-close6').click(function(e) {
+        $('.lightbox-advice-password').addClass('lightbox-hidden'); 
+    });
+
+    //registrate button
+    $('.btn-register').click(function(e) {
+        $('.main-container-lightbox').removeClass('lightbox-hidden'); 
+    });
+
+});
